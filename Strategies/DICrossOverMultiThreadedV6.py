@@ -40,7 +40,7 @@ BACKTEST_MODE = "BACKTEST"
 IS_MULTITHRESHHOLD = False if ADX_ENTRY_THRESHHOLD == ADX_EXIT_THRESHHOLD else True
 
 
-fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.3_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
+fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.4_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
 
 
 def initialize(context):
@@ -153,7 +153,7 @@ def tradePerSecurity(context, data, securityNum):
         context.file.write("\n Crossover happened. Entering trade function\n")
         print("\n Crossover happened. Entering trade function\n")  
         changeState(context,securityNum, NONE_STATE)
-        resetPosAndNegDIPeaks(context, securityNum)
+        #resetPosAndNegDIPeaks(context, securityNum)
         trade(context, data, dataExtendedTimeFrame, securityNum)  
     elif( IS_ADX_FALLING_EARLY_EXIT_USED is True and isADXFallingAfterHighThreshhold(data)):
         context.file.write("\n ADX falling after %s. Closing all positionsn\n" %(ADX_HIGH_THRESHHOLD))
@@ -169,7 +169,9 @@ def tradePerSecurity(context, data, securityNum):
         lastWasHigherHigh =  (data['posDI'][-1] > data['negDI'][-1] and context.POS_DI_HIGHS[securityNum -1][1] < context.POS_DI_HIGHS[securityNum -1][2]) or (data['negDI'][-1] > data['posDI'][-1] and context.NEG_DI_HIGHS[securityNum -1][1] < context.NEG_DI_HIGHS[securityNum -1][2]) 
         if(lastWasHigherHigh and isADXUpslopeAfterWeakTrend(context,data)):
             context.file.write("\n ADX sloped up with lastWasHigherHigh. Entering trade function\n")
-            print("\n ADX sloped up with lastWasHigherHigh. Entering trade function\n")  
+            print("\n ADX sloped up with lastWasHigherHigh. Entering trade function\n") 
+            context.file.write("\n POS DI HIGHS:" + str(context.POS_DI_HIGHS) + "\n")
+            context.file.write("\n NEG DI HIGHS:" + str(context.NEG_DI_HIGHS) + "\n") 
             changeState(context,securityNum, NONE_STATE)
             trade(context, data, dataExtendedTimeFrame, securityNum, isADXUpslope = True)   
         elif(lastWasHigherHigh):
@@ -186,11 +188,16 @@ def tradePerSecurity(context, data, securityNum):
     elif(context.STATES[securityNum - 1] == WAITING_FOR_ADX_UPSLOPE_STATE):
         context.file.write("\n In waiting for adx upslope state. Checking adx slope\n")
         print("\n In waiting for adx upslope state. Checking adx slope\n")     
+        wasLowerHigh = (data['posDI'][-1] > data['negDI'][-1] and context.POS_DI_HIGHS[securityNum -1][1] > context.POS_DI_HIGHS[securityNum -1][2]) or (data['negDI'][-1] > data['posDI'][-1] and context.NEG_DI_HIGHS[securityNum -1][1] > context.NEG_DI_HIGHS[securityNum -1][2])
         if(data['ADX'][-1] > data['ADX'][-2] and data['ADX'][-1] < ADX_ENTRY_THRESHHOLD):
             context.file.write("\n ADX sloped up but value less than threshhold. resetting state\n")
             print("\n ADX sloped up but value less than threshhold. resetting state\n")  
             changeState(context,securityNum, NONE_STATE)
-        elif((data['posDI'][-1] > data['negDI'][-1] and context.POS_DI_HIGHS[securityNum -1][1] > context.POS_DI_HIGHS[securityNum -1][2]) or (data['negDI'][-1] > data['posDI'][-1] and context.NEG_DI_HIGHS[securityNum -1][1] > context.NEG_DI_HIGHS[securityNum -1][2])):
+        elif(wasLowerHigh and isADXUpslopeAfterWeakTrend(context,data)):
+            context.file.write("\n ADX sloped up but last was lower high. resetting state\n")
+            print("\n ADX sloped up but last was lower high. resetting state\n")  
+            changeState(context,securityNum, NONE_STATE)
+        elif(wasLowerHigh):    
             context.file.write("\n Lower high encountered in WAITING_FOR_ADX_UPSLOPE_STATE. Changing state\n")
             context.file.write("\n POS DI HIGHS:" + str(context.POS_DI_HIGHS) + "\n")
             context.file.write("\n NEG DI HIGHS:" + str(context.NEG_DI_HIGHS) + "\n")
@@ -219,11 +226,12 @@ def resetPosAndNegDIPeaks(context, securityNum):
     context.POS_DI_HIGHS[securityNum -1][1] = 0
     context.POS_DI_HIGHS[securityNum -1][0] = 0 
 def updatePosAndNegDIHighs(context, data, securityNum):
-    if(data['posDI'][-2] > data['posDI'][-1] ):
+    #if(data['posDI'][-1] > data['negDI'][-1]])
+    if(data['posDI'][-2] > data['posDI'][-1] and data['posDI'][-3] <= data['posDI'][-2]):
         context.POS_DI_HIGHS[securityNum -1][0] = context.POS_DI_HIGHS[securityNum -1][1]
         context.POS_DI_HIGHS[securityNum -1][1] = context.POS_DI_HIGHS[securityNum -1][2]
         context.POS_DI_HIGHS[securityNum -1][2] = data['posDI'][-2]
-    if(data['negDI'][-2] > data['negDI'][-1] ):
+    if(data['negDI'][-2] > data['negDI'][-1] and data['negDI'][-3] <= data['negDI'][-2]):
         context.NEG_DI_HIGHS[securityNum -1][0] = context.NEG_DI_HIGHS[securityNum -1][1]
         context.NEG_DI_HIGHS[securityNum -1][1] = context.NEG_DI_HIGHS[securityNum -1][2]
         context.NEG_DI_HIGHS[securityNum -1][2] = data['negDI'][-2]
