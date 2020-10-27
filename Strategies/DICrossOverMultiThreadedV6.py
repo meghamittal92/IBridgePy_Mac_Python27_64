@@ -34,14 +34,13 @@ DATAS = []
 EXTENDED_TIME_FRAME_DATAS = []
 NONE_STATE = "NONE"
 WAITING_FOR_ADX_UPSLOPE_STATE = "WAITING_FOR_ADX_UPSLOPE"
+LAST_WAS_LOWER_HIGH_STATE = "LAST_WAS_LOWER_HIGH"
 BACKTEST_MODE = "BACKTEST"
 #STATES = [NONE_STATE, NONE_STATE]
-GOT_ADX_UPSLOPE_STATE = "GOT_ADX_UPSLOPE"
-DI_SLOPED_UP = False
 IS_MULTITHRESHHOLD = False if ADX_ENTRY_THRESHHOLD == ADX_EXIT_THRESHHOLD else True
 
 
-fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
+fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.1_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
 
 
 def initialize(context):
@@ -153,35 +152,44 @@ def tradePerSecurity(context, data, securityNum):
     elif(isPositiveCrossover(data) or isNegativeCrossover(data) ):
         context.file.write("\n Crossover happened. Entering trade function\n")
         print("\n Crossover happened. Entering trade function\n")  
-        resetStateToNone(context,securityNum)
+        changeState(context,securityNum, NONE_STATE)
         trade(context, data, dataExtendedTimeFrame, securityNum)  
     elif( IS_ADX_FALLING_EARLY_EXIT_USED is True and isADXFallingAfterHighThreshhold(data)):
         context.file.write("\n ADX falling after %s. Closing all positionsn\n" %(ADX_HIGH_THRESHHOLD))
         print("\n ADX falling after %s. Closing all positionsn\n" %(ADX_HIGH_THRESHHOLD))
-        resetStateToNone(context,securityNum)
+        changeState(context,securityNum, NONE_STATE)
         closePositions(context, data)    
     elif(inWrongPosition(context,data)):
         context.file.write("\n In wrong position acc to DIs. Closing all positions\n")
         print("\n In wrong position acc to DIs. Closing all positions\n")
-        resetStateToNone(context,securityNum)
+        changeState(context,securityNum, NONE_STATE)
         closePositions(context, data)
+    elif(context.STATES[securityNum - 1] == LAST_WAS_LOWER_HIGH_STATE):
+        if(isADXUpslopeAfterWeakTrend(context,data)):
+            context.file.write("\n ADX sloped up in LAST_WAS_LOWER_HIGH_STATE. Resetting\n")
+            print("\n ADX sloped up in LAST_WAS_LOWER_HIGH_STATE. Resetting\n")     
+            changeState(context,securityNum, NONE_STATE)   
+        elif((data['posDI'][-1] > data['negDI'][-1] and context.POS_DI_HIGHS[securityNum -1][1] < context.POS_DI_HIGHS[securityNum -1][2]) or (data['negDI'][-1] > data['posDI'][-1] and context.NEG_DI_HIGHS[securityNum -1][1] < context.NEG_DI_HIGHS[securityNum -1][2])): 
+            context.file.write("\n Higher high encountered in  LAST_WAS_LOWER_HIGH_STATE. Going to WAITING_FOR_ADX_UPSLOPE_STATE\n")
+            print("\n Higher high encountered in  LAST_WAS_LOWER_HIGH_STATE. Going to WAITING_FOR_ADX_UPSLOPE_STATE\n")     
+            changeState(context,securityNum, WAITING_FOR_ADX_UPSLOPE_STATE)     
     elif(context.STATES[securityNum - 1] == WAITING_FOR_ADX_UPSLOPE_STATE):
         context.file.write("\n In waiting for adx upslope state. Checking adx slope\n")
         print("\n In waiting for adx upslope state. Checking adx slope\n")     
         if(data['ADX'][-1] > data['ADX'][-2] and data['ADX'][-1] < ADX_ENTRY_THRESHHOLD):
             context.file.write("\n ADX sloped up but value less than threshhold. resetting state\n")
             print("\n ADX sloped up but value less than threshhold. resetting state\n")  
-            resetStateToNone(context,securityNum)
+            changeState(context,securityNum, NONE_STATE)
         elif((data['posDI'][-1] > data['negDI'][-1] and context.POS_DI_HIGHS[securityNum -1][1] > context.POS_DI_HIGHS[securityNum -1][2]) or (data['negDI'][-1] > data['posDI'][-1] and context.NEG_DI_HIGHS[securityNum -1][1] > context.NEG_DI_HIGHS[securityNum -1][2])):
-            context.file.write("\n Lower high encountered in WAITING_FOR_ADX_UPSLOPE_STATE. Resetting\n")
+            context.file.write("\n Lower high encountered in WAITING_FOR_ADX_UPSLOPE_STATE. Changing state\n")
             context.file.write("\n POS DI HIGHS:" + str(context.POS_DI_HIGHS) + "\n")
             context.file.write("\n NEG DI HIGHS:" + str(context.NEG_DI_HIGHS) + "\n")
-            print("\n  Lower high encountered in WAITING_FOR_ADX_UPSLOPE_STATE. Resetting\n")  
-            resetStateToNone(context,securityNum)    
+            print("\n  Lower high encountered in WAITING_FOR_ADX_UPSLOPE_STATE. Changing state\n")  
+            changeState(context,securityNum, LAST_WAS_LOWER_HIGH_STATE)    
         elif(isADXUpslopeAfterWeakTrend(context,data)):
             context.file.write("\n ADX sloped up within threshhold. Entering trade function\n")
             print("\n ADX sloped up within threshhold. Entering trade function\n")  
-            resetStateToNone(context,securityNum)
+            changeState(context,securityNum, NONE_STATE)
             trade(context, data, dataExtendedTimeFrame, securityNum, isADXUpslope = True)    
     else:
         context.file.write("\n Nothing to do.\n")
@@ -375,10 +383,10 @@ def goShort(context, data, takeNewPos):
                 context.file.write("\nExtended data contradicts/ADX below entry/possibleWeak. Not taking new positions\n")
                 print("\nExtended data contradicts/ADX below entry/possibleWeak. Not taking new positions\n")    
         
-def resetStateToNone(context,securityNum):
-    print("BEFORREEE RESSEETT")
+def changeState(context,securityNum, state):
+    print("Before Changing State to" + str(state))
     print(str(context.STATES))
-    context.STATES[securityNum -1] = NONE_STATE
+    context.STATES[securityNum -1] = state
 def trade(context,data, dataExtendedTimeFrame, securityNum, isADXUpslope = False):
     current_positions = count_positions(context.security)
     sTime = get_datetime('US/Eastern')
