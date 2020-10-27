@@ -1,0 +1,23 @@
+#######
+AT BEGINNING
+Portfolio Value: 1037875.11
+Positions Value: 0.0
+Portfolio Cash:1037875.11
+ORDERS
+
+POSITIONS
+
+######
+
+stime is 2020-09-30 06:03:00-04:00
+No security to trade
+stime is 2020-09-30 06:04:00-04:00
+No security to trade
+stime is 2020-09-30 06:05:00-04:00
+No security to trade
+stime is 2020-09-30 06:06:00-04:00
+No security to trade
+stime is 2020-09-30 06:07:00-04:00
+No security to trade
+stime is 2020-09-30 06:08:00-04:00
+No security to trade

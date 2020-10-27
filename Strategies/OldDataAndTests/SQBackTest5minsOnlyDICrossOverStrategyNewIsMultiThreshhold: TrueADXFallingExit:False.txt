@@ -1,0 +1,197 @@
+#######
+AT BEGINNING
+Portfolio Value: 100000.0
+Positions Value: 0.0
+Portfolio Cash:100000.0
+ORDERS
+
+POSITIONS
+
+######
+
+stime is 2020-09-09 09:36:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 09:41:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 09:46:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 09:51:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 09:56:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:01:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:06:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:11:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:16:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:21:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:26:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:31:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:36:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:41:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:46:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:51:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 10:56:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 11:01:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 11:06:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 11:11:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 11:16:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Crossover happened. Entering trade function
+\Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-09 11:21:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-09 11:26:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ Nothing to do.
+######
+
+stime is 2020-09-09 11:31:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-09-09 11:36:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-09-09 11:41:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-09-09 11:46:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-09-09 11:51:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-09-09 11:56:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-09-09 12:01:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-09-09 12:06:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-09-09 12:11:00-04:00
+ In minuteNum: 1. Trading security: SQ 
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######

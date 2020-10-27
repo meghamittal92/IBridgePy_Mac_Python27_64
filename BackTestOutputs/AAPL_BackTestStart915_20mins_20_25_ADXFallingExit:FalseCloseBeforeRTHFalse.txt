@@ -1,0 +1,1300 @@
+#######
+AT BEGINNING
+Portfolio Value: 100000.0
+Positions Value: 0.0
+Portfolio Cash:100000.0
+ORDERS
+
+POSITIONS
+
+######
+
+stime is 2020-09-16 09:21:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-16 09:41:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-16 10:01:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-16 10:21:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-16 10:41:00-04:00######
+
+stime is 2020-09-16 11:01:00-04:00######
+
+stime is 2020-09-16 11:21:00-04:00######
+
+stime is 2020-09-16 11:41:00-04:00######
+
+stime is 2020-09-16 12:01:00-04:00######
+
+stime is 2020-09-16 12:21:00-04:00######
+
+stime is 2020-09-16 12:41:00-04:00######
+
+stime is 2020-09-16 13:01:00-04:00######
+
+stime is 2020-09-16 13:21:00-04:00######
+
+stime is 2020-09-16 13:41:00-04:00######
+
+stime is 2020-09-16 14:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-16 14:01:00-04:00
+TIME: 2020-09-16 14:00:00-04:00
+Portfolio Value: 100000.0
+Positions Value: 99939.42
+Portfolio Cash:60.58
+ORDERS
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+
+POSITIONS
+STK,,,AAPL,USD 882 113.31
+
+#############DATA##########################AAPLStock last close price=114.23
+AAPL Current (posDI,negDI) = (30.237183, 19.004574)
+AAPL Last (posDI,negDI) = (12.423965, 24.223349)
+AAPL Current ADX 34.651049 
+AAPL Last ADX 36.472602 
+AAPL Current postions: 882.000000 
+######
+
+stime is 2020-09-16 14:21:00-04:00######
+
+stime is 2020-09-16 14:41:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (882.000000, 0.991177, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 100829.08
+Positions Value: 0.0
+Portfolio Cash:100829.08
+ORDERS
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+
+POSITIONS
+
+
+Placing order to make the  pos -1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-16 14:41:00-04:00
+TIME: 2020-09-16 14:40:00-04:00
+Portfolio Value: 100829.08000000002
+Positions Value: -100768.5
+Portfolio Cash:201597.58
+ORDERS
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+
+POSITIONS
+STK,,,AAPL,USD -882 114.25
+
+#############DATA##########################AAPLStock last close price=113.3
+AAPL Current (posDI,negDI) = (21.642376, 27.574868)
+AAPL Last (posDI,negDI) = (26.498017, 16.654446)
+AAPL Current ADX 30.269854 
+AAPL Last ADX 33.072376 
+AAPL Current postions: -882.000000 
+######
+
+stime is 2020-09-16 15:01:00-04:00######
+
+stime is 2020-09-16 15:21:00-04:00######
+
+stime is 2020-09-16 15:41:00-04:00######
+
+stime is 2020-09-16 16:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-882.000000, -0.980950, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 102725.38
+Positions Value: 0.0
+Portfolio Cash:102725.38
+ORDERS
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+
+POSITIONS
+
+
+Placing order to make the  pos 1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-16 16:01:00-04:00
+TIME: 2020-09-16 16:00:00-04:00
+Portfolio Value: 102725.38000000002
+Positions Value: 102683.59999999999
+Portfolio Cash:41.78
+ORDERS
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+
+POSITIONS
+STK,,,AAPL,USD 916 112.1
+
+#############DATA##########################AAPLStock last close price=112.36
+AAPL Current (posDI,negDI) = (28.583190, 23.232641)
+AAPL Last (posDI,negDI) = (13.194145, 30.705985)
+AAPL Current ADX 29.071130 
+AAPL Last ADX 31.955003 
+AAPL Current postions: 916.000000 
+######
+
+stime is 2020-09-16 16:21:00-04:00######
+
+stime is 2020-09-16 16:41:00-04:00######
+
+stime is 2020-09-16 17:01:00-04:00######
+
+stime is 2020-09-16 17:21:00-04:00######
+
+stime is 2020-09-16 17:41:00-04:00######
+
+stime is 2020-09-16 18:01:00-04:00######
+
+stime is 2020-09-16 18:21:00-04:00######
+
+stime is 2020-09-16 18:41:00-04:00######
+
+stime is 2020-09-16 19:01:00-04:00######
+
+stime is 2020-09-16 19:21:00-04:00######
+
+stime is 2020-09-16 19:41:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+
+Current positions :916.000000. Closing them 
+
+ #### Inside Handle data
+
+stime is 2020-09-16 19:41:00-04:00
+TIME: 2020-09-16 19:40:00-04:00
+Portfolio Value: 103183.38
+Positions Value: 0.0
+Portfolio Cash:103183.38
+ORDERS
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=112.8
+AAPL Current (posDI,negDI) = (16.105959, 11.315737)
+AAPL Last (posDI,negDI) = (15.273959, 12.539654)
+AAPL Current ADX 19.719032 
+AAPL Last ADX 20.065233 
+AAPL Current postions: 0.000000 
+######
+
+stime is 2020-09-17 09:21:00-04:00######
+
+stime is 2020-09-17 09:41:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-17 10:01:00-04:00######
+
+stime is 2020-09-17 10:21:00-04:00######
+
+stime is 2020-09-17 10:41:00-04:00######
+
+stime is 2020-09-17 11:01:00-04:00######
+
+stime is 2020-09-17 11:21:00-04:00######
+
+stime is 2020-09-17 11:41:00-04:00######
+
+stime is 2020-09-17 12:01:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Placing short order to make it -1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-17 12:01:00-04:00
+TIME: 2020-09-17 12:00:00-04:00
+Portfolio Value: 103183.38
+Positions Value: -103130.5
+Portfolio Cash:206313.88
+ORDERS
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+
+POSITIONS
+STK,,,AAPL,USD -935 110.3
+
+#############DATA##########################AAPLStock last close price=109.73
+AAPL Current (posDI,negDI) = (19.758473, 29.706881)
+AAPL Last (posDI,negDI) = (23.238559, 22.986703)
+AAPL Current ADX 27.625619 
+AAPL Last ADX 28.781581 
+AAPL Current postions: -935.000000 
+######
+
+stime is 2020-09-17 12:21:00-04:00######
+
+stime is 2020-09-17 12:41:00-04:00######
+
+stime is 2020-09-17 13:01:00-04:00######
+
+stime is 2020-09-17 13:21:00-04:00######
+
+stime is 2020-09-17 13:41:00-04:00######
+
+stime is 2020-09-17 14:01:00-04:00######
+
+stime is 2020-09-17 14:21:00-04:00######
+
+stime is 2020-09-17 14:41:00-04:00######
+
+stime is 2020-09-17 15:01:00-04:00######
+
+stime is 2020-09-17 15:21:00-04:00######
+
+stime is 2020-09-17 15:41:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-935.000000, -0.997319, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 103407.78
+Positions Value: 0.0
+Portfolio Cash:103407.78
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-17 15:41:00-04:00
+TIME: 2020-09-17 15:40:00-04:00
+Portfolio Value: 103407.78
+Positions Value: 0.0
+Portfolio Cash:103407.78
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=110.33
+AAPL Current (posDI,negDI) = (20.259158, 14.545679)
+AAPL Last (posDI,negDI) = (12.809451, 16.763483)
+AAPL Current ADX 21.610792 
+AAPL Last ADX 22.410028 
+AAPL Current postions: 0.000000 
+######
+
+stime is 2020-09-17 16:01:00-04:00######
+
+stime is 2020-09-17 16:21:00-04:00######
+
+stime is 2020-09-17 16:41:00-04:00######
+
+stime is 2020-09-17 17:01:00-04:00
+stime is 2020-09-17 17:21:00-04:00
+stime is 2020-09-17 17:41:00-04:00
+stime is 2020-09-17 18:01:00-04:00
+stime is 2020-09-17 18:21:00-04:00
+stime is 2020-09-17 18:41:00-04:00
+stime is 2020-09-17 19:01:00-04:00
+stime is 2020-09-17 19:21:00-04:00
+stime is 2020-09-17 19:41:00-04:00
+stime is 2020-09-18 09:21:00-04:00######
+
+stime is 2020-09-18 09:41:00-04:00######
+
+stime is 2020-09-18 10:01:00-04:00######
+
+stime is 2020-09-18 10:21:00-04:00######
+
+stime is 2020-09-18 10:41:00-04:00######
+
+stime is 2020-09-18 11:01:00-04:00######
+
+stime is 2020-09-18 11:21:00-04:00######
+
+stime is 2020-09-18 11:41:00-04:00######
+
+stime is 2020-09-18 12:01:00-04:00######
+
+stime is 2020-09-18 12:21:00-04:00######
+
+stime is 2020-09-18 12:41:00-04:00######
+
+stime is 2020-09-18 13:01:00-04:00######
+
+stime is 2020-09-18 13:21:00-04:00######
+
+stime is 2020-09-18 13:41:00-04:00######
+
+stime is 2020-09-18 14:01:00-04:00######
+
+stime is 2020-09-18 14:21:00-04:00######
+
+stime is 2020-09-18 14:41:00-04:00######
+
+stime is 2020-09-18 15:01:00-04:00######
+
+stime is 2020-09-18 15:21:00-04:00######
+
+stime is 2020-09-18 15:41:00-04:00######
+
+stime is 2020-09-18 16:01:00-04:00######
+
+stime is 2020-09-18 16:21:00-04:00######
+
+stime is 2020-09-18 16:41:00-04:00######
+
+stime is 2020-09-18 17:01:00-04:00
+stime is 2020-09-18 17:21:00-04:00
+stime is 2020-09-18 17:41:00-04:00
+stime is 2020-09-18 18:01:00-04:00
+stime is 2020-09-18 18:21:00-04:00
+stime is 2020-09-18 18:41:00-04:00
+stime is 2020-09-18 19:01:00-04:00
+stime is 2020-09-18 19:21:00-04:00
+stime is 2020-09-18 19:41:00-04:00
+stime is 2020-09-21 09:21:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-21 09:41:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-21 09:41:00-04:00
+TIME: 2020-09-21 09:40:00-04:00
+Portfolio Value: 103407.78
+Positions Value: 103405.3
+Portfolio Cash:2.48
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+
+POSITIONS
+STK,,,AAPL,USD 985 104.98
+
+#############DATA##########################AAPLStock last close price=107.36
+AAPL Current (posDI,negDI) = (49.278525, 22.069100)
+AAPL Last (posDI,negDI) = (21.734724, 30.280559)
+AAPL Current ADX 26.757878 
+AAPL Last ADX 25.004908 
+AAPL Current postions: 985.000000 
+######
+
+stime is 2020-09-21 10:01:00-04:00######
+
+stime is 2020-09-21 10:21:00-04:00######
+
+stime is 2020-09-21 10:41:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (985.000000, 1.000643, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 103338.83
+Positions Value: 0.0
+Portfolio Cash:103338.83
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-21 10:41:00-04:00
+TIME: 2020-09-21 10:40:00-04:00
+Portfolio Value: 103338.83
+Positions Value: 0.0
+Portfolio Cash:103338.83
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=105.22
+AAPL Current (posDI,negDI) = (29.437927, 30.378047)
+AAPL Last (posDI,negDI) = (33.810036, 30.274665)
+AAPL Current ADX 21.874593 
+AAPL Last ADX 25.001869 
+AAPL Current postions: 0.000000 
+######
+
+stime is 2020-09-21 11:01:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-21 11:21:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-21 11:41:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-21 12:01:00-04:00######
+
+stime is 2020-09-21 12:21:00-04:00######
+
+stime is 2020-09-21 12:41:00-04:00######
+
+stime is 2020-09-21 13:01:00-04:00######
+
+stime is 2020-09-21 13:21:00-04:00######
+
+stime is 2020-09-21 13:41:00-04:00######
+
+stime is 2020-09-21 14:01:00-04:00######
+
+stime is 2020-09-21 14:21:00-04:00######
+
+stime is 2020-09-21 14:41:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-21 15:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-21 15:21:00-04:00######
+
+stime is 2020-09-21 15:41:00-04:00######
+
+stime is 2020-09-21 16:01:00-04:00######
+
+stime is 2020-09-21 16:21:00-04:00######
+
+stime is 2020-09-21 16:41:00-04:00######
+
+stime is 2020-09-21 17:01:00-04:00
+stime is 2020-09-21 17:21:00-04:00
+stime is 2020-09-21 17:41:00-04:00
+stime is 2020-09-21 18:01:00-04:00
+stime is 2020-09-21 18:21:00-04:00
+stime is 2020-09-21 18:41:00-04:00
+stime is 2020-09-21 19:01:00-04:00
+stime is 2020-09-21 19:21:00-04:00
+stime is 2020-09-21 19:41:00-04:00
+stime is 2020-09-22 09:21:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Placing short order to make it -1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-22 09:21:00-04:00
+TIME: 2020-09-22 09:20:00-04:00
+Portfolio Value: 103338.83
+Positions Value: -103284.18000000001
+Portfolio Cash:206623.01
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib283 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.51,Amount:918
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+
+POSITIONS
+STK,,,AAPL,USD -918 112.51
+
+#############DATA##########################AAPLStock last close price=111.13
+AAPL Current (posDI,negDI) = (17.670818, 31.888660)
+AAPL Last (posDI,negDI) = (23.475984, 14.414880)
+AAPL Current ADX 26.841616 
+AAPL Last ADX 26.557455 
+AAPL Current postions: -918.000000 
+######
+
+stime is 2020-09-22 09:41:00-04:00######
+
+stime is 2020-09-22 10:01:00-04:00######
+
+stime is 2020-09-22 10:21:00-04:00######
+
+stime is 2020-09-22 10:41:00-04:00######
+
+stime is 2020-09-22 11:01:00-04:00######
+
+stime is 2020-09-22 11:21:00-04:00######
+
+stime is 2020-09-22 11:41:00-04:00######
+
+stime is 2020-09-22 12:01:00-04:00######
+
+stime is 2020-09-22 12:21:00-04:00######
+
+stime is 2020-09-22 12:41:00-04:00######
+
+stime is 2020-09-22 13:01:00-04:00######
+
+stime is 2020-09-22 13:21:00-04:00######
+
+stime is 2020-09-22 13:41:00-04:00######
+
+stime is 2020-09-22 14:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-918.000000, -0.986069, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 104743.37
+Positions Value: 0.0
+Portfolio Cash:104743.37
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib283 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.51,Amount:918
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+{ibpyOrderId=ib313 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.98,Amount:918
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-22 14:01:00-04:00
+TIME: 2020-09-22 14:00:00-04:00
+Portfolio Value: 104743.37
+Positions Value: 0.0
+Portfolio Cash:104743.37
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib283 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.51,Amount:918
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+{ibpyOrderId=ib313 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.98,Amount:918
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=111.28
+AAPL Current (posDI,negDI) = (23.751062, 16.907247)
+AAPL Last (posDI,negDI) = (13.217467, 19.481966)
+AAPL Current ADX 31.892978 
+AAPL Last ADX 34.210011 
+AAPL Current postions: 0.000000 
+######
+
+stime is 2020-09-22 14:21:00-04:00######
+
+stime is 2020-09-22 14:41:00-04:00######
+
+stime is 2020-09-22 15:01:00-04:00######
+
+stime is 2020-09-22 15:21:00-04:00######
+
+stime is 2020-09-22 15:41:00-04:00######
+
+stime is 2020-09-22 16:01:00-04:00######
+
+stime is 2020-09-22 16:21:00-04:00######
+
+stime is 2020-09-22 16:41:00-04:00######
+
+stime is 2020-09-22 17:01:00-04:00
+stime is 2020-09-22 17:21:00-04:00
+stime is 2020-09-22 17:41:00-04:00
+stime is 2020-09-22 18:01:00-04:00
+stime is 2020-09-22 18:21:00-04:00
+stime is 2020-09-22 18:41:00-04:00
+stime is 2020-09-22 19:01:00-04:00
+stime is 2020-09-22 19:21:00-04:00
+stime is 2020-09-22 19:41:00-04:00
+stime is 2020-09-23 09:21:00-04:00######
+
+stime is 2020-09-23 09:41:00-04:00######
+
+stime is 2020-09-23 10:01:00-04:00######
+
+stime is 2020-09-23 10:21:00-04:00######
+
+stime is 2020-09-23 10:41:00-04:00######
+
+stime is 2020-09-23 11:01:00-04:00######
+
+stime is 2020-09-23 11:21:00-04:00######
+
+stime is 2020-09-23 11:41:00-04:00######
+
+stime is 2020-09-23 12:01:00-04:00######
+
+stime is 2020-09-23 12:21:00-04:00######
+
+stime is 2020-09-23 12:41:00-04:00######
+
+stime is 2020-09-23 13:01:00-04:00######
+
+stime is 2020-09-23 13:21:00-04:00######
+
+stime is 2020-09-23 13:41:00-04:00######
+
+stime is 2020-09-23 14:01:00-04:00######
+
+stime is 2020-09-23 14:21:00-04:00######
+
+stime is 2020-09-23 14:41:00-04:00######
+
+stime is 2020-09-23 15:01:00-04:00######
+
+stime is 2020-09-23 15:21:00-04:00######
+
+stime is 2020-09-23 15:41:00-04:00######
+
+stime is 2020-09-23 16:01:00-04:00######
+
+stime is 2020-09-23 16:21:00-04:00######
+
+stime is 2020-09-23 16:41:00-04:00######
+
+stime is 2020-09-23 17:01:00-04:00
+stime is 2020-09-23 17:21:00-04:00
+stime is 2020-09-23 17:41:00-04:00
+stime is 2020-09-23 18:01:00-04:00
+stime is 2020-09-23 18:21:00-04:00
+stime is 2020-09-23 18:41:00-04:00
+stime is 2020-09-23 19:01:00-04:00
+stime is 2020-09-23 19:21:00-04:00
+stime is 2020-09-23 19:41:00-04:00
+stime is 2020-09-24 09:21:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-24 09:21:00-04:00
+TIME: 2020-09-24 09:20:00-04:00
+Portfolio Value: 104743.37000000001
+Positions Value: 104664.05
+Portfolio Cash:79.32
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib283 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.51,Amount:918
+{ibpyOrderId=ib415 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:105.19,Amount:995
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+{ibpyOrderId=ib313 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.98,Amount:918
+
+POSITIONS
+STK,,,AAPL,USD 995 105.19
+
+#############DATA##########################AAPLStock last close price=106.58
+AAPL Current (posDI,negDI) = (36.644580, 20.658606)
+AAPL Last (posDI,negDI) = (9.112946, 27.995911)
+AAPL Current ADX 32.268870 
+AAPL Last ADX 32.941438 
+AAPL Current postions: 995.000000 
+######
+
+stime is 2020-09-24 09:41:00-04:00######
+
+stime is 2020-09-24 10:01:00-04:00######
+
+stime is 2020-09-24 10:21:00-04:00######
+
+stime is 2020-09-24 10:41:00-04:00######
+
+stime is 2020-09-24 11:01:00-04:00######
+
+stime is 2020-09-24 11:21:00-04:00######
+
+stime is 2020-09-24 11:41:00-04:00######
+
+stime is 2020-09-24 12:01:00-04:00######
+
+stime is 2020-09-24 12:21:00-04:00######
+
+stime is 2020-09-24 12:41:00-04:00######
+
+stime is 2020-09-24 13:01:00-04:00######
+
+stime is 2020-09-24 13:21:00-04:00######
+
+stime is 2020-09-24 13:41:00-04:00######
+
+stime is 2020-09-24 14:01:00-04:00######
+
+stime is 2020-09-24 14:21:00-04:00######
+
+stime is 2020-09-24 14:41:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (995.000000, 0.962135, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 108783.07
+Positions Value: 0.0
+Portfolio Cash:108783.07
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib449 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:109.25,Amount:995
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib283 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.51,Amount:918
+{ibpyOrderId=ib415 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:105.19,Amount:995
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+{ibpyOrderId=ib313 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.98,Amount:918
+
+POSITIONS
+
+
+Placing order to make the  pos -1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-24 14:41:00-04:00
+TIME: 2020-09-24 14:40:00-04:00
+Portfolio Value: 108783.07
+Positions Value: -108703.75
+Portfolio Cash:217486.82
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib449 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:109.25,Amount:995
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib451 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:109.25,Amount:995
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib283 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.51,Amount:918
+{ibpyOrderId=ib415 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:105.19,Amount:995
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+{ibpyOrderId=ib313 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.98,Amount:918
+
+POSITIONS
+STK,,,AAPL,USD -995 109.25
+
+#############DATA##########################AAPLStock last close price=108.09
+AAPL Current (posDI,negDI) = (15.678748, 22.513885)
+AAPL Last (posDI,negDI) = (18.698534, 14.590884)
+AAPL Current ADX 34.032498 
+AAPL Last ADX 36.514962 
+AAPL Current postions: -995.000000 
+######
+
+stime is 2020-09-24 15:01:00-04:00######
+
+stime is 2020-09-24 15:21:00-04:00######
+
+stime is 2020-09-24 15:41:00-04:00######
+
+stime is 2020-09-24 16:01:00-04:00######
+
+stime is 2020-09-24 16:21:00-04:00######
+
+stime is 2020-09-24 16:41:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-995.000000, -0.991562, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 109628.82
+Positions Value: 0.0
+Portfolio Cash:109628.82
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib449 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:109.25,Amount:995
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib451 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:109.25,Amount:995
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib283 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.51,Amount:918
+{ibpyOrderId=ib465 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:108.4,Amount:995
+{ibpyOrderId=ib415 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:105.19,Amount:995
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+{ibpyOrderId=ib313 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.98,Amount:918
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-24 16:41:00-04:00
+TIME: 2020-09-24 16:40:00-04:00
+Portfolio Value: 109628.82
+Positions Value: 0.0
+Portfolio Cash:109628.82
+ORDERS
+{ibpyOrderId=ib123 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.06,Amount:935
+{ibpyOrderId=ib99 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=935 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.3,Amount:935
+{ibpyOrderId=ib449 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:109.25,Amount:995
+{ibpyOrderId=ib41 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib79 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.6,Amount:916
+{ibpyOrderId=ib43 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:114.25,Amount:882
+{ibpyOrderId=ib55 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=916 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:916
+{ibpyOrderId=ib451 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:109.25,Amount:995
+{ibpyOrderId=ib53 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.1,Amount:882
+{ibpyOrderId=ib283 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:112.51,Amount:918
+{ibpyOrderId=ib465 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:108.4,Amount:995
+{ibpyOrderId=ib415 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=995 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:105.19,Amount:995
+{ibpyOrderId=ib35 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=882 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:113.31,Amount:882
+{ibpyOrderId=ib225 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.91,Amount:985
+{ibpyOrderId=ib217 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=985 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:104.98,Amount:985
+{ibpyOrderId=ib313 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=918 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+$$Filled Time : ,Avg filled price:110.98,Amount:918
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=108.68
+AAPL Current (posDI,negDI) = (18.634388, 14.407528)
+AAPL Last (posDI,negDI) = (15.279830, 15.938431)
+AAPL Current ADX 22.543625 
+AAPL Last ADX 24.043811 
+AAPL Current postions: 0.000000 
+######
+
+stime is 2020-09-24 17:01:00-04:00
+stime is 2020-09-24 17:21:00-04:00
+stime is 2020-09-24 17:41:00-04:00
+stime is 2020-09-24 18:01:00-04:00
+stime is 2020-09-24 18:21:00-04:00
+stime is 2020-09-24 18:41:00-04:00
+stime is 2020-09-24 19:01:00-04:00
+stime is 2020-09-24 19:21:00-04:00
+stime is 2020-09-24 19:41:00-04:00
+stime is 2020-09-25 09:21:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-25 09:41:00-04:00######
+
+stime is 2020-09-25 10:01:00-04:00######
+
+stime is 2020-09-25 10:21:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-25 10:41:00-04:00######
+
+stime is 2020-09-25 11:01:00-04:00######
+
+stime is 2020-09-25 11:21:00-04:00######
+
+stime is 2020-09-25 11:41:00-04:00######
+
+stime is 2020-09-25 12:01:00-04:00######
+
+stime is 2020-09-25 12:21:00-04:00######
+
+stime is 2020-09-25 12:41:00-04:00######
+
+stime is 2020-09-25 13:01:00-04:00######
+
+stime is 2020-09-25 13:21:00-04:00######
+
+stime is 2020-09-25 13:41:00-04:00######
+
+stime is 2020-09-25 14:01:00-04:00######
+
+stime is 2020-09-25 14:21:00-04:00######
+
+stime is 2020-09-25 14:41:00-04:00######
+
+stime is 2020-09-25 15:01:00-04:00######
+
+stime is 2020-09-25 15:21:00-04:00######
+
+stime is 2020-09-25 15:41:00-04:00######
+
+stime is 2020-09-25 16:01:00-04:00######
+
+stime is 2020-09-25 16:21:00-04:00######
+
+stime is 2020-09-25 16:41:00-04:00######
+
+stime is 2020-09-25 17:01:00-04:00
+stime is 2020-09-25 17:21:00-04:00
+stime is 2020-09-25 17:41:00-04:00
+stime is 2020-09-25 18:01:00-04:00
+stime is 2020-09-25 18:21:00-04:00
+stime is 2020-09-25 18:41:00-04:00
+stime is 2020-09-25 19:01:00-04:00
+stime is 2020-09-25 19:21:00-04:00
+stime is 2020-09-25 19:41:00-04:00
+stime is 2020-09-28 09:21:00-04:00######
+
+stime is 2020-09-28 09:41:00-04:00######
+
+stime is 2020-09-28 10:01:00-04:00######
+
+stime is 2020-09-28 10:21:00-04:00######
+
+stime is 2020-09-28 10:41:00-04:00######
+
+stime is 2020-09-28 11:01:00-04:00######
+
+stime is 2020-09-28 11:21:00-04:00######
+
+stime is 2020-09-28 11:41:00-04:00######
+
+stime is 2020-09-28 12:01:00-04:00######
+
+stime is 2020-09-28 12:21:00-04:00######
+
+stime is 2020-09-28 12:41:00-04:00######
+
+stime is 2020-09-28 13:01:00-04:00######

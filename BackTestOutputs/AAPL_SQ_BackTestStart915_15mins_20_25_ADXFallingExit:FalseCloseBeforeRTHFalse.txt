@@ -1,0 +1,75 @@
+#######
+AT BEGINNING
+Portfolio Value: 379688.56
+Positions Value: 0.0
+Portfolio Cash:379738.75
+ORDERS
+
+POSITIONS
+
+######
+
+stime is 2020-09-29 15:01:00-04:00######
+
+stime is 2020-09-29 15:02:00-04:00######
+
+stime is 2020-09-29 15:16:00-04:00######
+
+stime is 2020-09-29 15:17:00-04:00######
+
+stime is 2020-09-29 15:31:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-29 15:32:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Placing short order to make it -0.500000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-29 15:32:00-04:00
+TIME: 2020-09-29 15:15:00-04:00
+Portfolio Value: 379700.23
+Positions Value: 173295.22
+Portfolio Cash:569484.64
+ORDERS
+{ibpyOrderId=ib2482 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=1154 tif=DAY orderRef=} contract={STK,,SMART,SQ,USD}}
+$$Filled Time : 20200929  15:32:04,Avg filled price:164.391733,Amount:1154
+
+POSITIONS
+STK,,,SQ,USD -1154 164.384557347
+
+#############DATA##########################SQStock last close price=164.56
+SQ Current (posDI,negDI) = (19.602819, 35.122633)
+SQ Last (posDI,negDI) = (24.000911, 17.373983)
+SQ Current ADX 26.653276 
+SQ Last ADX 26.389471 
+SQ Current postions: -1154.000000 
+######
+
+stime is 2020-09-29 15:46:00-04:00######
+
+stime is 2020-09-29 15:47:00-04:00######
+
+stime is 2020-09-29 16:01:00-04:00######
+
+stime is 2020-09-29 16:02:00-04:00######
+
+stime is 2020-09-29 16:16:00-04:00######
+
+stime is 2020-09-29 16:17:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-1154.000000, -0.249416, 3000.000000)
+
+Placing order to make the negative pos 0

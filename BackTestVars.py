@@ -1,0 +1,11 @@
+baseTimeFrame = 15
+extendedTimeFrameInt = 30
+extendedTimeFrameString = '30 mins'
+#securities = ['AAPL', 'SQ', 'ZM', 'TSLA', 'CRWD']
+securities = ['AAPL']
+ADX_ENTRY_THRESHHOLD = 20
+IS_ADX_FALLING_EARLY_EXIT_USED = False
+CLOSE_BEFORE_DAY_CLOSE = True
+DI_TIME_PERIOD = 21
+ADX_TIME_PERIOD = 9
+MODE = 'BACKTEST'

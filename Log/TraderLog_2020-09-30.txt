@@ -1,0 +1,250 @@
+2020-09-30 05:53:55.272963-04:00: IBridgePy version 10.1.4
+2020-09-30 05:53:55.273704-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 05:53:55.346818-04:00: ####    Starting to initialize trader    ####
+2020-09-30 05:53:55.347065-04:00: ##    ACCOUNT Balance  DU228381  ##
+2020-09-30 05:53:55.347203-04:00: CASH=1037875.11
+2020-09-30 05:53:55.347379-04:00: portfolio_value=1037875.11
+2020-09-30 05:53:55.347649-04:00: positions_value=0.0
+2020-09-30 05:53:55.347808-04:00: ##    NO ANY POSITION    ##
+2020-09-30 05:53:55.347968-04:00: ##    NO any order    ##
+2020-09-30 05:53:55.348076-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:02:20.536446-04:00: IBridgePy version 10.1.4
+2020-09-30 06:02:20.537037-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:02:20.542548-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:02:20.542697-04:00: ##    ACCOUNT Balance  DU228381  ##
+2020-09-30 06:02:20.542820-04:00: CASH=1037875.11
+2020-09-30 06:02:20.542899-04:00: portfolio_value=1037875.11
+2020-09-30 06:02:20.543019-04:00: positions_value=0.0
+2020-09-30 06:02:20.543139-04:00: ##    NO ANY POSITION    ##
+2020-09-30 06:02:20.543263-04:00: ##    NO any order    ##
+2020-09-30 06:02:20.543371-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:10:00.320083-04:00: IBridgePy version 10.1.4
+2020-09-30 06:10:00.320676-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:10:00.372250-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:10:00.372418-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:10:00.372503-04:00: CASH=569105.27
+2020-09-30 06:10:00.372666-04:00: portfolio_value=379914.49
+2020-09-30 06:10:00.373007-04:00: positions_value=189140.59
+2020-09-30 06:10:00.373119-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:10:00.373259-04:00: Symbol Amount Cost_basis
+2020-09-30 06:10:00.373361-04:00: STK,,,SQ,USD -1154 164.38398075
+2020-09-30 06:10:00.373470-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:10:00.373621-04:00: {ibpyOrderId=ib2496 status=PreSubmitted order={account=DU1073267 action=BUY orderType=MKT amount=1154 tif=DAY orderRef=} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:10:00.373728-04:00: ##    END    ##
+2020-09-30 06:10:00.373860-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:11:02.278447-04:00: broker_client_factory.CallBacks:errorId=2499 errorCode=162 errorMessage=Historical Market Data Service error message:HMDS query returned no data: SQ@SMART Trades
+2020-09-30 06:11:02.279202-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-30 06:11:32.109359-04:00: IBridgePy version 10.1.4
+2020-09-30 06:11:32.109825-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:11:32.116654-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:11:32.116783-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:11:32.116867-04:00: CASH=569105.27
+2020-09-30 06:11:32.116996-04:00: portfolio_value=379914.49
+2020-09-30 06:11:32.117102-04:00: positions_value=189140.59
+2020-09-30 06:11:32.117296-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:11:32.117463-04:00: Symbol Amount Cost_basis
+2020-09-30 06:11:32.117566-04:00: STK,,,SQ,USD -1154 164.38398075
+2020-09-30 06:11:32.117689-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:11:32.117787-04:00: {ibpyOrderId=ib2496 status=PreSubmitted order={account=DU1073267 action=BUY orderType=MKT amount=1154 tif=DAY orderRef=} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:11:32.117867-04:00: ##    END    ##
+2020-09-30 06:11:32.117931-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:23:23.553650-04:00: IBridgePy version 10.1.4
+2020-09-30 06:23:23.554529-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:23:23.569062-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:23:23.569308-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:23:23.569465-04:00: CASH=552895.81
+2020-09-30 06:23:23.569999-04:00: portfolio_value=380105.56
+2020-09-30 06:23:23.570205-04:00: positions_value=172740.06
+2020-09-30 06:23:23.570792-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:23:23.572524-04:00: Symbol Amount Cost_basis
+2020-09-30 06:23:23.572726-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 06:23:23.572897-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:23:23.573098-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:23:23.573214-04:00: ##    END    ##
+2020-09-30 06:23:23.573430-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:27:16.001384-04:00: IBridgePy version 10.1.4
+2020-09-30 06:27:16.002117-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:27:16.014176-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:27:16.014384-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:27:16.014516-04:00: CASH=552878.54
+2020-09-30 06:27:16.014633-04:00: portfolio_value=380088.29
+2020-09-30 06:27:16.014725-04:00: positions_value=172740.06
+2020-09-30 06:27:16.014893-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:27:16.015003-04:00: Symbol Amount Cost_basis
+2020-09-30 06:27:16.015240-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 06:27:16.015446-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:27:16.015608-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:27:16.015709-04:00: ##    END    ##
+2020-09-30 06:27:16.015837-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:28:08.550562-04:00: IBridgePy version 10.1.4
+2020-09-30 06:28:08.551266-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:28:08.558025-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:28:08.558166-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:28:08.558315-04:00: CASH=552917.4
+2020-09-30 06:28:08.558433-04:00: portfolio_value=380127.15
+2020-09-30 06:28:08.558554-04:00: positions_value=172740.06
+2020-09-30 06:28:08.558728-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:28:08.558857-04:00: Symbol Amount Cost_basis
+2020-09-30 06:28:08.558952-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 06:28:08.559088-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:28:08.559201-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:28:08.559347-04:00: ##    END    ##
+2020-09-30 06:28:08.559464-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:32:15.303885-04:00: IBridgePy version 10.1.4
+2020-09-30 06:32:15.304647-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:32:15.322999-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:32:15.323205-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:32:15.323331-04:00: CASH=552881.39
+2020-09-30 06:32:15.323432-04:00: portfolio_value=380091.14
+2020-09-30 06:32:15.323613-04:00: positions_value=172740.06
+2020-09-30 06:32:15.323755-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:32:15.323830-04:00: Symbol Amount Cost_basis
+2020-09-30 06:32:15.324038-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 06:32:15.324253-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:32:15.324371-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:32:15.324532-04:00: ##    END    ##
+2020-09-30 06:32:15.324674-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:35:06.801936-04:00: IBridgePy version 10.1.4
+2020-09-30 06:35:06.802696-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:35:06.818313-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:35:06.818569-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:35:06.818753-04:00: CASH=552987.97
+2020-09-30 06:35:06.818880-04:00: portfolio_value=380197.72
+2020-09-30 06:35:06.819093-04:00: positions_value=172740.06
+2020-09-30 06:35:06.819271-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:35:06.819389-04:00: Symbol Amount Cost_basis
+2020-09-30 06:35:06.819533-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 06:35:06.819720-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:35:06.819892-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:35:06.820019-04:00: ##    END    ##
+2020-09-30 06:35:06.820152-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:38:44.869344-04:00: IBridgePy version 10.1.4
+2020-09-30 06:38:44.870126-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:38:44.905915-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:38:44.906123-04:00: ##    ACCOUNT Balance  DU229332  ##
+2020-09-30 06:38:44.906256-04:00: CASH=1037875.11
+2020-09-30 06:38:44.906361-04:00: portfolio_value=1037875.11
+2020-09-30 06:38:44.906492-04:00: positions_value=0.0
+2020-09-30 06:38:44.906646-04:00: ##    POSITIONS DU229332   ##
+2020-09-30 06:38:44.906797-04:00: Symbol Amount Cost_basis
+2020-09-30 06:38:44.906938-04:00: CASH,,,AUD,USD -36886 0.6794242
+2020-09-30 06:38:44.907089-04:00: ##    NO any order    ##
+2020-09-30 06:38:44.907190-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:45:37.489128-04:00: IBridgePy version 10.1.4
+2020-09-30 06:45:37.490484-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:45:37.531117-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:45:37.531342-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:45:37.531586-04:00: CASH=553075.87
+2020-09-30 06:45:37.531882-04:00: portfolio_value=380285.63
+2020-09-30 06:45:37.532124-04:00: positions_value=172740.06
+2020-09-30 06:45:37.532423-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:45:37.532569-04:00: Symbol Amount Cost_basis
+2020-09-30 06:45:37.532713-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 06:45:37.532912-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:45:37.533084-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:45:37.533187-04:00: ##    END    ##
+2020-09-30 06:45:37.533264-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:50:14.549623-04:00: IBridgePy version 10.1.4
+2020-09-30 06:50:14.550225-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:50:14.563321-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:50:14.563550-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:50:14.563679-04:00: CASH=552979.35
+2020-09-30 06:50:14.563799-04:00: portfolio_value=380189.1
+2020-09-30 06:50:14.563968-04:00: positions_value=172740.06
+2020-09-30 06:50:14.564144-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:50:14.564256-04:00: Symbol Amount Cost_basis
+2020-09-30 06:50:14.564384-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 06:50:14.564491-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:50:14.564635-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:50:14.564720-04:00: ##    END    ##
+2020-09-30 06:50:14.564842-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 06:59:29.924017-04:00: IBridgePy version 10.1.4
+2020-09-30 06:59:29.924728-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 06:59:29.932351-04:00: ####    Starting to initialize trader    ####
+2020-09-30 06:59:29.932592-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 06:59:29.932753-04:00: CASH=552939.0
+2020-09-30 06:59:29.932870-04:00: portfolio_value=380148.75
+2020-09-30 06:59:29.933066-04:00: positions_value=172740.06
+2020-09-30 06:59:29.933563-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 06:59:29.934255-04:00: Symbol Amount Cost_basis
+2020-09-30 06:59:29.936720-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 06:59:29.936962-04:00: ##    Order Status DU1073267   ##
+2020-09-30 06:59:29.937135-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 06:59:29.937250-04:00: ##    END    ##
+2020-09-30 06:59:29.937384-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 07:03:23.579202-04:00: IBridgePy version 10.1.4
+2020-09-30 07:03:23.580161-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 07:03:23.590501-04:00: ####    Starting to initialize trader    ####
+2020-09-30 07:03:23.590652-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 07:03:23.590817-04:00: CASH=552859.8
+2020-09-30 07:03:23.590978-04:00: portfolio_value=379426.61
+2020-09-30 07:03:23.591097-04:00: positions_value=173383.0
+2020-09-30 07:03:23.591233-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 07:03:23.591334-04:00: Symbol Amount Cost_basis
+2020-09-30 07:03:23.591461-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 07:03:23.591580-04:00: ##    Order Status DU1073267   ##
+2020-09-30 07:03:23.591723-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 07:03:23.591806-04:00: ##    END    ##
+2020-09-30 07:03:23.591963-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 07:07:28.243994-04:00: IBridgePy version 10.1.4
+2020-09-30 07:07:28.244877-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 07:07:28.254791-04:00: ####    Starting to initialize trader    ####
+2020-09-30 07:07:28.254970-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 07:07:28.255234-04:00: CASH=552807.98
+2020-09-30 07:07:28.255407-04:00: portfolio_value=379111.29
+2020-09-30 07:07:28.255522-04:00: positions_value=173646.5
+2020-09-30 07:07:28.255659-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 07:07:28.255735-04:00: Symbol Amount Cost_basis
+2020-09-30 07:07:28.255903-04:00: STK,,,SQ,USD -1054 164.38398075
+2020-09-30 07:07:28.256160-04:00: ##    Order Status DU1073267   ##
+2020-09-30 07:07:28.256330-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 07:07:28.256450-04:00: ##    END    ##
+2020-09-30 07:07:28.256583-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 07:15:51.655190-04:00: IBridgePy version 10.1.4
+2020-09-30 07:15:51.656660-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 07:15:51.667608-04:00: ####    Starting to initialize trader    ####
+2020-09-30 07:15:51.668154-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 07:15:51.669155-04:00: CASH=487288.69
+2020-09-30 07:15:51.669353-04:00: portfolio_value=379982.5
+2020-09-30 07:15:51.669477-04:00: positions_value=107256.0
+2020-09-30 07:15:51.669668-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 07:15:51.669788-04:00: Symbol Amount Cost_basis
+2020-09-30 07:15:51.669925-04:00: STK,,,SQ,USD -654 164.38398075
+2020-09-30 07:15:51.670049-04:00: ##    Order Status DU1073267   ##
+2020-09-30 07:15:51.670184-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 07:15:51.670275-04:00: ##    END    ##
+2020-09-30 07:15:51.670398-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 07:19:48.908737-04:00: IBridgePy version 10.1.4
+2020-09-30 07:19:48.909517-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 07:19:48.915037-04:00: ####    Starting to initialize trader    ####
+2020-09-30 07:19:48.915156-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 07:19:48.915297-04:00: CASH=487156.29
+2020-09-30 07:19:48.915424-04:00: portfolio_value=379850.1
+2020-09-30 07:19:48.915542-04:00: positions_value=107256.0
+2020-09-30 07:19:48.915680-04:00: ##    POSITIONS DU1073267   ##
+2020-09-30 07:19:48.915912-04:00: Symbol Amount Cost_basis
+2020-09-30 07:19:48.916058-04:00: STK,,,SQ,USD -654 164.38398075
+2020-09-30 07:19:48.916198-04:00: ##    Order Status DU1073267   ##
+2020-09-30 07:19:48.916332-04:00: {permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+2020-09-30 07:19:48.916435-04:00: ##    END    ##
+2020-09-30 07:19:48.916563-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 07:30:50.348043-04:00: IBridgePy version 10.1.4
+2020-09-30 07:30:50.348810-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 07:30:50.353122-04:00: ####    Starting to initialize trader    ####
+2020-09-30 07:30:50.353262-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 07:30:50.353396-04:00: CASH=380074.98
+2020-09-30 07:30:50.353484-04:00: portfolio_value=380024.79
+2020-09-30 07:30:50.353664-04:00: positions_value=0.0
+2020-09-30 07:30:50.353770-04:00: ##    NO ANY POSITION    ##
+2020-09-30 07:30:50.353938-04:00: ##    NO any order    ##
+2020-09-30 07:30:50.354022-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-30 07:31:29.354741-04:00: IBridgePy version 10.1.4
+2020-09-30 07:31:29.355622-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-09-30 07:31:29.362541-04:00: ####    Starting to initialize trader    ####
+2020-09-30 07:31:29.363045-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-30 07:31:29.363440-04:00: CASH=380074.98
+2020-09-30 07:31:29.363730-04:00: portfolio_value=380024.79
+2020-09-30 07:31:29.363990-04:00: positions_value=0.0
+2020-09-30 07:31:29.364325-04:00: ##    NO ANY POSITION    ##
+2020-09-30 07:31:29.364732-04:00: ##    NO any order    ##
+2020-09-30 07:31:29.364957-04:00: ####    Initialize trader COMPLETED    ####

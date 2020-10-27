@@ -1,0 +1,614 @@
+2020-09-08 02:13:40.583039-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:14:10.597926-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-08 02:14:10.600098-04:00: {reqId=0;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:1 min,goBack:10 D,timezoneOfReturn:US/Eastern,endTime:20200908 18:43:40 UTC,whatToShow:TRADES,formatDate:2,security:STK,ISLAND,SMART,AAPL,USD,useRTH:1,}}
+2020-09-08 02:14:10.600360-04:00: Hint: Connection to Hist Data Farm is broken.
+2020-09-08 02:14:56.967903-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:15:26.981299-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-08 02:15:26.982245-04:00: {reqId=0;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:1 min,goBack:10 D,timezoneOfReturn:US/Eastern,endTime:20200908 18:44:56 UTC,whatToShow:TRADES,formatDate:2,security:STK,ISLAND,SMART,AAPL,USD,useRTH:1,}}
+2020-09-08 02:15:26.982417-04:00: Hint: Connection to Hist Data Farm is broken.
+2020-09-08 02:23:27.256544-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:23:33.503329-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:23:33.503597-04:00: IBridgePy version 10.1.4
+2020-09-08 02:23:33.503691-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:23:33.654681-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:23:33.654941-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:23:33.655104-04:00: CASH=100000.0
+2020-09-08 02:23:33.655221-04:00: portfolio_value=100000.0
+2020-09-08 02:23:33.655384-04:00: positions_value=0.0
+2020-09-08 02:23:33.655518-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:23:33.655697-04:00: ##    NO any order    ##
+2020-09-08 02:23:33.655805-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:23:33.656069-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:23:33.656200-04:00: CASH=100000.0
+2020-09-08 02:23:33.656299-04:00: portfolio_value=100000.0
+2020-09-08 02:23:33.656371-04:00: positions_value=0.0
+2020-09-08 02:23:33.656555-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:23:33.656658-04:00: ##    NO any order    ##
+2020-09-08 02:23:35.460531-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:23:35.463525-04:00: CASH=124885.9
+2020-09-08 02:23:35.463848-04:00: portfolio_value=100000.0
+2020-09-08 02:23:35.464065-04:00: positions_value=-24885.9
+2020-09-08 02:23:35.464339-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:23:35.464534-04:00: Symbol Amount Cost_basis
+2020-09-08 02:23:35.464812-04:00: STK,,,AAPL,USD -195 127.62
+2020-09-08 02:23:35.465225-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:23:35.465517-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:35.465675-04:00: ##    END    ##
+2020-09-08 02:23:37.282642-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:23:37.284171-04:00: CASH=149771.8
+2020-09-08 02:23:37.284378-04:00: portfolio_value=99999.99999999999
+2020-09-08 02:23:37.284490-04:00: positions_value=-49771.8
+2020-09-08 02:23:37.284651-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:23:37.284745-04:00: Symbol Amount Cost_basis
+2020-09-08 02:23:37.284836-04:00: STK,,,AAPL,USD -390 127.62
+2020-09-08 02:23:37.284947-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:23:37.285089-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:37.285206-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:37.285347-04:00: ##    END    ##
+2020-09-08 02:23:39.100312-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:23:39.102270-04:00: CASH=174657.7
+2020-09-08 02:23:39.102536-04:00: portfolio_value=99999.99999999999
+2020-09-08 02:23:39.102701-04:00: positions_value=-74657.7
+2020-09-08 02:23:39.102944-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:23:39.103220-04:00: Symbol Amount Cost_basis
+2020-09-08 02:23:39.103379-04:00: STK,,,AAPL,USD -585 127.62
+2020-09-08 02:23:39.103639-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:23:39.103892-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:39.104101-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:39.104325-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:39.104497-04:00: ##    END    ##
+2020-09-08 02:23:40.904455-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:23:40.906410-04:00: CASH=199543.6
+2020-09-08 02:23:40.906674-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:23:40.906842-04:00: positions_value=-99543.6
+2020-09-08 02:23:40.907040-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:23:40.907178-04:00: Symbol Amount Cost_basis
+2020-09-08 02:23:40.907320-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:23:40.907488-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:23:40.907680-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:40.907889-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:40.908144-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:40.908347-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:40.908484-04:00: ##    END    ##
+2020-09-08 02:23:42.597512-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:23:42.598368-04:00: CASH=199543.6
+2020-09-08 02:23:42.598460-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:23:42.598699-04:00: positions_value=-99543.6
+2020-09-08 02:23:42.598811-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:23:42.598876-04:00: Symbol Amount Cost_basis
+2020-09-08 02:23:42.598953-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:23:42.599148-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:23:42.599299-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:42.599407-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:42.599495-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:42.599576-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:42.599673-04:00: ##    END    ##
+2020-09-08 02:23:44.245773-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:23:44.246726-04:00: CASH=199543.6
+2020-09-08 02:23:44.246905-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:23:44.247019-04:00: positions_value=-99543.6
+2020-09-08 02:23:44.247237-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:23:44.247319-04:00: Symbol Amount Cost_basis
+2020-09-08 02:23:44.247541-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:23:44.247658-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:23:44.247826-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:44.247915-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:44.249155-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:44.249327-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:23:44.249412-04:00: ##    END    ##
+2020-09-08 02:26:36.652491-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:26:42.787181-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:26:42.787403-04:00: IBridgePy version 10.1.4
+2020-09-08 02:26:42.787485-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:26:42.796127-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:26:42.796611-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:42.796987-04:00: CASH=100000.0
+2020-09-08 02:26:42.797070-04:00: portfolio_value=100000.0
+2020-09-08 02:26:42.797305-04:00: positions_value=0.0
+2020-09-08 02:26:42.797728-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:26:42.797875-04:00: ##    NO any order    ##
+2020-09-08 02:26:42.797987-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:26:42.798195-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:42.798299-04:00: CASH=100000.0
+2020-09-08 02:26:42.798407-04:00: portfolio_value=100000.0
+2020-09-08 02:26:42.798496-04:00: positions_value=0.0
+2020-09-08 02:26:42.798666-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:26:42.798756-04:00: ##    NO any order    ##
+2020-09-08 02:26:44.580633-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:44.583264-04:00: CASH=124885.9
+2020-09-08 02:26:44.583593-04:00: portfolio_value=100000.0
+2020-09-08 02:26:44.583844-04:00: positions_value=-24885.9
+2020-09-08 02:26:44.584142-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:44.584348-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:44.584560-04:00: STK,,,AAPL,USD -195 127.62
+2020-09-08 02:26:44.584816-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:44.585098-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:44.585257-04:00: ##    END    ##
+2020-09-08 02:26:46.285534-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:46.287982-04:00: CASH=149771.8
+2020-09-08 02:26:46.288296-04:00: portfolio_value=99999.99999999999
+2020-09-08 02:26:46.288534-04:00: positions_value=-49771.8
+2020-09-08 02:26:46.288839-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:46.289039-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:46.289218-04:00: STK,,,AAPL,USD -390 127.62
+2020-09-08 02:26:46.289387-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:46.289586-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:46.289761-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:46.289899-04:00: ##    END    ##
+2020-09-08 02:26:47.866227-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:47.868781-04:00: CASH=174657.7
+2020-09-08 02:26:47.869121-04:00: portfolio_value=99999.99999999999
+2020-09-08 02:26:47.869351-04:00: positions_value=-74657.7
+2020-09-08 02:26:47.869798-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:47.870116-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:47.870346-04:00: STK,,,AAPL,USD -585 127.62
+2020-09-08 02:26:47.870604-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:47.870834-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:47.871011-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:47.871179-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:47.871399-04:00: ##    END    ##
+2020-09-08 02:26:49.403272-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:49.405781-04:00: CASH=199543.6
+2020-09-08 02:26:49.406110-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:26:49.406332-04:00: positions_value=-99543.6
+2020-09-08 02:26:49.406613-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:49.406813-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:49.407014-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:26:49.407252-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:49.407516-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:49.407772-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:49.407970-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:49.408134-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:49.408267-04:00: ##    END    ##
+2020-09-08 02:26:50.705950-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:50.707009-04:00: CASH=199543.6
+2020-09-08 02:26:50.707188-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:26:50.707403-04:00: positions_value=-99543.6
+2020-09-08 02:26:50.707537-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:50.707653-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:50.707783-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:26:50.707926-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:50.708189-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:50.708286-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:50.708519-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:50.708632-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:50.708822-04:00: ##    END    ##
+2020-09-08 02:26:51.978154-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:51.979060-04:00: CASH=199543.6
+2020-09-08 02:26:51.979226-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:26:51.979402-04:00: positions_value=-99543.6
+2020-09-08 02:26:51.979533-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:51.979616-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:51.979841-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:26:51.979959-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:51.980095-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:51.980183-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:51.980379-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:51.980503-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:51.980645-04:00: ##    END    ##
+2020-09-08 02:26:53.244750-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:53.245626-04:00: CASH=199543.6
+2020-09-08 02:26:53.245748-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:26:53.245954-04:00: positions_value=-99543.6
+2020-09-08 02:26:53.246186-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:53.246262-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:53.246350-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:26:53.246470-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:53.246578-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:53.246712-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:53.246852-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:53.246965-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:53.247042-04:00: ##    END    ##
+2020-09-08 02:26:54.524021-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:54.524801-04:00: CASH=199543.6
+2020-09-08 02:26:54.524915-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:26:54.525127-04:00: positions_value=-99543.6
+2020-09-08 02:26:54.525262-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:54.525348-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:54.525427-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:26:54.525522-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:54.525614-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:54.525734-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:54.525841-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:54.525989-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:54.526064-04:00: ##    END    ##
+2020-09-08 02:26:55.901601-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:55.902613-04:00: CASH=199543.6
+2020-09-08 02:26:55.902753-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:26:55.902944-04:00: positions_value=-99543.6
+2020-09-08 02:26:55.903096-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:55.903237-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:55.903366-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:26:55.903474-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:55.903720-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:55.903819-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:55.904045-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:55.904160-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:55.904324-04:00: ##    END    ##
+2020-09-08 02:26:57.230138-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:57.231196-04:00: CASH=199543.6
+2020-09-08 02:26:57.231374-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:26:57.231593-04:00: positions_value=-99543.6
+2020-09-08 02:26:57.231785-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:57.231872-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:57.232065-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:26:57.232225-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:57.232324-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:57.232461-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:57.232542-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:57.232705-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:57.232807-04:00: ##    END    ##
+2020-09-08 02:26:58.501428-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:26:58.503053-04:00: CASH=199543.6
+2020-09-08 02:26:58.503224-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:26:58.503389-04:00: positions_value=-99543.6
+2020-09-08 02:26:58.503492-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:26:58.503608-04:00: Symbol Amount Cost_basis
+2020-09-08 02:26:58.503711-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:26:58.503947-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:26:58.504120-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:58.504266-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:58.504371-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:58.504520-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:26:58.504666-04:00: ##    END    ##
+2020-09-08 02:27:02.903646-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:27:09.297381-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:27:09.297609-04:00: IBridgePy version 10.1.4
+2020-09-08 02:27:09.298001-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:27:09.303885-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:27:09.304105-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:27:09.304248-04:00: CASH=100000.0
+2020-09-08 02:27:09.304339-04:00: portfolio_value=100000.0
+2020-09-08 02:27:09.304484-04:00: positions_value=0.0
+2020-09-08 02:27:09.304618-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:27:09.304698-04:00: ##    NO any order    ##
+2020-09-08 02:27:09.304851-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:27:09.305149-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:27:09.305261-04:00: CASH=100000.0
+2020-09-08 02:27:09.305366-04:00: portfolio_value=100000.0
+2020-09-08 02:27:09.305458-04:00: positions_value=0.0
+2020-09-08 02:27:09.305543-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:27:09.305616-04:00: ##    NO any order    ##
+2020-09-08 02:27:11.104381-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:27:11.107892-04:00: CASH=124885.9
+2020-09-08 02:27:11.108267-04:00: portfolio_value=100000.0
+2020-09-08 02:27:11.108472-04:00: positions_value=-24885.9
+2020-09-08 02:27:11.108786-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:27:11.108986-04:00: Symbol Amount Cost_basis
+2020-09-08 02:27:11.109159-04:00: STK,,,AAPL,USD -195 127.62
+2020-09-08 02:27:11.109337-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:27:11.109532-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:11.109669-04:00: ##    END    ##
+2020-09-08 02:27:12.847643-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:27:12.849963-04:00: CASH=149771.8
+2020-09-08 02:27:12.850242-04:00: portfolio_value=99999.99999999999
+2020-09-08 02:27:12.850443-04:00: positions_value=-49771.8
+2020-09-08 02:27:12.850697-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:27:12.851037-04:00: Symbol Amount Cost_basis
+2020-09-08 02:27:12.851233-04:00: STK,,,AAPL,USD -390 127.62
+2020-09-08 02:27:12.851449-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:27:12.851693-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:12.851942-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:12.852081-04:00: ##    END    ##
+2020-09-08 02:27:14.437254-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:27:14.440020-04:00: CASH=174657.7
+2020-09-08 02:27:14.440374-04:00: portfolio_value=99999.99999999999
+2020-09-08 02:27:14.440608-04:00: positions_value=-74657.7
+2020-09-08 02:27:14.440908-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:27:14.441114-04:00: Symbol Amount Cost_basis
+2020-09-08 02:27:14.441330-04:00: STK,,,AAPL,USD -585 127.62
+2020-09-08 02:27:14.441572-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:27:14.441863-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:14.442045-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:14.442233-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:14.442372-04:00: ##    END    ##
+2020-09-08 02:27:15.923098-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:27:15.924099-04:00: CASH=199543.6
+2020-09-08 02:27:15.924206-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:27:15.924367-04:00: positions_value=-99543.6
+2020-09-08 02:27:15.924496-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:27:15.924582-04:00: Symbol Amount Cost_basis
+2020-09-08 02:27:15.924660-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:27:15.924837-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:27:15.924951-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:15.925036-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:15.925156-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:15.925258-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:15.925366-04:00: ##    END    ##
+2020-09-08 02:27:17.282231-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:27:17.283276-04:00: CASH=199543.6
+2020-09-08 02:27:17.283462-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:27:17.283660-04:00: positions_value=-99543.6
+2020-09-08 02:27:17.283878-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:27:17.283957-04:00: Symbol Amount Cost_basis
+2020-09-08 02:27:17.284174-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:27:17.284337-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:27:17.284450-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:17.284594-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:17.284711-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:17.284804-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:17.284997-04:00: ##    END    ##
+2020-09-08 02:27:18.543692-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:27:18.544433-04:00: CASH=199543.6
+2020-09-08 02:27:18.544529-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:27:18.544692-04:00: positions_value=-99543.6
+2020-09-08 02:27:18.544827-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:27:18.544916-04:00: Symbol Amount Cost_basis
+2020-09-08 02:27:18.544986-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:27:18.545152-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:27:18.545272-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:18.545376-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:18.545460-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:18.545630-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:27:18.545716-04:00: ##    END    ##
+2020-09-08 02:28:16.768615-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:28:23.159309-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:28:23.159576-04:00: IBridgePy version 10.1.4
+2020-09-08 02:28:23.159993-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:28:23.168125-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:28:23.168716-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:28:23.169169-04:00: CASH=100000.0
+2020-09-08 02:28:23.169259-04:00: portfolio_value=100000.0
+2020-09-08 02:28:23.169329-04:00: positions_value=0.0
+2020-09-08 02:28:23.169456-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:28:23.169568-04:00: ##    NO any order    ##
+2020-09-08 02:28:23.169637-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:28:23.169962-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:28:23.170092-04:00: CASH=100000.0
+2020-09-08 02:28:23.170176-04:00: portfolio_value=100000.0
+2020-09-08 02:28:23.170250-04:00: positions_value=0.0
+2020-09-08 02:28:23.170371-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:28:23.170454-04:00: ##    NO any order    ##
+2020-09-08 02:28:24.967219-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:28:24.969697-04:00: CASH=124885.9
+2020-09-08 02:28:24.970029-04:00: portfolio_value=100000.0
+2020-09-08 02:28:24.970245-04:00: positions_value=-24885.9
+2020-09-08 02:28:24.970538-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:28:24.970782-04:00: Symbol Amount Cost_basis
+2020-09-08 02:28:24.971152-04:00: STK,,,AAPL,USD -195 127.62
+2020-09-08 02:28:24.971426-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:28:24.971610-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:24.971743-04:00: ##    END    ##
+2020-09-08 02:28:26.662926-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:28:26.665725-04:00: CASH=149771.8
+2020-09-08 02:28:26.666110-04:00: portfolio_value=99999.99999999999
+2020-09-08 02:28:26.666350-04:00: positions_value=-49771.8
+2020-09-08 02:28:26.666661-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:28:26.666868-04:00: Symbol Amount Cost_basis
+2020-09-08 02:28:26.667157-04:00: STK,,,AAPL,USD -390 127.62
+2020-09-08 02:28:26.667587-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:28:26.667850-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:26.668058-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:26.668304-04:00: ##    END    ##
+2020-09-08 02:28:28.279549-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:28:28.282418-04:00: CASH=174657.7
+2020-09-08 02:28:28.282718-04:00: portfolio_value=99999.99999999999
+2020-09-08 02:28:28.282881-04:00: positions_value=-74657.7
+2020-09-08 02:28:28.283083-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:28:28.283226-04:00: Symbol Amount Cost_basis
+2020-09-08 02:28:28.283455-04:00: STK,,,AAPL,USD -585 127.62
+2020-09-08 02:28:28.283849-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:28:28.284140-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:28.284337-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:28.284519-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:28.284658-04:00: ##    END    ##
+2020-09-08 02:28:29.791584-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:28:29.794096-04:00: CASH=199543.6
+2020-09-08 02:28:29.794429-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:28:29.794644-04:00: positions_value=-99543.6
+2020-09-08 02:28:29.794916-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:28:29.795112-04:00: Symbol Amount Cost_basis
+2020-09-08 02:28:29.795394-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:28:29.795741-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:28:29.796029-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:29.796218-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:29.796447-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:29.796684-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:29.796833-04:00: ##    END    ##
+2020-09-08 02:28:31.219965-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:28:31.220682-04:00: CASH=199543.6
+2020-09-08 02:28:31.220807-04:00: portfolio_value=99999.99999999997
+2020-09-08 02:28:31.220986-04:00: positions_value=-99543.6
+2020-09-08 02:28:31.221126-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:28:31.221234-04:00: Symbol Amount Cost_basis
+2020-09-08 02:28:31.221327-04:00: STK,,,AAPL,USD -780 127.62
+2020-09-08 02:28:31.221487-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:28:31.221586-04:00: {ibpyOrderId=ib12 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:31.221668-04:00: {ibpyOrderId=ib9 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:31.221747-04:00: {ibpyOrderId=ib6 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:31.221855-04:00: {ibpyOrderId=ib15 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=195 tif=DAY orderRef=} contract={STK,,,AAPL,USD}}
+2020-09-08 02:28:31.221916-04:00: ##    END    ##
+2020-09-08 02:30:05.765415-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:30:15.968197-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:30:15.968468-04:00: IBridgePy version 10.1.4
+2020-09-08 02:30:15.969579-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:30:15.976831-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:30:15.977235-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:30:15.977774-04:00: CASH=100000.0
+2020-09-08 02:30:15.977904-04:00: portfolio_value=100000.0
+2020-09-08 02:30:15.978030-04:00: positions_value=0.0
+2020-09-08 02:30:15.978164-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:30:15.978351-04:00: ##    NO any order    ##
+2020-09-08 02:30:15.978429-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:31:15.191161-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:31:23.019046-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:31:23.019343-04:00: IBridgePy version 10.1.4
+2020-09-08 02:31:23.019721-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:31:23.024929-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:31:23.025114-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:31:23.025296-04:00: CASH=100000.0
+2020-09-08 02:31:23.025447-04:00: portfolio_value=100000.0
+2020-09-08 02:31:23.025596-04:00: positions_value=0.0
+2020-09-08 02:31:23.025764-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:31:23.025896-04:00: ##    NO any order    ##
+2020-09-08 02:31:23.026011-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:31:56.068355-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:32:09.293511-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:32:09.293798-04:00: IBridgePy version 10.1.4
+2020-09-08 02:32:09.294172-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:32:09.301595-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:32:09.302126-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:32:09.302324-04:00: CASH=100000.0
+2020-09-08 02:32:09.302439-04:00: portfolio_value=100000.0
+2020-09-08 02:32:09.302686-04:00: positions_value=0.0
+2020-09-08 02:32:09.302826-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:32:09.303013-04:00: ##    NO any order    ##
+2020-09-08 02:32:09.303221-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:36:59.990228-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:37:08.414698-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:37:08.414967-04:00: IBridgePy version 10.1.4
+2020-09-08 02:37:08.415392-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:37:08.424693-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:37:08.425134-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:37:08.425558-04:00: CASH=100000.0
+2020-09-08 02:37:08.425756-04:00: portfolio_value=100000.0
+2020-09-08 02:37:08.425896-04:00: positions_value=0.0
+2020-09-08 02:37:08.426012-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:37:08.426098-04:00: ##    NO any order    ##
+2020-09-08 02:37:08.426228-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:37:49.679267-04:00: ####     Data ingestion starts    ####
+2020-09-08 02:37:58.073584-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-08 02:37:58.073866-04:00: IBridgePy version 10.1.4
+2020-09-08 02:37:58.074280-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:37:58.082429-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:37:58.082653-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:37:58.082775-04:00: CASH=100000.0
+2020-09-08 02:37:58.082846-04:00: portfolio_value=100000.0
+2020-09-08 02:37:58.082973-04:00: positions_value=0.0
+2020-09-08 02:37:58.083075-04:00: ##    NO ANY POSITION    ##
+2020-09-08 02:37:58.083203-04:00: ##    NO any order    ##
+2020-09-08 02:37:58.083295-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:38:47.590025-04:00: IBridgePy version 10.1.4
+2020-09-08 02:38:47.590545-04:00: fileName = example_get_contract_details.py
+2020-09-08 02:38:47.611109-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:38:47.611385-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:38:47.611686-04:00: CASH=296567.47
+2020-09-08 02:38:47.611825-04:00: portfolio_value=342157.03
+2020-09-08 02:38:47.611934-04:00: positions_value=45589.56
+2020-09-08 02:38:47.612127-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:38:47.612238-04:00: Symbol Amount Cost_basis
+2020-09-08 02:38:47.612369-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-08 02:38:47.612478-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-08 02:38:47.612613-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-08 02:38:47.613123-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:38:47.613293-04:00: {ibpyOrderId=ib207 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:38:47.613409-04:00: {ibpyOrderId=ib203 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:38:47.613537-04:00: {ibpyOrderId=ib214 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:38:47.613665-04:00: {ibpyOrderId=ib210 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:38:47.613808-04:00: {ibpyOrderId=ib217 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:38:47.613928-04:00: {ibpyOrderId=ib221 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:38:47.614053-04:00: ##    END    ##
+2020-09-08 02:38:47.614178-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:39:00.852325-04:00: broker_client_factory.CallBacks:errorId=222 errorCode=399 errorMessage=Order Message:
+SELL 1,000 AMC NYSE
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:39:01.404062-04:00: broker_client_factory.CallBacks:errorId=224 errorCode=399 errorMessage=Order Message:
+SELL 50 NFLX NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:39:01.941045-04:00: broker_client_factory.CallBacks:errorId=226 errorCode=399 errorMessage=Order Message:
+SELL 100 ADAP NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:39:32.010735-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, waiting time is too long, >30
+2020-09-08 02:39:32.013741-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, ibpyOrderId=ib222 status=PreSubmitted contract={STK,,NYSE,AMC,USD}
+2020-09-08 02:39:57.049770-04:00: IBridgePy version 10.1.4
+2020-09-08 02:39:57.050414-04:00: fileName = example_get_contract_details.py
+2020-09-08 02:39:57.065215-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:39:57.065461-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:39:57.065629-04:00: CASH=296567.47
+2020-09-08 02:39:57.065753-04:00: portfolio_value=342157.03
+2020-09-08 02:39:57.065911-04:00: positions_value=45589.56
+2020-09-08 02:39:57.066219-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:39:57.066308-04:00: Symbol Amount Cost_basis
+2020-09-08 02:39:57.066492-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-08 02:39:57.066583-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-08 02:39:57.066716-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-08 02:39:57.066837-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:39:57.066941-04:00: {ibpyOrderId=ib207 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:39:57.067031-04:00: {ibpyOrderId=ib203 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:39:57.067205-04:00: {ibpyOrderId=ib217 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:39:57.067333-04:00: {ibpyOrderId=ib226 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:39:57.067462-04:00: {ibpyOrderId=ib214 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:39:57.071943-04:00: {ibpyOrderId=ib224 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:39:57.074657-04:00: {ibpyOrderId=ib210 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:39:57.074989-04:00: {ibpyOrderId=ib222 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=1000 tif=DAY orderRef=} contract={STK,,NYSE,AMC,USD}}
+2020-09-08 02:39:57.075184-04:00: {ibpyOrderId=ib221 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:39:57.075312-04:00: ##    END    ##
+2020-09-08 02:39:57.075456-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:40:00.631161-04:00: broker_client_factory.CallBacks:errorId=227 errorCode=399 errorMessage=Order Message:
+SELL 1,000 AMC NYSE
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:40:01.153765-04:00: broker_client_factory.CallBacks:errorId=229 errorCode=399 errorMessage=Order Message:
+SELL 50 NFLX NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:40:01.683553-04:00: broker_client_factory.CallBacks:errorId=231 errorCode=399 errorMessage=Order Message:
+SELL 100 ADAP NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:40:31.699066-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, waiting time is too long, >30
+2020-09-08 02:40:31.700697-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, ibpyOrderId=ib227 status=PreSubmitted contract={STK,,NYSE,AMC,USD}
+2020-09-08 02:43:36.638203-04:00: IBridgePy version 10.1.4
+2020-09-08 02:43:36.639033-04:00: fileName = example_get_contract_details.py
+2020-09-08 02:43:36.647868-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:43:36.648079-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:43:36.648235-04:00: CASH=296569.35
+2020-09-08 02:43:36.648347-04:00: portfolio_value=342156.58
+2020-09-08 02:43:36.648484-04:00: positions_value=45587.22
+2020-09-08 02:43:36.648676-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:43:36.648783-04:00: Symbol Amount Cost_basis
+2020-09-08 02:43:36.648931-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-08 02:43:36.649053-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-08 02:43:36.649192-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-08 02:43:36.649397-04:00: ##    Order Status DU1073267   ##
+2020-09-08 02:43:36.649543-04:00: {ibpyOrderId=ib207 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:43:36.649730-04:00: {ibpyOrderId=ib203 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:43:36.649855-04:00: {ibpyOrderId=ib217 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:43:36.650000-04:00: {ibpyOrderId=ib231 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:43:36.650138-04:00: {ibpyOrderId=ib221 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:43:36.650256-04:00: {ibpyOrderId=ib229 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:43:36.650354-04:00: {ibpyOrderId=ib226 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:43:36.650479-04:00: {ibpyOrderId=ib227 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=1000 tif=DAY orderRef=} contract={STK,,NYSE,AMC,USD}}
+2020-09-08 02:43:36.655646-04:00: {ibpyOrderId=ib224 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:43:36.656546-04:00: {ibpyOrderId=ib210 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=} contract={STK,,ISLAND,NFLX,USD}}
+2020-09-08 02:43:36.657785-04:00: {ibpyOrderId=ib222 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=1000 tif=DAY orderRef=} contract={STK,,NYSE,AMC,USD}}
+2020-09-08 02:43:36.658409-04:00: {ibpyOrderId=ib214 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=100 tif=DAY orderRef=} contract={STK,,ISLAND,ADAP,USD}}
+2020-09-08 02:43:36.658536-04:00: ##    END    ##
+2020-09-08 02:43:36.658703-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:44:00.863379-04:00: broker_client_factory.CallBacks:errorId=235 errorCode=399 errorMessage=Order Message:
+SELL 1,000 AMC NYSE
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:44:01.395032-04:00: broker_client_factory.CallBacks:errorId=237 errorCode=399 errorMessage=Order Message:
+SELL 50 NFLX NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:44:01.924258-04:00: broker_client_factory.CallBacks:errorId=239 errorCode=399 errorMessage=Order Message:
+SELL 100 ADAP NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-08 09:30:00 US/Eastern
+2020-09-08 02:44:31.997756-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, waiting time is too long, >30
+2020-09-08 02:44:31.998902-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, ibpyOrderId=ib235 status=PreSubmitted contract={STK,,NYSE,AMC,USD}
+2020-09-08 02:47:34.496408-04:00: IBridgePy version 10.1.4
+2020-09-08 02:47:34.497115-04:00: fileName = example_get_contract_details.py
+2020-09-08 02:47:34.501359-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:47:34.501531-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:47:34.501657-04:00: CASH=296572.31
+2020-09-08 02:47:34.501733-04:00: portfolio_value=342155.87
+2020-09-08 02:47:34.501903-04:00: positions_value=45583.55
+2020-09-08 02:47:34.502054-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:47:34.502135-04:00: Symbol Amount Cost_basis
+2020-09-08 02:47:34.502273-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-08 02:47:34.502362-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-08 02:47:34.502525-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-08 02:47:34.502633-04:00: ##    NO any order    ##
+2020-09-08 02:47:34.502753-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:48:13.694226-04:00: IBridgePy version 10.1.4
+2020-09-08 02:48:13.694804-04:00: fileName = moving_average_crossover.py
+2020-09-08 02:48:13.731129-04:00: ####    Starting to initialize trader    ####
+2020-09-08 02:48:13.731325-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-08 02:48:13.731444-04:00: CASH=296572.31
+2020-09-08 02:48:13.731520-04:00: portfolio_value=342155.87
+2020-09-08 02:48:13.731647-04:00: positions_value=45583.55
+2020-09-08 02:48:13.731840-04:00: ##    POSITIONS DU1073267   ##
+2020-09-08 02:48:13.731942-04:00: Symbol Amount Cost_basis
+2020-09-08 02:48:13.732086-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-08 02:48:13.732219-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-08 02:48:13.732340-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-08 02:48:13.732462-04:00: ##    NO any order    ##
+2020-09-08 02:48:13.732560-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-08 02:49:01.548087-04:00: IBridgePy.Trader::order_target_percent: EXIT, No real time price is available right now. Market closed? real_time_price=-1.0 security=STK,ISLAND,SMART,AAPL,USD

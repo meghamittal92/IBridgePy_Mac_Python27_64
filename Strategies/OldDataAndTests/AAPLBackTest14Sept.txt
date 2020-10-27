@@ -1,0 +1,13 @@
+######
+AT BEGINNING
+AAPL ask_price=115.17
+Portfolio Value: 100000.0
+Positions Value: 0.0
+Portfolio Cash:100000.0
+ORDERS
+
+POSITIONS
+
+######
+
+ ######

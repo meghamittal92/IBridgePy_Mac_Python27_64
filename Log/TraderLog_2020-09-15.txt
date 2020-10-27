@@ -1,0 +1,6 @@
+2020-09-14 14:35:08.292379-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=977 errorMessage=Please download the latest version of IBridgePy at www.IBridgePy.com For any questions, you may send email to IBridgePy@gmail.com, Thanks
+2020-09-14 14:35:08.292596-04:00: Hint: Please refer to YouTube tutorial https://youtu.be/pson8T5ZaRw
+2020-09-14 14:35:08.292741-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-14 14:41:35.223660-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=977 errorMessage=Please download the latest version of IBridgePy at www.IBridgePy.com For any questions, you may send email to IBridgePy@gmail.com, Thanks
+2020-09-14 14:41:35.225014-04:00: Hint: Please refer to YouTube tutorial https://youtu.be/pson8T5ZaRw
+2020-09-14 14:41:35.225285-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4

@@ -1,0 +1,12 @@
+2020-10-12 09:03:43.335563-04:00: IBridgePy version 10.1.4
+2020-10-12 09:03:43.335925-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-12 09:03:43.366598-04:00: ####    Starting to initialize trader    ####
+2020-10-12 09:03:43.366810-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-12 09:03:43.367006-04:00: CASH=383749.26
+2020-10-12 09:03:43.367137-04:00: portfolio_value=383749.26
+2020-10-12 09:03:43.367277-04:00: positions_value=0.0
+2020-10-12 09:03:43.367392-04:00: ##    NO ANY POSITION    ##
+2020-10-12 09:03:43.367526-04:00: ##    NO any order    ##
+2020-10-12 09:03:43.367653-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-12 14:46:00.178869-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=509 errorMessage=Exception caught while reading socket - Connection reset by peer
+2020-10-12 14:46:00.184246-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4

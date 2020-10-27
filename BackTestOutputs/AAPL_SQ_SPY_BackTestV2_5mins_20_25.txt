@@ -1,0 +1,10 @@
+#######
+AT BEGINNING
+Portfolio Value: 383202.7
+Positions Value: 0.0
+Portfolio Cash:383202.7
+ORDERS
+
+POSITIONS
+
+######

@@ -1,0 +1,647 @@
+2020-10-22 03:26:27.540134-04:00: IBridgePy version 10.1.4
+2020-10-22 03:26:27.541083-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-22 03:26:27.569097-04:00: ####    Starting to initialize trader    ####
+2020-10-22 03:26:27.569332-04:00: ##    ACCOUNT Balance  DU229338  ##
+2020-10-22 03:26:27.569488-04:00: CASH=1037875.11
+2020-10-22 03:26:27.569634-04:00: portfolio_value=1037875.11
+2020-10-22 03:26:27.569753-04:00: positions_value=0.0
+2020-10-22 03:26:27.569883-04:00: ##    POSITIONS DU229338   ##
+2020-10-22 03:26:27.569999-04:00: Symbol Amount Cost_basis
+2020-10-22 03:26:27.570143-04:00: CASH,,,USD,HKD -7000000 7.8392925
+2020-10-22 03:26:27.570317-04:00: CASH,,,EUR,USD -35000 1.083635
+2020-10-22 03:26:27.570475-04:00: ##    NO any order    ##
+2020-10-22 03:26:27.570579-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 03:31:01.182546-04:00: broker_client_factory.CallBacks:errorId=966 errorCode=110 errorMessage=The price does not conform to the minimum price variation for this contract.
+2020-10-22 03:31:01.183217-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-22 03:32:48.152155-04:00: IBridgePy version 10.1.4
+2020-10-22 03:32:48.152671-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-22 03:32:48.159087-04:00: ####    Starting to initialize trader    ####
+2020-10-22 03:32:48.159339-04:00: ##    ACCOUNT Balance  DU229338  ##
+2020-10-22 03:32:48.159485-04:00: CASH=1037875.11
+2020-10-22 03:32:48.159595-04:00: portfolio_value=1037875.11
+2020-10-22 03:32:48.159682-04:00: positions_value=0.0
+2020-10-22 03:32:48.159895-04:00: ##    POSITIONS DU229338   ##
+2020-10-22 03:32:48.159975-04:00: Symbol Amount Cost_basis
+2020-10-22 03:32:48.160136-04:00: CASH,,,USD,HKD -7000000 7.8392925
+2020-10-22 03:32:48.160284-04:00: CASH,,,EUR,USD -35000 1.083635
+2020-10-22 03:32:48.160435-04:00: ##    NO any order    ##
+2020-10-22 03:32:48.160582-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 03:36:02.014664-04:00: broker_client_factory.CallBacks:errorId=973 errorCode=110 errorMessage=The price does not conform to the minimum price variation for this contract.
+2020-10-22 03:36:02.015989-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-22 03:36:23.801012-04:00: IBridgePy version 10.1.4
+2020-10-22 03:36:23.801653-04:00: fileName = DICrossOverMultiThreadedV4.py
+2020-10-22 03:36:23.808406-04:00: ####    Starting to initialize trader    ####
+2020-10-22 03:36:23.808581-04:00: ##    ACCOUNT Balance  DU229338  ##
+2020-10-22 03:36:23.808694-04:00: CASH=1037875.11
+2020-10-22 03:36:23.808767-04:00: portfolio_value=1037875.11
+2020-10-22 03:36:23.808906-04:00: positions_value=0.0
+2020-10-22 03:36:23.809121-04:00: ##    POSITIONS DU229338   ##
+2020-10-22 03:36:23.809243-04:00: Symbol Amount Cost_basis
+2020-10-22 03:36:23.809359-04:00: CASH,,,USD,HKD -7000000 7.8392925
+2020-10-22 03:36:23.809457-04:00: CASH,,,EUR,USD -35000 1.083635
+2020-10-22 03:36:23.809602-04:00: ##    NO any order    ##
+2020-10-22 03:36:23.809704-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 03:41:57.373187-04:00: IBridgePy version 10.1.4
+2020-10-22 03:41:57.373757-04:00: fileName = DICrossOverMultiThreadedV4.py
+2020-10-22 03:41:57.380579-04:00: ####    Starting to initialize trader    ####
+2020-10-22 03:41:57.380757-04:00: ##    ACCOUNT Balance  DU229338  ##
+2020-10-22 03:41:57.380867-04:00: CASH=1037875.11
+2020-10-22 03:41:57.380937-04:00: portfolio_value=1037875.11
+2020-10-22 03:41:57.381057-04:00: positions_value=0.0
+2020-10-22 03:41:57.381217-04:00: ##    POSITIONS DU229338   ##
+2020-10-22 03:41:57.381316-04:00: Symbol Amount Cost_basis
+2020-10-22 03:41:57.381453-04:00: CASH,,,USD,HKD -7000000 7.8392925
+2020-10-22 03:41:57.381550-04:00: CASH,,,EUR,USD -35000 1.083635
+2020-10-22 03:41:57.381698-04:00: ##    NO any order    ##
+2020-10-22 03:41:57.381820-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 03:46:01.184166-04:00: broker_client_factory.CallBacks:errorId=980 errorCode=2109 errorMessage=Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2020-10-22 03:46:01.184860-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-22 03:47:17.158521-04:00: IBridgePy version 10.1.4
+2020-10-22 03:47:17.159223-04:00: fileName = DICrossOverMultiThreadedV4.py
+2020-10-22 03:47:17.169830-04:00: ####    Starting to initialize trader    ####
+2020-10-22 03:47:17.170044-04:00: ##    ACCOUNT Balance  DU229338  ##
+2020-10-22 03:47:17.170163-04:00: CASH=1037875.11
+2020-10-22 03:47:17.170244-04:00: portfolio_value=1037875.11
+2020-10-22 03:47:17.170397-04:00: positions_value=0.0
+2020-10-22 03:47:17.170619-04:00: ##    POSITIONS DU229338   ##
+2020-10-22 03:47:17.170785-04:00: Symbol Amount Cost_basis
+2020-10-22 03:47:17.170979-04:00: CASH,,,USD,HKD -7000000 7.8392925
+2020-10-22 03:47:17.171113-04:00: CASH,,,EUR,USD -35000 1.083635
+2020-10-22 03:47:17.171251-04:00: ##    NO any order    ##
+2020-10-22 03:47:17.171361-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 04:03:37.798883-04:00: IBridgePy version 10.1.4
+2020-10-22 04:03:37.799314-04:00: fileName = DICrossOverMultiThreadedV4.py
+2020-10-22 04:03:37.804964-04:00: ####    Starting to initialize trader    ####
+2020-10-22 04:03:37.805189-04:00: ##    ACCOUNT Balance  DU229338  ##
+2020-10-22 04:03:37.805365-04:00: CASH=1037875.11
+2020-10-22 04:03:37.805494-04:00: portfolio_value=1037875.11
+2020-10-22 04:03:37.805599-04:00: positions_value=0.0
+2020-10-22 04:03:37.805757-04:00: ##    POSITIONS DU229338   ##
+2020-10-22 04:03:37.805865-04:00: Symbol Amount Cost_basis
+2020-10-22 04:03:37.805996-04:00: CASH,,,USD,HKD -7000000 7.8392925
+2020-10-22 04:03:37.806109-04:00: CASH,,,EUR,USD -35000 1.083635
+2020-10-22 04:03:37.806252-04:00: ##    NO any order    ##
+2020-10-22 04:03:37.806361-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 04:11:00.608105-04:00: broker_client_factory.CallBacks:errorId=996 errorCode=110 errorMessage=The price does not conform to the minimum price variation for this contract.
+2020-10-22 04:11:00.609162-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-22 04:16:22.229546-04:00: IBridgePy version 10.1.4
+2020-10-22 04:16:22.230094-04:00: fileName = DICrossOverMultiThreadedV4.py
+2020-10-22 04:16:22.239052-04:00: ####    Starting to initialize trader    ####
+2020-10-22 04:16:22.239266-04:00: ##    ACCOUNT Balance  DU229338  ##
+2020-10-22 04:16:22.239428-04:00: CASH=1037838.28
+2020-10-22 04:16:22.239561-04:00: portfolio_value=1037838.28
+2020-10-22 04:16:22.239673-04:00: positions_value=0.0
+2020-10-22 04:16:22.239898-04:00: ##    POSITIONS DU229338   ##
+2020-10-22 04:16:22.239990-04:00: Symbol Amount Cost_basis
+2020-10-22 04:16:22.240141-04:00: CASH,,,USD,HKD -7000000 7.8392925
+2020-10-22 04:16:22.240277-04:00: CASH,,,EUR,USD 20000 1.18568
+2020-10-22 04:16:22.240415-04:00: ##    NO any order    ##
+2020-10-22 04:16:22.240526-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 05:03:52.140465-04:00: IBridgePy version 10.1.4
+2020-10-22 05:03:52.141418-04:00: fileName = example_get_historical_data.py
+2020-10-22 05:03:52.189531-04:00: ####    Starting to initialize trader    ####
+2020-10-22 05:03:52.190193-04:00: ##    ACCOUNT Balance  DU229338  ##
+2020-10-22 05:03:52.190409-04:00: broker_service_factory.BrokerService_callback::_get_account_info_one_tag: EXIT, no value based on accountCode=DU229338 tag=TotalCashValue meta=value
+2020-10-22 05:04:01.978049-04:00: IBridgePy version 10.1.4
+2020-10-22 05:04:01.978603-04:00: fileName = example_get_historical_data.py
+2020-10-22 05:04:01.985290-04:00: ####    Starting to initialize trader    ####
+2020-10-22 05:04:01.985688-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 05:04:01.985908-04:00: CASH=466142.3
+2020-10-22 05:04:01.986037-04:00: portfolio_value=390608.86
+2020-10-22 05:04:01.986194-04:00: positions_value=75533.44
+2020-10-22 05:04:01.986417-04:00: ##    POSITIONS DU1073267   ##
+2020-10-22 05:04:01.986543-04:00: Symbol Amount Cost_basis
+2020-10-22 05:04:01.986669-04:00: STK,,,SQ,USD -428 181.30917125
+2020-10-22 05:04:01.986948-04:00: ##    NO any order    ##
+2020-10-22 05:04:01.987695-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 05:05:04.740410-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 05:09:01.610797-04:00: ####     Data ingestion starts    ####
+2020-10-22 05:09:51.812732-04:00: ####     Data ingestion starts    ####
+2020-10-22 05:09:51.829611-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 05:09:51.829811-04:00: IBridgePy version 10.1.4
+2020-10-22 05:09:51.829955-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 05:10:34.172533-04:00: ####     Data ingestion starts    ####
+2020-10-22 05:10:34.186370-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 05:10:34.186543-04:00: IBridgePy version 10.1.4
+2020-10-22 05:10:34.186648-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 05:11:16.589908-04:00: ####     Data ingestion starts    ####
+2020-10-22 05:11:16.605179-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 05:11:16.605366-04:00: IBridgePy version 10.1.4
+2020-10-22 05:11:16.605492-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 05:12:01.254400-04:00: ####     Data ingestion starts    ####
+2020-10-22 05:12:01.270538-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 05:12:01.270763-04:00: IBridgePy version 10.1.4
+2020-10-22 05:12:01.270889-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 05:12:01.273343-04:00: ####    Starting to initialize trader    ####
+2020-10-22 05:12:01.273451-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 05:12:01.273608-04:00: CASH=100000.0
+2020-10-22 05:12:01.273699-04:00: portfolio_value=100000.0
+2020-10-22 05:12:01.273841-04:00: positions_value=0.0
+2020-10-22 05:12:01.273962-04:00: ##    NO ANY POSITION    ##
+2020-10-22 05:12:01.274111-04:00: ##    NO any order    ##
+2020-10-22 05:12:01.274214-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 05:12:03.070671-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 05:13:05.173166-04:00: IBridgePy version 10.1.4
+2020-10-22 05:13:05.173731-04:00: fileName = example_get_historical_data.py
+2020-10-22 05:13:05.188040-04:00: ####    Starting to initialize trader    ####
+2020-10-22 05:13:05.188346-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 05:13:05.188501-04:00: CASH=465948.7
+2020-10-22 05:13:05.188618-04:00: portfolio_value=390415.27
+2020-10-22 05:13:05.188795-04:00: positions_value=75533.44
+2020-10-22 05:13:05.189063-04:00: ##    POSITIONS DU1073267   ##
+2020-10-22 05:13:05.189219-04:00: Symbol Amount Cost_basis
+2020-10-22 05:13:05.189375-04:00: STK,,,SQ,USD -428 181.30917125
+2020-10-22 05:13:05.189538-04:00: ##    NO any order    ##
+2020-10-22 05:13:05.189655-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 05:14:18.599061-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 05:16:56.673735-04:00: ####     Data ingestion starts    ####
+2020-10-22 05:16:56.694547-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 05:16:56.694705-04:00: IBridgePy version 10.1.4
+2020-10-22 05:16:56.694827-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 05:16:56.696608-04:00: ####    Starting to initialize trader    ####
+2020-10-22 05:16:56.696791-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 05:16:56.696960-04:00: CASH=100000.0
+2020-10-22 05:16:56.697089-04:00: portfolio_value=100000.0
+2020-10-22 05:16:56.697263-04:00: positions_value=0.0
+2020-10-22 05:16:56.697470-04:00: ##    NO ANY POSITION    ##
+2020-10-22 05:16:56.697589-04:00: ##    NO any order    ##
+2020-10-22 05:16:56.697671-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 05:20:27.327013-04:00: ####     Data ingestion starts    ####
+2020-10-22 05:20:27.346929-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 05:20:27.347130-04:00: IBridgePy version 10.1.4
+2020-10-22 05:20:27.347236-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 05:20:27.348845-04:00: ####    Starting to initialize trader    ####
+2020-10-22 05:20:27.348947-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 05:20:27.349118-04:00: CASH=100000.0
+2020-10-22 05:20:27.349270-04:00: portfolio_value=100000.0
+2020-10-22 05:20:27.349345-04:00: positions_value=0.0
+2020-10-22 05:20:27.349418-04:00: ##    NO ANY POSITION    ##
+2020-10-22 05:20:27.349487-04:00: ##    NO any order    ##
+2020-10-22 05:20:27.349596-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 05:26:24.386354-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 06:20:19.626368-04:00: IBridgePy version 10.1.4
+2020-10-22 06:20:19.627027-04:00: fileName = example_get_historical_data.py
+2020-10-22 06:20:19.632896-04:00: ####    Starting to initialize trader    ####
+2020-10-22 06:20:19.633123-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 06:20:19.633244-04:00: CASH=465947.24
+2020-10-22 06:20:19.633327-04:00: portfolio_value=390413.81
+2020-10-22 06:20:19.633488-04:00: positions_value=75533.44
+2020-10-22 06:20:19.633659-04:00: ##    POSITIONS DU1073267   ##
+2020-10-22 06:20:19.633788-04:00: Symbol Amount Cost_basis
+2020-10-22 06:20:19.633916-04:00: STK,,,SQ,USD -428 181.30917125
+2020-10-22 06:20:19.634066-04:00: ##    NO any order    ##
+2020-10-22 06:20:19.634210-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 06:21:18.793266-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 06:22:00.444974-04:00: IBridgePy version 10.1.4
+2020-10-22 06:22:00.445457-04:00: fileName = example_get_historical_data.py
+2020-10-22 06:22:00.453888-04:00: ####    Starting to initialize trader    ####
+2020-10-22 06:22:00.454186-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 06:22:00.454314-04:00: CASH=466014.7
+2020-10-22 06:22:00.454427-04:00: portfolio_value=390481.26
+2020-10-22 06:22:00.454556-04:00: positions_value=75533.44
+2020-10-22 06:22:00.454695-04:00: ##    POSITIONS DU1073267   ##
+2020-10-22 06:22:00.454784-04:00: Symbol Amount Cost_basis
+2020-10-22 06:22:00.454896-04:00: STK,,,SQ,USD -428 181.30917125
+2020-10-22 06:22:00.455016-04:00: ##    NO any order    ##
+2020-10-22 06:22:00.455109-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 06:22:19.115696-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 06:22:27.328513-04:00: IBridgePy version 10.1.4
+2020-10-22 06:22:27.328787-04:00: fileName = example_get_historical_data.py
+2020-10-22 06:22:27.333022-04:00: ####    Starting to initialize trader    ####
+2020-10-22 06:22:27.333369-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 06:22:27.333507-04:00: CASH=466014.7
+2020-10-22 06:22:27.333587-04:00: portfolio_value=390481.26
+2020-10-22 06:22:27.333657-04:00: positions_value=75533.44
+2020-10-22 06:22:27.333934-04:00: ##    POSITIONS DU1073267   ##
+2020-10-22 06:22:27.334285-04:00: Symbol Amount Cost_basis
+2020-10-22 06:22:27.335303-04:00: STK,,,SQ,USD -428 181.30917125
+2020-10-22 06:22:27.336229-04:00: ##    NO any order    ##
+2020-10-22 06:22:27.336598-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 06:23:19.513500-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 06:23:46.654921-04:00: IBridgePy version 10.1.4
+2020-10-22 06:23:46.655640-04:00: fileName = example_get_historical_data.py
+2020-10-22 06:23:46.661339-04:00: ####    Starting to initialize trader    ####
+2020-10-22 06:23:46.661603-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 06:23:46.661765-04:00: CASH=466052.81
+2020-10-22 06:23:46.661867-04:00: portfolio_value=390519.37
+2020-10-22 06:23:46.661958-04:00: positions_value=75533.44
+2020-10-22 06:23:46.662097-04:00: ##    POSITIONS DU1073267   ##
+2020-10-22 06:23:46.662188-04:00: Symbol Amount Cost_basis
+2020-10-22 06:23:46.662354-04:00: STK,,,SQ,USD -428 181.30917125
+2020-10-22 06:23:46.662574-04:00: ##    NO any order    ##
+2020-10-22 06:23:46.662746-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 06:24:17.163075-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 06:25:02.099434-04:00: ####     Data ingestion starts    ####
+2020-10-22 06:25:02.205736-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 06:25:02.205901-04:00: IBridgePy version 10.1.4
+2020-10-22 06:25:02.206034-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 06:25:02.207174-04:00: ####    Starting to initialize trader    ####
+2020-10-22 06:25:02.207268-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 06:25:02.207452-04:00: CASH=100000.0
+2020-10-22 06:25:02.207537-04:00: portfolio_value=100000.0
+2020-10-22 06:25:02.207620-04:00: positions_value=0.0
+2020-10-22 06:25:02.207693-04:00: ##    NO ANY POSITION    ##
+2020-10-22 06:25:02.207830-04:00: ##    NO any order    ##
+2020-10-22 06:25:02.207954-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 06:58:50.896498-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 07:02:13.306216-04:00: IBridgePy version 10.1.4
+2020-10-22 07:02:13.306614-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 07:02:13.314064-04:00: ####    Starting to initialize trader    ####
+2020-10-22 07:02:13.314271-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 07:02:13.314397-04:00: CASH=466002.96
+2020-10-22 07:02:13.314505-04:00: portfolio_value=390246.96
+2020-10-22 07:02:13.314591-04:00: positions_value=75756.0
+2020-10-22 07:02:13.314724-04:00: ##    POSITIONS DU1073267   ##
+2020-10-22 07:02:13.314800-04:00: Symbol Amount Cost_basis
+2020-10-22 07:02:13.314946-04:00: STK,,,SQ,USD -428 181.30917125
+2020-10-22 07:02:13.315076-04:00: ##    NO any order    ##
+2020-10-22 07:02:13.315173-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 07:17:00.861541-04:00: broker_client_factory.CallBacks:errorId=2923 errorCode=399 errorMessage=Order Message:
+BUY 428 SQ NYSE
+Warning: your order will not be placed at the exchange until 2020-10-22 09:30:00 US/Eastern
+2020-10-22 07:17:00.890005-04:00: broker_client_factory.CallBacks:errorId=2925 errorCode=2137 errorMessage=The closing order quantity is greater than your current position. 
+2020-10-22 07:17:00.890329-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-22 07:30:29.872430-04:00: IBridgePy version 10.1.4
+2020-10-22 07:30:29.873298-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 07:30:29.881600-04:00: ####    Starting to initialize trader    ####
+2020-10-22 07:30:29.882038-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 07:30:29.882345-04:00: CASH=389262.93
+2020-10-22 07:30:29.882561-04:00: portfolio_value=389262.93
+2020-10-22 07:30:29.882873-04:00: positions_value=0.0
+2020-10-22 07:30:29.883236-04:00: ##    NO ANY POSITION    ##
+2020-10-22 07:30:29.883504-04:00: ##    NO any order    ##
+2020-10-22 07:30:29.883744-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 09:17:48.608199-04:00: ####     Data ingestion starts    ####
+2020-10-22 09:17:48.717626-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 09:17:48.717833-04:00: IBridgePy version 10.1.4
+2020-10-22 09:17:48.717976-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 09:17:48.719957-04:00: ####    Starting to initialize trader    ####
+2020-10-22 09:17:48.720105-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 09:17:48.720304-04:00: CASH=100000.0
+2020-10-22 09:17:48.720457-04:00: portfolio_value=100000.0
+2020-10-22 09:17:48.720576-04:00: positions_value=0.0
+2020-10-22 09:17:48.720668-04:00: ##    NO ANY POSITION    ##
+2020-10-22 09:17:48.720829-04:00: ##    NO any order    ##
+2020-10-22 09:17:48.720916-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 09:19:44.551483-04:00: ####     Data ingestion starts    ####
+2020-10-22 09:19:44.661292-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 09:19:44.661450-04:00: IBridgePy version 10.1.4
+2020-10-22 09:19:44.661543-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 09:19:44.662536-04:00: ####    Starting to initialize trader    ####
+2020-10-22 09:19:44.662632-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 09:19:44.662838-04:00: CASH=100000.0
+2020-10-22 09:19:44.662923-04:00: portfolio_value=100000.0
+2020-10-22 09:19:44.662996-04:00: positions_value=0.0
+2020-10-22 09:19:44.663069-04:00: ##    NO ANY POSITION    ##
+2020-10-22 09:19:44.663185-04:00: ##    NO any order    ##
+2020-10-22 09:19:44.663273-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 09:22:40.089530-04:00: ####     Data ingestion starts    ####
+2020-10-22 09:22:40.193940-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 09:22:40.194325-04:00: IBridgePy version 10.1.4
+2020-10-22 09:22:40.194648-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 09:22:40.196532-04:00: ####    Starting to initialize trader    ####
+2020-10-22 09:22:40.196702-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 09:22:40.196865-04:00: CASH=100000.0
+2020-10-22 09:22:40.197239-04:00: portfolio_value=100000.0
+2020-10-22 09:22:40.197364-04:00: positions_value=0.0
+2020-10-22 09:22:40.197530-04:00: ##    NO ANY POSITION    ##
+2020-10-22 09:22:40.197655-04:00: ##    NO any order    ##
+2020-10-22 09:22:40.197741-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 10:05:11.124957-04:00: IBridgePy version 10.1.4
+2020-10-22 10:05:11.125503-04:00: fileName = example_get_historical_data.py
+2020-10-22 10:05:11.141825-04:00: ####    Starting to initialize trader    ####
+2020-10-22 10:05:11.142019-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 10:05:11.142191-04:00: CASH=389399.28
+2020-10-22 10:05:11.142296-04:00: portfolio_value=389399.28
+2020-10-22 10:05:11.142441-04:00: positions_value=0.0
+2020-10-22 10:05:11.142556-04:00: ##    NO ANY POSITION    ##
+2020-10-22 10:05:11.142673-04:00: ##    NO any order    ##
+2020-10-22 10:05:11.142762-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 10:06:21.577910-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 10:15:10.322030-04:00: ####     Data ingestion starts    ####
+2020-10-22 10:15:10.440229-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 10:15:10.440393-04:00: IBridgePy version 10.1.4
+2020-10-22 10:15:10.440502-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 10:15:10.441729-04:00: ####    Starting to initialize trader    ####
+2020-10-22 10:15:10.441833-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 10:15:10.441980-04:00: CASH=100000.0
+2020-10-22 10:15:10.442072-04:00: portfolio_value=100000.0
+2020-10-22 10:15:10.442220-04:00: positions_value=0.0
+2020-10-22 10:15:10.442392-04:00: ##    NO ANY POSITION    ##
+2020-10-22 10:15:10.442577-04:00: ##    NO any order    ##
+2020-10-22 10:15:10.442675-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 10:15:47.362164-04:00: ####     Data ingestion starts    ####
+2020-10-22 10:15:47.469312-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 10:15:47.469507-04:00: IBridgePy version 10.1.4
+2020-10-22 10:15:47.469619-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 10:15:47.470681-04:00: ####    Starting to initialize trader    ####
+2020-10-22 10:15:47.470805-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 10:15:47.470941-04:00: CASH=100000.0
+2020-10-22 10:15:47.471016-04:00: portfolio_value=100000.0
+2020-10-22 10:15:47.471191-04:00: positions_value=0.0
+2020-10-22 10:15:47.471330-04:00: ##    NO ANY POSITION    ##
+2020-10-22 10:15:47.471438-04:00: ##    NO any order    ##
+2020-10-22 10:15:47.471548-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 10:47:20.825517-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 11:47:21.916627-04:00: ####     Data ingestion starts    ####
+2020-10-22 11:47:21.964784-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 11:47:21.964971-04:00: IBridgePy version 10.1.4
+2020-10-22 11:47:21.965083-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 11:47:21.966908-04:00: ####    Starting to initialize trader    ####
+2020-10-22 11:47:21.967024-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 11:47:21.967154-04:00: CASH=100000.0
+2020-10-22 11:47:21.967241-04:00: portfolio_value=100000.0
+2020-10-22 11:47:21.967375-04:00: positions_value=0.0
+2020-10-22 11:47:21.967490-04:00: ##    NO ANY POSITION    ##
+2020-10-22 11:47:21.967626-04:00: ##    NO any order    ##
+2020-10-22 11:47:21.967702-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 11:58:03.217468-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-22 12:40:11.824403-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:40:11.867146-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:40:11.867336-04:00: IBridgePy version 10.1.4
+2020-10-22 12:40:11.867489-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:40:11.871065-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:40:11.871204-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:40:11.871357-04:00: CASH=100000.0
+2020-10-22 12:40:11.871452-04:00: portfolio_value=100000.0
+2020-10-22 12:40:11.871588-04:00: positions_value=0.0
+2020-10-22 12:40:11.871697-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:40:11.871825-04:00: ##    NO any order    ##
+2020-10-22 12:40:11.871927-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:46:06.914928-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:46:06.960914-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:46:06.961091-04:00: IBridgePy version 10.1.4
+2020-10-22 12:46:06.961222-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:46:06.962989-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:46:06.963089-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:46:06.963267-04:00: CASH=100000.0
+2020-10-22 12:46:06.963350-04:00: portfolio_value=100000.0
+2020-10-22 12:46:06.963457-04:00: positions_value=0.0
+2020-10-22 12:46:06.963600-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:46:06.963691-04:00: ##    NO any order    ##
+2020-10-22 12:46:06.963760-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:46:24.888922-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:46:24.957936-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:46:24.958331-04:00: IBridgePy version 10.1.4
+2020-10-22 12:46:24.958433-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:46:24.966331-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:46:24.966665-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:46:24.967021-04:00: CASH=100000.0
+2020-10-22 12:46:24.967265-04:00: portfolio_value=100000.0
+2020-10-22 12:46:24.967508-04:00: positions_value=0.0
+2020-10-22 12:46:24.967907-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:46:24.968412-04:00: ##    NO any order    ##
+2020-10-22 12:46:24.968692-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:46:47.383302-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:46:47.450734-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:46:47.451139-04:00: IBridgePy version 10.1.4
+2020-10-22 12:46:47.451240-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:46:47.455782-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:46:47.456035-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:46:47.456282-04:00: CASH=100000.0
+2020-10-22 12:46:47.456400-04:00: portfolio_value=100000.0
+2020-10-22 12:46:47.456553-04:00: positions_value=0.0
+2020-10-22 12:46:47.456740-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:46:47.456891-04:00: ##    NO any order    ##
+2020-10-22 12:46:47.456984-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:48:20.354933-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:48:20.397054-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:48:20.397227-04:00: IBridgePy version 10.1.4
+2020-10-22 12:48:20.397343-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:48:20.398942-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:48:20.399053-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:48:20.399183-04:00: CASH=100000.0
+2020-10-22 12:48:20.399255-04:00: portfolio_value=100000.0
+2020-10-22 12:48:20.399418-04:00: positions_value=0.0
+2020-10-22 12:48:20.399531-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:48:20.399655-04:00: ##    NO any order    ##
+2020-10-22 12:48:20.399743-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:49:07.485281-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:49:07.525088-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:49:07.525263-04:00: IBridgePy version 10.1.4
+2020-10-22 12:49:07.525939-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:49:07.528330-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:49:07.528497-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:49:07.528682-04:00: CASH=100000.0
+2020-10-22 12:49:07.528837-04:00: portfolio_value=100000.0
+2020-10-22 12:49:07.528983-04:00: positions_value=0.0
+2020-10-22 12:49:07.529148-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:49:07.529260-04:00: ##    NO any order    ##
+2020-10-22 12:49:07.529403-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:51:02.325361-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:51:02.374851-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:51:02.375228-04:00: IBridgePy version 10.1.4
+2020-10-22 12:51:02.375333-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:51:02.378420-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:51:02.378600-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:51:02.378853-04:00: CASH=100000.0
+2020-10-22 12:51:02.379041-04:00: portfolio_value=100000.0
+2020-10-22 12:51:02.379177-04:00: positions_value=0.0
+2020-10-22 12:51:02.379290-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:51:02.379414-04:00: ##    NO any order    ##
+2020-10-22 12:51:02.379508-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:52:52.666831-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:52:52.710073-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:52:52.710259-04:00: IBridgePy version 10.1.4
+2020-10-22 12:52:52.710346-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:52:52.712699-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:52:52.712821-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:52:52.713005-04:00: CASH=100000.0
+2020-10-22 12:52:52.713094-04:00: portfolio_value=100000.0
+2020-10-22 12:52:52.713200-04:00: positions_value=0.0
+2020-10-22 12:52:52.713333-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:52:52.713448-04:00: ##    NO any order    ##
+2020-10-22 12:52:52.713567-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:53:56.996621-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:53:57.037191-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:53:57.037353-04:00: IBridgePy version 10.1.4
+2020-10-22 12:53:57.037481-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:53:57.038732-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:53:57.038862-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:53:57.039000-04:00: CASH=100000.0
+2020-10-22 12:53:57.039089-04:00: portfolio_value=100000.0
+2020-10-22 12:53:57.039229-04:00: positions_value=0.0
+2020-10-22 12:53:57.039335-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:53:57.039473-04:00: ##    NO any order    ##
+2020-10-22 12:53:57.039541-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:57:26.911461-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:57:26.954419-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:57:26.954581-04:00: IBridgePy version 10.1.4
+2020-10-22 12:57:26.954730-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:57:26.960111-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:57:26.960241-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:57:26.960422-04:00: CASH=100000.0
+2020-10-22 12:57:26.960509-04:00: portfolio_value=100000.0
+2020-10-22 12:57:26.960577-04:00: positions_value=0.0
+2020-10-22 12:57:26.960670-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:57:26.960738-04:00: ##    NO any order    ##
+2020-10-22 12:57:26.960798-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 12:59:10.883435-04:00: ####     Data ingestion starts    ####
+2020-10-22 12:59:10.926590-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 12:59:10.926777-04:00: IBridgePy version 10.1.4
+2020-10-22 12:59:10.926894-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 12:59:10.928705-04:00: ####    Starting to initialize trader    ####
+2020-10-22 12:59:10.928886-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 12:59:10.929014-04:00: CASH=100000.0
+2020-10-22 12:59:10.929095-04:00: portfolio_value=100000.0
+2020-10-22 12:59:10.929172-04:00: positions_value=0.0
+2020-10-22 12:59:10.929295-04:00: ##    NO ANY POSITION    ##
+2020-10-22 12:59:10.929404-04:00: ##    NO any order    ##
+2020-10-22 12:59:10.929547-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:00:21.290277-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:00:21.348676-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:00:21.348880-04:00: IBridgePy version 10.1.4
+2020-10-22 13:00:21.348972-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:00:21.350922-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:00:21.351133-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:00:21.351443-04:00: CASH=100000.0
+2020-10-22 13:00:21.351595-04:00: portfolio_value=100000.0
+2020-10-22 13:00:21.352337-04:00: positions_value=0.0
+2020-10-22 13:00:21.352558-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:00:21.352799-04:00: ##    NO any order    ##
+2020-10-22 13:00:21.352996-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:00:53.120778-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:00:53.163344-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:00:53.163577-04:00: IBridgePy version 10.1.4
+2020-10-22 13:00:53.163684-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:00:53.165117-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:00:53.165283-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:00:53.165467-04:00: CASH=100000.0
+2020-10-22 13:00:53.165586-04:00: portfolio_value=100000.0
+2020-10-22 13:00:53.165703-04:00: positions_value=0.0
+2020-10-22 13:00:53.165808-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:00:53.165938-04:00: ##    NO any order    ##
+2020-10-22 13:00:53.166087-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:01:26.626657-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:01:26.667105-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:01:26.667271-04:00: IBridgePy version 10.1.4
+2020-10-22 13:01:26.667381-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:01:26.669079-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:01:26.669185-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:01:26.669322-04:00: CASH=100000.0
+2020-10-22 13:01:26.669403-04:00: portfolio_value=100000.0
+2020-10-22 13:01:26.669540-04:00: positions_value=0.0
+2020-10-22 13:01:26.669646-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:01:26.669777-04:00: ##    NO any order    ##
+2020-10-22 13:01:26.669867-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:04:58.811218-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:04:58.856879-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:04:58.857054-04:00: IBridgePy version 10.1.4
+2020-10-22 13:04:58.857187-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:04:58.858545-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:04:58.858645-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:04:58.858821-04:00: CASH=100000.0
+2020-10-22 13:04:58.858914-04:00: portfolio_value=100000.0
+2020-10-22 13:04:58.859010-04:00: positions_value=0.0
+2020-10-22 13:04:58.859089-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:04:58.859275-04:00: ##    NO any order    ##
+2020-10-22 13:04:58.859377-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:09:27.611580-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:09:27.652597-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:09:27.652761-04:00: IBridgePy version 10.1.4
+2020-10-22 13:09:27.652873-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:09:27.654833-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:09:27.654964-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:09:27.655143-04:00: CASH=100000.0
+2020-10-22 13:09:27.655218-04:00: portfolio_value=100000.0
+2020-10-22 13:09:27.655284-04:00: positions_value=0.0
+2020-10-22 13:09:27.655354-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:09:27.655436-04:00: ##    NO any order    ##
+2020-10-22 13:09:27.655497-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:10:51.994460-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:10:52.035845-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:10:52.036011-04:00: IBridgePy version 10.1.4
+2020-10-22 13:10:52.036125-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:10:52.039061-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:10:52.039189-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:10:52.039356-04:00: CASH=100000.0
+2020-10-22 13:10:52.039431-04:00: portfolio_value=100000.0
+2020-10-22 13:10:52.039572-04:00: positions_value=0.0
+2020-10-22 13:10:52.039686-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:10:52.039766-04:00: ##    NO any order    ##
+2020-10-22 13:10:52.039864-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:12:12.489763-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:12:12.534512-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:12:12.534688-04:00: IBridgePy version 10.1.4
+2020-10-22 13:12:12.534795-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:12:12.536533-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:12:12.536648-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:12:12.536794-04:00: CASH=100000.0
+2020-10-22 13:12:12.536867-04:00: portfolio_value=100000.0
+2020-10-22 13:12:12.537032-04:00: positions_value=0.0
+2020-10-22 13:12:12.537131-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:12:12.537216-04:00: ##    NO any order    ##
+2020-10-22 13:12:12.537364-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:13:55.690620-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:13:55.736523-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:13:55.736700-04:00: IBridgePy version 10.1.4
+2020-10-22 13:13:55.736824-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:13:55.738815-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:13:55.738917-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:13:55.739142-04:00: CASH=100000.0
+2020-10-22 13:13:55.739245-04:00: portfolio_value=100000.0
+2020-10-22 13:13:55.739373-04:00: positions_value=0.0
+2020-10-22 13:13:55.739473-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:13:55.739587-04:00: ##    NO any order    ##
+2020-10-22 13:13:55.739662-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:14:36.944111-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:14:36.986300-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:14:36.986485-04:00: IBridgePy version 10.1.4
+2020-10-22 13:14:36.986613-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:14:36.987989-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:14:36.988124-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:14:36.988286-04:00: CASH=100000.0
+2020-10-22 13:14:36.988377-04:00: portfolio_value=100000.0
+2020-10-22 13:14:36.988446-04:00: positions_value=0.0
+2020-10-22 13:14:36.988556-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:14:36.988656-04:00: ##    NO any order    ##
+2020-10-22 13:14:36.988752-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:18:21.762718-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:18:21.804864-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:18:21.805038-04:00: IBridgePy version 10.1.4
+2020-10-22 13:18:21.805169-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:18:21.807646-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:18:21.807749-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:18:21.807924-04:00: CASH=100000.0
+2020-10-22 13:18:21.808071-04:00: portfolio_value=100000.0
+2020-10-22 13:18:21.808201-04:00: positions_value=0.0
+2020-10-22 13:18:21.808716-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:18:21.808827-04:00: ##    NO any order    ##
+2020-10-22 13:18:21.808961-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:28:20.271520-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:28:20.312653-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:28:20.312819-04:00: IBridgePy version 10.1.4
+2020-10-22 13:28:20.312934-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:28:20.315803-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:28:20.315966-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:28:20.316121-04:00: CASH=100000.0
+2020-10-22 13:28:20.316238-04:00: portfolio_value=100000.0
+2020-10-22 13:28:20.316373-04:00: positions_value=0.0
+2020-10-22 13:28:20.316489-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:28:20.316623-04:00: ##    NO any order    ##
+2020-10-22 13:28:20.316700-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:29:57.633763-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:29:57.676786-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:29:57.676980-04:00: IBridgePy version 10.1.4
+2020-10-22 13:29:57.677081-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:29:57.679232-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:29:57.679384-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:29:57.679539-04:00: CASH=100000.0
+2020-10-22 13:29:57.679628-04:00: portfolio_value=100000.0
+2020-10-22 13:29:57.679774-04:00: positions_value=0.0
+2020-10-22 13:29:57.679906-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:29:57.680019-04:00: ##    NO any order    ##
+2020-10-22 13:29:57.680106-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:36:21.051500-04:00: ####     Data ingestion starts    ####
+2020-10-22 13:36:21.090956-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-22 13:36:21.091103-04:00: IBridgePy version 10.1.4
+2020-10-22 13:36:21.091185-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-22 13:36:21.092279-04:00: ####    Starting to initialize trader    ####
+2020-10-22 13:36:21.092369-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-22 13:36:21.092511-04:00: CASH=100000.0
+2020-10-22 13:36:21.092605-04:00: portfolio_value=100000.0
+2020-10-22 13:36:21.092708-04:00: positions_value=0.0
+2020-10-22 13:36:21.092787-04:00: ##    NO ANY POSITION    ##
+2020-10-22 13:36:21.092874-04:00: ##    NO any order    ##
+2020-10-22 13:36:21.092976-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-22 13:47:22.015061-04:00: IBridgePy.MarketManagerBase::run: END

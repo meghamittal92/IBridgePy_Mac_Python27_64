@@ -1,0 +1,15 @@
+#######
+AT BEGINNING
+Portfolio Value: 380197.72
+Positions Value: 172740.06
+Portfolio Cash:552987.97
+ORDERS
+{permId=ib0 status=Submitted order={account=DU1073267 action=BUY orderType=LMT amount=1154 tif=DAY orderRef=ActivityMonitor limitPrice=163.89} contract={STK,,SMART,SQ,USD}}
+$$Filled Time : None,Avg filled price:163.89,Amount:1154
+
+POSITIONS
+STK,,,SQ,USD -1054 164.38398075
+
+######
+
+stime is 2020-09-30 06:36:00-04:00

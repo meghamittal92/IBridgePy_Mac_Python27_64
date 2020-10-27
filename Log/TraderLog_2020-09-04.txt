@@ -1,0 +1,98 @@
+2020-09-04 04:40:09.260362-04:00: IBridgePy version 10.1.4
+2020-09-04 04:40:09.260685-04:00: fileName = moving_average_crossover.py
+2020-09-04 04:40:09.268926-04:00: ####    Starting to initialize trader    ####
+2020-09-04 04:40:09.269224-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-04 04:40:09.269412-04:00: CASH=299658.96
+2020-09-04 04:40:09.269527-04:00: portfolio_value=345285.22
+2020-09-04 04:40:09.269648-04:00: positions_value=45626.26
+2020-09-04 04:40:09.269853-04:00: ##    POSITIONS DU1073267   ##
+2020-09-04 04:40:09.269945-04:00: Symbol Amount Cost_basis
+2020-09-04 04:40:09.270093-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-04 04:40:09.270215-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-04 04:40:09.270329-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-04 04:40:09.270415-04:00: CASH,,,EUR,USD 291377 1.1845049
+2020-09-04 04:40:09.270560-04:00: ##    NO any order    ##
+2020-09-04 04:40:09.271194-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-04 04:49:42.479332-04:00: broker_client_factory.CallBacks:errorId=122 errorCode=2137 errorMessage=The closing order quantity is greater than your current position. 
+2020-09-04 04:49:42.480395-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-04 04:51:15.025909-04:00: IBridgePy version 10.1.4
+2020-09-04 04:51:15.026441-04:00: fileName = moving_average_crossover.py
+2020-09-04 04:51:15.032021-04:00: ####    Starting to initialize trader    ####
+2020-09-04 04:51:15.032225-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-04 04:51:15.032389-04:00: CASH=299887.15
+2020-09-04 04:51:15.032525-04:00: portfolio_value=345501.88
+2020-09-04 04:51:15.032705-04:00: positions_value=45614.73
+2020-09-04 04:51:15.032889-04:00: ##    POSITIONS DU1073267   ##
+2020-09-04 04:51:15.032966-04:00: Symbol Amount Cost_basis
+2020-09-04 04:51:15.033132-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-04 04:51:15.033255-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-04 04:51:15.033343-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-04 04:51:15.033410-04:00: CASH,,,EUR,USD -291451 1.18543
+2020-09-04 04:51:15.033493-04:00: ##    NO any order    ##
+2020-09-04 04:51:15.033587-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-04 05:04:13.207181-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-04 05:04:13.209096-04:00: {reqId=181;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:5 secs,goBack:1 D,timezoneOfReturn:US/Eastern,endTime:,whatToShow:ASK,formatDate:1,security:CASH,IDEALPRO,IDEALPRO,EUR,USD,useRTH:1,}}
+2020-09-04 05:04:13.209312-04:00: Hint 1: The most common reason is that IB historical data service is not available at this moment, especially when US market is closed. Try the request later.
+2020-09-04 05:04:13.209494-04:00: Hint 2: The less common reason is that IB server does not response if the request violates IB rules about bar size. Refer to http://interactivebrokers.github.io/tws-api/historical_limitations.html#non-available_hd
+2020-09-04 08:49:51.922360-04:00: IBridgePy version 10.1.4
+2020-09-04 08:49:51.923211-04:00: fileName = moving_average_crossover.py
+2020-09-04 08:49:51.957027-04:00: ####    Starting to initialize trader    ####
+2020-09-04 08:49:51.957253-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-04 08:49:51.957404-04:00: CASH=299094.62
+2020-09-04 08:49:51.957519-04:00: portfolio_value=344848.6
+2020-09-04 08:49:51.957659-04:00: positions_value=45753.98
+2020-09-04 08:49:51.957822-04:00: ##    POSITIONS DU1073267   ##
+2020-09-04 08:49:51.957909-04:00: Symbol Amount Cost_basis
+2020-09-04 08:49:51.958050-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-04 08:49:51.958145-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-04 08:49:51.958260-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-04 08:49:51.958336-04:00: CASH,,,EUR,USD 218413 1.18616745
+2020-09-04 08:49:51.958575-04:00: ##    NO any order    ##
+2020-09-04 08:49:51.958681-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-04 08:52:55.921016-04:00: IBridgePy version 10.1.4
+2020-09-04 08:52:55.921572-04:00: fileName = moving_average_crossover.py
+2020-09-04 08:52:55.926887-04:00: ####    Starting to initialize trader    ####
+2020-09-04 08:52:55.927237-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-04 08:52:55.927369-04:00: CASH=298807.82
+2020-09-04 08:52:55.927482-04:00: portfolio_value=344581.3
+2020-09-04 08:52:55.927570-04:00: positions_value=45773.48
+2020-09-04 08:52:55.927713-04:00: ##    POSITIONS DU1073267   ##
+2020-09-04 08:52:55.927803-04:00: Symbol Amount Cost_basis
+2020-09-04 08:52:55.927940-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-04 08:52:55.928036-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-04 08:52:55.928166-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-04 08:52:55.928280-04:00: CASH,,,EUR,USD 218413 1.18616745
+2020-09-04 08:52:55.928425-04:00: ##    NO any order    ##
+2020-09-04 08:52:55.928504-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-04 09:13:27.050470-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-04 09:13:27.054316-04:00: {reqId=256;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:1 min,goBack:1 D,timezoneOfReturn:US/Eastern,endTime:,whatToShow:ASK,formatDate:1,security:CASH,IDEALPRO,IDEALPRO,EUR,USD,useRTH:1,}}
+2020-09-04 09:13:27.055421-04:00: Hint: Connection to Hist Data Farm is broken.
+2020-09-04 09:42:20.098814-04:00: IBridgePy version 10.1.4
+2020-09-04 09:42:20.099477-04:00: fileName = moving_average_crossover.py
+2020-09-04 09:42:20.104683-04:00: ####    Starting to initialize trader    ####
+2020-09-04 09:42:20.104934-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-04 09:42:20.105141-04:00: CASH=299213.92
+2020-09-04 09:42:20.105275-04:00: portfolio_value=345169.42
+2020-09-04 09:42:20.105396-04:00: positions_value=45955.51
+2020-09-04 09:42:20.105601-04:00: ##    POSITIONS DU1073267   ##
+2020-09-04 09:42:20.105706-04:00: Symbol Amount Cost_basis
+2020-09-04 09:42:20.105816-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-04 09:42:20.105882-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-04 09:42:20.106005-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-04 09:42:20.106138-04:00: CASH,,,EUR,USD -291362 1.18196505
+2020-09-04 09:42:20.106267-04:00: ##    NO any order    ##
+2020-09-04 09:42:20.106365-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-04 09:42:50.107399-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-04 09:42:50.107816-04:00: {reqId=201;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:1 min,goBack:1 D,timezoneOfReturn:US/Eastern,endTime:,whatToShow:ASK,formatDate:1,security:CASH,IDEALPRO,IDEALPRO,EUR,USD,useRTH:1,}}
+2020-09-04 09:42:50.108740-04:00: Hint 1: The most common reason is that IB historical data service is not available at this moment, especially when US market is closed. Try the request later.
+2020-09-04 09:42:50.109367-04:00: Hint 2: The less common reason is that IB server does not response if the request violates IB rules about bar size. Refer to http://interactivebrokers.github.io/tws-api/historical_limitations.html#non-available_hd
+2020-09-04 10:36:20.994747-04:00: IBridgePy version 10.1.4
+2020-09-04 10:36:20.996326-04:00: fileName = moving_average_crossover.py
+2020-09-04 10:36:21.017424-04:00: ####    Starting to initialize trader    ####
+2020-09-04 10:36:21.017771-04:00: ##    ACCOUNT Balance  DU229370  ##
+2020-09-04 10:36:21.017975-04:00: CASH=1037875.11
+2020-09-04 10:36:21.018096-04:00: portfolio_value=1037875.11
+2020-09-04 10:36:21.018233-04:00: positions_value=0.0
+2020-09-04 10:36:21.018751-04:00: ##    NO ANY POSITION    ##
+2020-09-04 10:36:21.018893-04:00: ##    NO any order    ##
+2020-09-04 10:36:21.019001-04:00: ####    Initialize trader COMPLETED    ####

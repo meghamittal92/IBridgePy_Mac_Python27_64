@@ -1,0 +1,69 @@
+2020-10-20 08:27:06.625747-04:00: IBridgePy version 10.1.4
+2020-10-20 08:27:06.626557-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-20 08:27:06.680343-04:00: ####    Starting to initialize trader    ####
+2020-10-20 08:27:06.680545-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-20 08:27:06.680671-04:00: CASH=459444.05
+2020-10-20 08:27:06.680755-04:00: portfolio_value=382748.21
+2020-10-20 08:27:06.680828-04:00: positions_value=76695.84
+2020-10-20 08:27:06.680956-04:00: ##    POSITIONS DU1073267   ##
+2020-10-20 08:27:06.681025-04:00: Symbol Amount Cost_basis
+2020-10-20 08:27:06.681103-04:00: STK,,,SQ,USD -408 187.8014691
+2020-10-20 08:27:06.681199-04:00: ##    NO any order    ##
+2020-10-20 08:27:06.681275-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-20 08:37:31.004783-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, waiting time is too long, >30
+2020-10-20 08:37:31.006282-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, ibpyOrderId=ib2865 status=PreSubmitted contract={STK,,SMART,SQ,USD}
+2020-10-20 08:39:10.682402-04:00: IBridgePy version 10.1.4
+2020-10-20 08:39:10.682894-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-20 08:39:10.689215-04:00: ####    Starting to initialize trader    ####
+2020-10-20 08:39:10.689348-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-20 08:39:10.689484-04:00: CASH=459564.12
+2020-10-20 08:39:10.689590-04:00: portfolio_value=382913.16
+2020-10-20 08:39:10.689705-04:00: positions_value=76650.96
+2020-10-20 08:39:10.689825-04:00: ##    POSITIONS DU1073267   ##
+2020-10-20 08:39:10.689912-04:00: Symbol Amount Cost_basis
+2020-10-20 08:39:10.690015-04:00: STK,,,SQ,USD -408 187.8014691
+2020-10-20 08:39:10.690126-04:00: ##    Order Status DU1073267   ##
+2020-10-20 08:39:10.690269-04:00: {ibpyOrderId=ib2865 status=PreSubmitted order={account=DU1073267 action=BUY orderType=LMT amount=408 tif=DAY orderRef= limitPrice=188.11} contract={STK,,SMART,SQ,USD}}
+2020-10-20 08:39:10.690402-04:00: ##    END    ##
+2020-10-20 08:39:10.690510-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-20 08:43:09.120132-04:00: IBridgePy version 10.1.4
+2020-10-20 08:43:09.120640-04:00: fileName = example_get_historical_data.py
+2020-10-20 08:43:09.124086-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=326 errorMessage=Unable to connect as the client id is already in use. Retry with a unique client id.
+2020-10-20 08:43:09.124267-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-20 08:43:18.996506-04:00: IBridgePy version 10.1.4
+2020-10-20 08:43:18.996914-04:00: fileName = example_get_historical_data.py
+2020-10-20 08:43:19.005252-04:00: ####    Starting to initialize trader    ####
+2020-10-20 08:43:19.005513-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-20 08:43:19.005710-04:00: CASH=459495.29
+2020-10-20 08:43:19.005866-04:00: portfolio_value=382832.1
+2020-10-20 08:43:19.006018-04:00: positions_value=76663.2
+2020-10-20 08:43:19.006458-04:00: ##    POSITIONS DU1073267   ##
+2020-10-20 08:43:19.006860-04:00: Symbol Amount Cost_basis
+2020-10-20 08:43:19.007151-04:00: STK,,,SQ,USD -408 187.8014691
+2020-10-20 08:43:19.008545-04:00: ##    NO any order    ##
+2020-10-20 08:43:19.008716-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-20 08:44:05.152676-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-20 08:49:37.029485-04:00: IBridgePy version 10.1.4
+2020-10-20 08:49:37.030060-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-20 08:49:37.049906-04:00: ####    Starting to initialize trader    ####
+2020-10-20 08:49:37.050051-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-20 08:49:37.050150-04:00: CASH=459612.46
+2020-10-20 08:49:37.050223-04:00: portfolio_value=382847.26
+2020-10-20 08:49:37.050388-04:00: positions_value=76765.2
+2020-10-20 08:49:37.050510-04:00: ##    POSITIONS DU1073267   ##
+2020-10-20 08:49:37.050604-04:00: Symbol Amount Cost_basis
+2020-10-20 08:49:37.050726-04:00: STK,,,SQ,USD -408 187.8014691
+2020-10-20 08:49:37.050824-04:00: ##    NO any order    ##
+2020-10-20 08:49:37.051423-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-20 08:51:14.229988-04:00: IBridgePy version 10.1.4
+2020-10-20 08:51:14.231367-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-20 08:51:14.238198-04:00: ####    Starting to initialize trader    ####
+2020-10-20 08:51:14.238354-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-20 08:51:14.238455-04:00: CASH=459619.8
+2020-10-20 08:51:14.238527-04:00: portfolio_value=382854.6
+2020-10-20 08:51:14.238663-04:00: positions_value=76765.2
+2020-10-20 08:51:14.238823-04:00: ##    POSITIONS DU1073267   ##
+2020-10-20 08:51:14.239029-04:00: Symbol Amount Cost_basis
+2020-10-20 08:51:14.239147-04:00: STK,,,SQ,USD -408 187.8014691
+2020-10-20 08:51:14.239252-04:00: ##    NO any order    ##
+2020-10-20 08:51:14.239326-04:00: ####    Initialize trader COMPLETED    ####

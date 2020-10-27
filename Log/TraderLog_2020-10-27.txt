@@ -1,0 +1,28 @@
+2020-10-27 04:40:33.295800-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=977 errorMessage=Please download the latest version of IBridgePy at www.IBridgePy.com For any questions, you may send email to IBridgePy@gmail.com, Thanks
+2020-10-27 04:40:33.296285-04:00: Hint: Please refer to YouTube tutorial https://youtu.be/pson8T5ZaRw
+2020-10-27 04:40:33.296420-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-27 04:41:49.042563-04:00: ####     Data ingestion starts    ####
+2020-10-27 04:41:49.082848-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-27 04:41:49.083022-04:00: IBridgePy version 10.1.4
+2020-10-27 04:41:49.083108-04:00: fileName = DICrossOverMultiThreadedV5.py
+2020-10-27 04:41:49.089230-04:00: ####    Starting to initialize trader    ####
+2020-10-27 04:41:49.089362-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-27 04:41:49.089508-04:00: CASH=100000.0
+2020-10-27 04:41:49.089593-04:00: portfolio_value=100000.0
+2020-10-27 04:41:49.089713-04:00: positions_value=0.0
+2020-10-27 04:41:49.089805-04:00: ##    NO ANY POSITION    ##
+2020-10-27 04:41:49.089922-04:00: ##    NO any order    ##
+2020-10-27 04:41:49.090021-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-27 04:54:33.685558-04:00: IBridgePy.MarketManagerBase::run: END
+2020-10-27 04:54:39.915184-04:00: ####     Data ingestion starts    ####
+2020-10-27 04:54:39.950020-04:00: ####     Data ingestion COMPLETED    ####
+2020-10-27 04:54:39.950218-04:00: IBridgePy version 10.1.4
+2020-10-27 04:54:39.950317-04:00: fileName = DICrossOverMultiThreadedV6.py
+2020-10-27 04:54:39.951774-04:00: ####    Starting to initialize trader    ####
+2020-10-27 04:54:39.951884-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-27 04:54:39.952017-04:00: CASH=100000.0
+2020-10-27 04:54:39.952109-04:00: portfolio_value=100000.0
+2020-10-27 04:54:39.952196-04:00: positions_value=0.0
+2020-10-27 04:54:39.952359-04:00: ##    NO ANY POSITION    ##
+2020-10-27 04:54:39.952459-04:00: ##    NO any order    ##
+2020-10-27 04:54:39.952568-04:00: ####    Initialize trader COMPLETED    ####

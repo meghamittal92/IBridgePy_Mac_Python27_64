@@ -1,0 +1,16 @@
+#######
+AT BEGINNING
+Portfolio Value: 379914.49
+Positions Value: 189140.59
+Portfolio Cash:569105.27
+ORDERS
+{ibpyOrderId=ib2496 status=PreSubmitted order={account=DU1073267 action=BUY orderType=MKT amount=1154 tif=DAY orderRef=} contract={STK,,SMART,SQ,USD}}
+$$Filled Time : None,Avg filled price:0.0,Amount:1154
+
+POSITIONS
+STK,,,SQ,USD -1154 164.38398075
+
+######
+
+stime is 2020-09-30 06:10:00-04:00
+stime is 2020-09-30 06:11:00-04:00

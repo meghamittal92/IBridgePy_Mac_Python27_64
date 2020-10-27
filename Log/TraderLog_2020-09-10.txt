@@ -1,0 +1,696 @@
+2020-09-09 15:05:15.007891-04:00: ####     Data ingestion starts    ####
+2020-09-09 15:05:15.917305-04:00: broker_client_factory.CallBacks:errorId=0 errorCode=162 errorMessage=Historical Market Data Service error message:Trading TWS session is connected from a different IP address
+2020-09-09 15:05:15.917588-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-09 15:06:31.841790-04:00: ####     Data ingestion starts    ####
+2020-09-09 15:06:32.808704-04:00: broker_client_factory.CallBacks:errorId=0 errorCode=162 errorMessage=Historical Market Data Service error message:Trading TWS session is connected from a different IP address
+2020-09-09 15:06:32.808990-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-09 15:06:46.727657-04:00: ####     Data ingestion starts    ####
+2020-09-09 15:06:47.596472-04:00: broker_client_factory.CallBacks:errorId=0 errorCode=162 errorMessage=Historical Market Data Service error message:Trading TWS session is connected from a different IP address
+2020-09-09 15:06:47.596916-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-09 15:13:57.791737-04:00: ####     Data ingestion starts    ####
+2020-09-09 15:13:58.710930-04:00: broker_client_factory.CallBacks:errorId=0 errorCode=162 errorMessage=Historical Market Data Service error message:Trading TWS session is connected from a different IP address
+2020-09-09 15:13:58.711284-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-09 15:17:09.049456-04:00: ####     Data ingestion starts    ####
+2020-09-09 15:17:17.452039-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-09 15:17:17.452400-04:00: IBridgePy version 10.1.4
+2020-09-09 15:17:17.452794-04:00: fileName = mac3.py
+2020-09-09 15:17:17.457713-04:00: ####    Starting to initialize trader    ####
+2020-09-09 15:17:17.457901-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-09 15:17:17.458058-04:00: CASH=100000.0
+2020-09-09 15:17:17.458161-04:00: portfolio_value=100000.0
+2020-09-09 15:17:17.458351-04:00: positions_value=0.0
+2020-09-09 15:17:17.458497-04:00: ##    NO ANY POSITION    ##
+2020-09-09 15:17:17.458584-04:00: ##    NO any order    ##
+2020-09-09 15:17:17.458795-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-09 15:41:16.579883-04:00: IBridgePy version 10.1.4
+2020-09-09 15:41:16.580957-04:00: fileName = mac3.py
+2020-09-09 15:41:16.640302-04:00: ####    Starting to initialize trader    ####
+2020-09-09 15:41:16.640607-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-09 15:41:16.640785-04:00: CASH=296570.03
+2020-09-09 15:41:16.640918-04:00: portfolio_value=340345.04
+2020-09-09 15:41:16.641041-04:00: positions_value=43775.01
+2020-09-09 15:41:16.641187-04:00: ##    POSITIONS DU1073267   ##
+2020-09-09 15:41:16.641262-04:00: Symbol Amount Cost_basis
+2020-09-09 15:41:16.641330-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-09 15:41:16.641463-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-09 15:41:16.641567-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-09 15:41:16.641704-04:00: ##    NO any order    ##
+2020-09-09 15:41:16.641852-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-09 15:49:58.627401-04:00: IBridgePy version 10.1.4
+2020-09-09 15:49:58.628074-04:00: fileName = mac3.py
+2020-09-09 15:49:58.643188-04:00: ####    Starting to initialize trader    ####
+2020-09-09 15:49:58.643461-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-09 15:49:58.643610-04:00: CASH=762836.02
+2020-09-09 15:49:58.643716-04:00: portfolio_value=341054.76
+2020-09-09 15:49:58.643848-04:00: positions_value=509373.39
+2020-09-09 15:49:58.644035-04:00: ##    POSITIONS DU1073267   ##
+2020-09-09 15:49:58.644215-04:00: Symbol Amount Cost_basis
+2020-09-09 15:49:58.644305-04:00: STK,,,AAPL,USD -2909 117.283521143
+2020-09-09 15:49:58.644429-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-09 15:49:58.644526-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-09 15:49:58.644667-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-09 15:49:58.644770-04:00: ##    NO any order    ##
+2020-09-09 15:49:58.644873-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-09 15:52:58.903129-04:00: IBridgePy version 10.1.4
+2020-09-09 15:52:58.903988-04:00: fileName = mac3.py
+2020-09-09 15:52:58.913949-04:00: ####    Starting to initialize trader    ####
+2020-09-09 15:52:58.914173-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-09 15:52:58.914303-04:00: CASH=759685.24
+2020-09-09 15:52:58.914419-04:00: portfolio_value=338798.73
+2020-09-09 15:52:58.914542-04:00: positions_value=508506.23
+2020-09-09 15:52:58.914740-04:00: ##    POSITIONS DU1073267   ##
+2020-09-09 15:52:58.914821-04:00: Symbol Amount Cost_basis
+2020-09-09 15:52:58.914914-04:00: STK,,,AAPL,USD -2890 117.28352115
+2020-09-09 15:52:58.914989-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-09 15:52:58.915118-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-09 15:52:58.915195-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-09 15:52:58.915272-04:00: ##    NO any order    ##
+2020-09-09 15:52:58.915339-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-09 16:00:02.163103-04:00: broker_client_factory.CallBacks:errorId=295 errorCode=201 errorMessage=Order rejected - reason:The exchange is closed.
+2020-09-09 16:00:32.071009-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, waiting time is too long, >30
+2020-09-09 16:00:32.071975-04:00: broker_service_factory.BrokerService_callback::order_status_monitor: EXIT, ibpyOrderId=ib295 status=Inactive contract={STK,,SMART,AAPL,USD}
+2020-09-09 16:06:47.053273-04:00: IBridgePy version 10.1.4
+2020-09-09 16:06:47.053781-04:00: fileName = example_get_contract_details.py
+2020-09-09 16:06:47.059073-04:00: ####    Starting to initialize trader    ####
+2020-09-09 16:06:47.059253-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-09 16:06:47.059510-04:00: CASH=752399.15
+2020-09-09 16:06:47.059717-04:00: portfolio_value=337144.55
+2020-09-09 16:06:47.059824-04:00: positions_value=502687.82
+2020-09-09 16:06:47.060180-04:00: ##    POSITIONS DU1073267   ##
+2020-09-09 16:06:47.060293-04:00: Symbol Amount Cost_basis
+2020-09-09 16:06:47.060377-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-09 16:06:47.060476-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-09 16:06:47.060599-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-09 16:06:47.060714-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-09 16:06:47.060915-04:00: ##    NO any order    ##
+2020-09-09 16:06:47.061086-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-09 16:07:00.717965-04:00: broker_client_factory.CallBacks:errorId=296 errorCode=399 errorMessage=Order Message:
+BUY 2,864 AAPL NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-10 09:30:00 US/Eastern
+2020-09-09 16:07:01.491043-04:00: broker_client_factory.CallBacks:errorId=298 errorCode=399 errorMessage=Order Message:
+SELL 1,000 AMC NYSE
+Warning: your order will not be placed at the exchange until 2020-09-10 09:30:00 US/Eastern
+2020-09-09 16:07:02.030626-04:00: broker_client_factory.CallBacks:errorId=300 errorCode=399 errorMessage=Order Message:
+SELL 50 NFLX NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-10 09:30:00 US/Eastern
+2020-09-09 16:07:02.810991-04:00: broker_client_factory.CallBacks:errorId=302 errorCode=399 errorMessage=Order Message:
+SELL 100 ADAP NASDAQ.NMS
+Warning: your order will not be placed at the exchange until 2020-09-10 09:30:00 US/Eastern
+2020-09-10 06:01:01.062703-04:00: ####     Data ingestion starts    ####
+2020-09-10 06:01:07.608274-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-10 06:01:07.608539-04:00: IBridgePy version 10.1.4
+2020-09-10 06:01:07.608914-04:00: fileName = mac3.py
+2020-09-10 06:01:07.614668-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:01:07.614833-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:01:07.615022-04:00: CASH=100000.0
+2020-09-10 06:01:07.615188-04:00: portfolio_value=100000.0
+2020-09-10 06:01:07.615254-04:00: positions_value=0.0
+2020-09-10 06:01:07.615356-04:00: ##    NO ANY POSITION    ##
+2020-09-10 06:01:07.615452-04:00: ##    NO any order    ##
+2020-09-10 06:01:07.615596-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:01:07.620149-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-08-26 13:31:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-10 06:01:07.620716-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-08-23 13:31:00+00:00 endTime=2020-08-26 13:31:00+00:00 Are they too close to each other?
+2020-09-10 06:01:07.621121-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-08-27 13:30:00+00:00
+2020-09-10 06:01:07.621238-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-09 19:59:00+00:00
+2020-09-10 06:01:07.621391-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-10 06:02:25.891230-04:00: IBridgePy version 10.1.4
+2020-09-10 06:02:25.892137-04:00: fileName = example_get_historical_data.py
+2020-09-10 06:02:25.929876-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:02:25.930185-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:02:25.930356-04:00: CASH=752724.21
+2020-09-10 06:02:25.930464-04:00: portfolio_value=333696.01
+2020-09-10 06:02:25.930554-04:00: positions_value=506754.91
+2020-09-10 06:02:25.930830-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 06:02:25.930946-04:00: Symbol Amount Cost_basis
+2020-09-10 06:02:25.931125-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 06:02:25.931221-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 06:02:25.931331-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 06:02:25.931476-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 06:02:25.931665-04:00: ##    Order Status DU1073267   ##
+2020-09-10 06:02:25.931819-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 06:02:25.931927-04:00: ##    END    ##
+2020-09-10 06:02:25.932120-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:03:08.524006-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-10 06:03:22.887910-04:00: ####     Data ingestion starts    ####
+2020-09-10 06:03:30.587473-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-10 06:03:30.587749-04:00: IBridgePy version 10.1.4
+2020-09-10 06:03:30.588210-04:00: fileName = mac3.py
+2020-09-10 06:03:30.590868-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:03:30.591050-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:03:30.591233-04:00: CASH=100000.0
+2020-09-10 06:03:30.591316-04:00: portfolio_value=100000.0
+2020-09-10 06:03:30.591471-04:00: positions_value=0.0
+2020-09-10 06:03:30.591565-04:00: ##    NO ANY POSITION    ##
+2020-09-10 06:03:30.591676-04:00: ##    NO any order    ##
+2020-09-10 06:03:30.591768-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:03:30.600229-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-08-26 13:31:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-10 06:03:30.600427-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-08-23 13:31:00+00:00 endTime=2020-08-26 13:31:00+00:00 Are they too close to each other?
+2020-09-10 06:03:30.600570-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-08-27 13:30:00+00:00
+2020-09-10 06:03:30.600717-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-09 19:59:00+00:00
+2020-09-10 06:03:30.600814-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-10 06:04:20.132352-04:00: ####     Data ingestion starts    ####
+2020-09-10 06:04:27.219518-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-10 06:04:27.219860-04:00: IBridgePy version 10.1.4
+2020-09-10 06:04:27.220461-04:00: fileName = mac3.py
+2020-09-10 06:04:27.222472-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:04:27.223117-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:04:27.223314-04:00: CASH=100000.0
+2020-09-10 06:04:27.223382-04:00: portfolio_value=100000.0
+2020-09-10 06:04:27.223508-04:00: positions_value=0.0
+2020-09-10 06:04:27.223594-04:00: ##    NO ANY POSITION    ##
+2020-09-10 06:04:27.223739-04:00: ##    NO any order    ##
+2020-09-10 06:04:27.223856-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:04:27.228539-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-08-26 13:31:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-10 06:04:27.229022-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-08-23 13:31:00+00:00 endTime=2020-08-26 13:31:00+00:00 Are they too close to each other?
+2020-09-10 06:04:27.229384-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-08-27 13:30:00+00:00
+2020-09-10 06:04:27.229652-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-09 19:59:00+00:00
+2020-09-10 06:04:27.229812-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-10 06:06:32.856095-04:00: IBridgePy version 10.1.4
+2020-09-10 06:06:32.857022-04:00: fileName = example_get_historical_data.py
+2020-09-10 06:06:32.869356-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:06:32.869636-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:06:32.869776-04:00: CASH=752707.36
+2020-09-10 06:06:32.869932-04:00: portfolio_value=333147.66
+2020-09-10 06:06:32.870099-04:00: positions_value=507282.88
+2020-09-10 06:06:32.870336-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 06:06:32.870437-04:00: Symbol Amount Cost_basis
+2020-09-10 06:06:32.870574-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 06:06:32.870674-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 06:06:32.870803-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 06:06:32.870957-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 06:06:32.871117-04:00: ##    Order Status DU1073267   ##
+2020-09-10 06:06:32.871291-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 06:06:32.871377-04:00: ##    END    ##
+2020-09-10 06:06:32.871469-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:07:09.927215-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-10 06:07:23.039478-04:00: ####     Data ingestion starts    ####
+2020-09-10 06:07:29.289901-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-10 06:07:29.290214-04:00: IBridgePy version 10.1.4
+2020-09-10 06:07:29.290534-04:00: fileName = mac3.py
+2020-09-10 06:07:29.292793-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:07:29.292980-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:07:29.293146-04:00: CASH=100000.0
+2020-09-10 06:07:29.293234-04:00: portfolio_value=100000.0
+2020-09-10 06:07:29.293304-04:00: positions_value=0.0
+2020-09-10 06:07:29.293413-04:00: ##    NO ANY POSITION    ##
+2020-09-10 06:07:29.293516-04:00: ##    NO any order    ##
+2020-09-10 06:07:29.293650-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:07:29.298523-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-08-24 13:31:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-10 06:07:29.298781-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-08-21 13:31:00+00:00 endTime=2020-08-24 13:31:00+00:00 Are they too close to each other?
+2020-09-10 06:07:29.299008-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-08-27 13:30:00+00:00
+2020-09-10 06:07:29.299350-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-09 19:59:00+00:00
+2020-09-10 06:07:29.299533-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-10 06:08:59.902931-04:00: ####     Data ingestion starts    ####
+2020-09-10 06:09:06.204469-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-10 06:09:06.204651-04:00: IBridgePy version 10.1.4
+2020-09-10 06:09:06.205045-04:00: fileName = mac3.py
+2020-09-10 06:09:06.207649-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:09:06.207812-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:09:06.207955-04:00: CASH=100000.0
+2020-09-10 06:09:06.208043-04:00: portfolio_value=100000.0
+2020-09-10 06:09:06.208178-04:00: positions_value=0.0
+2020-09-10 06:09:06.208269-04:00: ##    NO ANY POSITION    ##
+2020-09-10 06:09:06.208441-04:00: ##    NO any order    ##
+2020-09-10 06:09:06.208522-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:09:06.212629-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-08-26 13:31:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-10 06:09:06.212874-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-08-23 13:31:00+00:00 endTime=2020-08-26 13:31:00+00:00 Are they too close to each other?
+2020-09-10 06:09:06.213065-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-08-27 13:30:00+00:00
+2020-09-10 06:09:06.213199-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-09 19:59:00+00:00
+2020-09-10 06:09:06.213347-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-10 06:11:28.527814-04:00: ####     Data ingestion starts    ####
+2020-09-10 06:11:34.759867-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-10 06:11:34.760130-04:00: IBridgePy version 10.1.4
+2020-09-10 06:11:34.760479-04:00: fileName = mac3.py
+2020-09-10 06:11:34.763753-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:11:34.763995-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:11:34.764111-04:00: CASH=100000.0
+2020-09-10 06:11:34.764191-04:00: portfolio_value=100000.0
+2020-09-10 06:11:34.764254-04:00: positions_value=0.0
+2020-09-10 06:11:34.764404-04:00: ##    NO ANY POSITION    ##
+2020-09-10 06:11:34.764500-04:00: ##    NO any order    ##
+2020-09-10 06:11:34.764646-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:11:34.770801-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-08-26 18:04:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-10 06:11:34.771146-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-08-23 18:04:00+00:00 endTime=2020-08-26 18:04:00+00:00 Are they too close to each other?
+2020-09-10 06:11:34.771304-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-08-27 13:30:00+00:00
+2020-09-10 06:11:34.771425-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-09 19:59:00+00:00
+2020-09-10 06:11:34.771540-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-10 06:13:58.069327-04:00: ####     Data ingestion starts    ####
+2020-09-10 06:14:04.301617-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-10 06:14:04.301876-04:00: IBridgePy version 10.1.4
+2020-09-10 06:14:04.302262-04:00: fileName = mac3.py
+2020-09-10 06:14:04.305782-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:14:04.305993-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:14:04.306562-04:00: CASH=100000.0
+2020-09-10 06:14:04.306663-04:00: portfolio_value=100000.0
+2020-09-10 06:14:04.307093-04:00: positions_value=0.0
+2020-09-10 06:14:04.307781-04:00: ##    NO ANY POSITION    ##
+2020-09-10 06:14:04.307917-04:00: ##    NO any order    ##
+2020-09-10 06:14:04.308009-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 06:14:04.312393-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-08-26 18:04:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-10 06:14:04.313382-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-08-23 18:04:00+00:00 endTime=2020-08-26 18:04:00+00:00 Are they too close to each other?
+2020-09-10 06:14:04.314497-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-08-27 13:30:00+00:00
+2020-09-10 06:14:04.315376-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-09 19:59:00+00:00
+2020-09-10 06:14:04.316141-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-10 06:14:30.014492-04:00: ####     Data ingestion starts    ####
+2020-09-10 06:14:37.531111-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-10 06:14:37.531385-04:00: IBridgePy version 10.1.4
+2020-09-10 06:14:37.531745-04:00: fileName = mac3.py
+2020-09-10 06:14:37.533508-04:00: ####    Starting to initialize trader    ####
+2020-09-10 06:14:37.533672-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 06:14:37.533863-04:00: CASH=100000.0
+2020-09-10 06:14:37.533946-04:00: portfolio_value=100000.0
+2020-09-10 06:14:37.534129-04:00: positions_value=0.0
+2020-09-10 06:14:37.534239-04:00: ##    NO ANY POSITION    ##
+2020-09-10 06:14:37.534407-04:00: ##    NO any order    ##
+2020-09-10 06:14:37.534492-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 07:33:15.487930-04:00: IBridgePy version 10.1.4
+2020-09-10 07:33:15.488622-04:00: fileName = mac3.py
+2020-09-10 07:33:15.573783-04:00: ####    Starting to initialize trader    ####
+2020-09-10 07:33:15.573978-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 07:33:15.574101-04:00: CASH=752698.15
+2020-09-10 07:33:15.574212-04:00: portfolio_value=334898.24
+2020-09-10 07:33:15.574331-04:00: positions_value=505889.03
+2020-09-10 07:33:15.574509-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 07:33:15.574600-04:00: Symbol Amount Cost_basis
+2020-09-10 07:33:15.574744-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 07:33:15.574833-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 07:33:15.575007-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 07:33:15.575131-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 07:33:15.575273-04:00: ##    Order Status DU1073267   ##
+2020-09-10 07:33:15.575414-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 07:33:15.575494-04:00: ##    END    ##
+2020-09-10 07:33:15.575569-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 07:39:45.809564-04:00: IBridgePy version 10.1.4
+2020-09-10 07:39:45.810752-04:00: fileName = mac3.py
+2020-09-10 07:39:45.829230-04:00: ####    Starting to initialize trader    ####
+2020-09-10 07:39:45.829693-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 07:39:45.829895-04:00: CASH=752780.95
+2020-09-10 07:39:45.829999-04:00: portfolio_value=334350.12
+2020-09-10 07:39:45.830148-04:00: positions_value=506537.34
+2020-09-10 07:39:45.830309-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 07:39:45.830438-04:00: Symbol Amount Cost_basis
+2020-09-10 07:39:45.830557-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 07:39:45.830654-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 07:39:45.830782-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 07:39:45.830905-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 07:39:45.831042-04:00: ##    Order Status DU1073267   ##
+2020-09-10 07:39:45.831266-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 07:39:45.831432-04:00: ##    END    ##
+2020-09-10 07:39:45.831528-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 07:53:27.811167-04:00: IBridgePy version 10.1.4
+2020-09-10 07:53:27.811977-04:00: fileName = mac3.py
+2020-09-10 07:53:27.824425-04:00: ####    Starting to initialize trader    ####
+2020-09-10 07:53:27.824646-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 07:53:27.824751-04:00: CASH=752800.88
+2020-09-10 07:53:27.824819-04:00: portfolio_value=334367.75
+2020-09-10 07:53:27.824899-04:00: positions_value=506657.35
+2020-09-10 07:53:27.825170-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 07:53:27.825345-04:00: Symbol Amount Cost_basis
+2020-09-10 07:53:27.825500-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 07:53:27.825780-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 07:53:27.826465-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 07:53:27.827433-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 07:53:27.829176-04:00: ##    Order Status DU1073267   ##
+2020-09-10 07:53:27.829551-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 07:53:27.829734-04:00: ##    END    ##
+2020-09-10 07:53:27.829900-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 07:57:16.380766-04:00: IBridgePy version 10.1.4
+2020-09-10 07:57:16.381537-04:00: fileName = mac3.py
+2020-09-10 07:57:16.403072-04:00: ####    Starting to initialize trader    ####
+2020-09-10 07:57:16.403334-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 07:57:16.403536-04:00: CASH=752612.27
+2020-09-10 07:57:16.403691-04:00: portfolio_value=331577.62
+2020-09-10 07:57:16.403808-04:00: positions_value=509435.24
+2020-09-10 07:57:16.404014-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 07:57:16.404115-04:00: Symbol Amount Cost_basis
+2020-09-10 07:57:16.404262-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 07:57:16.404359-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 07:57:16.404425-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 07:57:16.404555-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 07:57:16.404670-04:00: ##    Order Status DU1073267   ##
+2020-09-10 07:57:16.404849-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 07:57:16.404941-04:00: ##    END    ##
+2020-09-10 07:57:16.405100-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:06:30.383132-04:00: IBridgePy version 10.1.4
+2020-09-10 08:06:30.384391-04:00: fileName = mac3.py
+2020-09-10 08:06:30.405536-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:06:30.405771-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:06:30.405935-04:00: CASH=752601.56
+2020-09-10 08:06:30.406160-04:00: portfolio_value=329498.82
+2020-09-10 08:06:30.406312-04:00: positions_value=511259.07
+2020-09-10 08:06:30.406543-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:06:30.406661-04:00: Symbol Amount Cost_basis
+2020-09-10 08:06:30.406791-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:06:30.406899-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:06:30.407257-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:06:30.407402-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:06:30.407560-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:06:30.407769-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:06:30.407939-04:00: ##    END    ##
+2020-09-10 08:06:30.408156-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:07:52.702594-04:00: IBridgePy version 10.1.4
+2020-09-10 08:07:52.703432-04:00: fileName = mac3.py
+2020-09-10 08:07:52.723764-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:07:52.724245-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:07:52.724514-04:00: CASH=752601.56
+2020-09-10 08:07:52.724721-04:00: portfolio_value=329498.82
+2020-09-10 08:07:52.724849-04:00: positions_value=511259.07
+2020-09-10 08:07:52.725370-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:07:52.725491-04:00: Symbol Amount Cost_basis
+2020-09-10 08:07:52.725616-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:07:52.725724-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:07:52.725840-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:07:52.725948-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:07:52.726102-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:07:52.726248-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:07:52.726355-04:00: ##    END    ##
+2020-09-10 08:07:52.726516-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:11:01.833313-04:00: IBridgePy version 10.1.4
+2020-09-10 08:11:01.834412-04:00: fileName = mac3.py
+2020-09-10 08:11:01.855592-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:11:01.855834-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:11:01.855978-04:00: CASH=752601.56
+2020-09-10 08:11:01.856081-04:00: portfolio_value=329937.07
+2020-09-10 08:11:01.856167-04:00: positions_value=510835.86
+2020-09-10 08:11:01.856401-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:11:01.856503-04:00: Symbol Amount Cost_basis
+2020-09-10 08:11:01.856584-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:11:01.856693-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:11:01.856797-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:11:01.856907-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:11:01.857082-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:11:01.857194-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:11:01.857289-04:00: ##    END    ##
+2020-09-10 08:11:01.857361-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:17:17.663965-04:00: IBridgePy version 10.1.4
+2020-09-10 08:17:17.665087-04:00: fileName = mac3.py
+2020-09-10 08:17:17.699906-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:17:17.700144-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:17:17.700272-04:00: CASH=752606.17
+2020-09-10 08:17:17.700377-04:00: portfolio_value=330251.26
+2020-09-10 08:17:17.700521-04:00: positions_value=510685.84
+2020-09-10 08:17:17.700687-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:17:17.700791-04:00: Symbol Amount Cost_basis
+2020-09-10 08:17:17.700911-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:17:17.700998-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:17:17.701175-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:17:17.701264-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:17:17.701426-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:17:17.701541-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:17:17.701644-04:00: ##    END    ##
+2020-09-10 08:17:17.701762-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:18:19.587217-04:00: IBridgePy version 10.1.4
+2020-09-10 08:18:19.587789-04:00: fileName = mac3.py
+2020-09-10 08:18:19.597315-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:18:19.597612-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:18:19.597784-04:00: CASH=752552.5
+2020-09-10 08:18:19.597917-04:00: portfolio_value=330514.1
+2020-09-10 08:18:19.598028-04:00: positions_value=510334.79
+2020-09-10 08:18:19.598177-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:18:19.598254-04:00: Symbol Amount Cost_basis
+2020-09-10 08:18:19.598391-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:18:19.598508-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:18:19.598650-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:18:19.598757-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:18:19.598896-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:18:19.599005-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:18:19.599195-04:00: ##    END    ##
+2020-09-10 08:18:19.599311-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:23:36.154446-04:00: IBridgePy version 10.1.4
+2020-09-10 08:23:36.155341-04:00: fileName = mac3.py
+2020-09-10 08:23:36.167564-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:23:36.167790-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:23:36.167925-04:00: CASH=752578.57
+2020-09-10 08:23:36.168019-04:00: portfolio_value=330852.63
+2020-09-10 08:23:36.168124-04:00: positions_value=510000.47
+2020-09-10 08:23:36.168286-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:23:36.168363-04:00: Symbol Amount Cost_basis
+2020-09-10 08:23:36.168546-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:23:36.168642-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:23:36.168800-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:23:36.168891-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:23:36.169043-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:23:36.169203-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:23:36.169306-04:00: ##    END    ##
+2020-09-10 08:23:36.169435-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:25:52.483785-04:00: IBridgePy version 10.1.4
+2020-09-10 08:25:52.484693-04:00: fileName = mac3.py
+2020-09-10 08:25:52.498474-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:25:52.498780-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:25:52.498990-04:00: CASH=752629.16
+2020-09-10 08:25:52.499109-04:00: portfolio_value=329638.4
+2020-09-10 08:25:52.499223-04:00: positions_value=511275.95
+2020-09-10 08:25:52.499380-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:25:52.499523-04:00: Symbol Amount Cost_basis
+2020-09-10 08:25:52.499668-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:25:52.499800-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:25:52.499932-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:25:52.500058-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:25:52.500213-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:25:52.500367-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:25:52.500470-04:00: ##    END    ##
+2020-09-10 08:25:52.500605-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:27:00.039421-04:00: IBridgePy version 10.1.4
+2020-09-10 08:27:00.039953-04:00: fileName = mac3.py
+2020-09-10 08:27:00.054397-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:27:00.054720-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:27:00.054894-04:00: CASH=752629.16
+2020-09-10 08:27:00.055008-04:00: portfolio_value=329638.4
+2020-09-10 08:27:00.055238-04:00: positions_value=511275.95
+2020-09-10 08:27:00.055491-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:27:00.055613-04:00: Symbol Amount Cost_basis
+2020-09-10 08:27:00.055741-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:27:00.055837-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:27:00.055994-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:27:00.056126-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:27:00.056309-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:27:00.056558-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:27:00.056673-04:00: ##    END    ##
+2020-09-10 08:27:00.056827-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:28:02.938896-04:00: IBridgePy version 10.1.4
+2020-09-10 08:28:02.940401-04:00: fileName = mac3.py
+2020-09-10 08:28:02.955305-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:28:02.955547-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:28:02.955751-04:00: CASH=752658.3
+2020-09-10 08:28:02.955828-04:00: portfolio_value=330108.1
+2020-09-10 08:28:02.955958-04:00: positions_value=510841.52
+2020-09-10 08:28:02.956127-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:28:02.956215-04:00: Symbol Amount Cost_basis
+2020-09-10 08:28:02.956348-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:28:02.956483-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:28:02.956574-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:28:02.956662-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:28:02.956827-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:28:02.956998-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:28:02.957099-04:00: ##    END    ##
+2020-09-10 08:28:02.957237-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:29:18.552585-04:00: IBridgePy version 10.1.4
+2020-09-10 08:29:18.554253-04:00: fileName = mac3.py
+2020-09-10 08:29:18.566904-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:29:18.567354-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:29:18.567552-04:00: CASH=752658.3
+2020-09-10 08:29:18.567674-04:00: portfolio_value=330108.1
+2020-09-10 08:29:18.567782-04:00: positions_value=510841.52
+2020-09-10 08:29:18.568034-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:29:18.568156-04:00: Symbol Amount Cost_basis
+2020-09-10 08:29:18.568293-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:29:18.568392-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:29:18.568544-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:29:18.568618-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:29:18.568711-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:29:18.568835-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:29:18.568903-04:00: ##    END    ##
+2020-09-10 08:29:18.569066-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:31:18.521495-04:00: IBridgePy version 10.1.4
+2020-09-10 08:31:18.522575-04:00: fileName = mac3.py
+2020-09-10 08:31:18.533883-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:31:18.534429-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-10 08:31:18.534738-04:00: CASH=752658.3
+2020-09-10 08:31:18.534883-04:00: portfolio_value=329716.48
+2020-09-10 08:31:18.534984-04:00: positions_value=511233.14
+2020-09-10 08:31:18.535164-04:00: ##    POSITIONS DU1073267   ##
+2020-09-10 08:31:18.535260-04:00: Symbol Amount Cost_basis
+2020-09-10 08:31:18.535360-04:00: STK,,,AAPL,USD -2864 117.62616225
+2020-09-10 08:31:18.535511-04:00: STK,,,AMC,USD 1000 4.343
+2020-09-10 08:31:18.535683-04:00: STK,,,NFLX,USD 50 367.77
+2020-09-10 08:31:18.535798-04:00: STK,,,ADAP,USD 100 9.98
+2020-09-10 08:31:18.535997-04:00: ##    Order Status DU1073267   ##
+2020-09-10 08:31:18.536169-04:00: {permId=ib0 status=PreSubmitted order={account=DU1073267 action=SELL orderType=MKT amount=50 tif=DAY orderRef=ActivityMonitor} contract={STK,,SMART,NFLX,USD}}
+2020-09-10 08:31:18.536337-04:00: ##    END    ##
+2020-09-10 08:31:18.537094-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 08:48:31.579464-04:00: IBridgePy version 10.1.4
+2020-09-10 08:48:31.580647-04:00: fileName = mac3.py
+2020-09-10 08:49:01.599073-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-10 08:49:01.601796-04:00: {reqId=306;status=Submitted;reqType=reqMktData;followUp=True;param={security:STK,ISLAND,SMART,AAPL,USD,genericTickList:233,snapshot:False,}}
+2020-09-10 08:49:18.740807-04:00: IBridgePy version 10.1.4
+2020-09-10 08:49:18.741960-04:00: fileName = mac3.py
+2020-09-10 08:49:48.761036-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-10 08:49:48.761251-04:00: {reqId=306;status=Submitted;reqType=reqMktData;followUp=True;param={security:STK,ISLAND,SMART,AAPL,USD,genericTickList:233,snapshot:False,}}
+2020-09-10 08:52:02.125596-04:00: IBridgePy version 10.1.4
+2020-09-10 08:52:02.126544-04:00: fileName = mac3.py
+2020-09-10 08:52:02.328587-04:00: ####    Starting to initialize trader    ####
+2020-09-10 08:52:02.328786-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 08:52:02.329191-04:00: CASH=1037875.11
+2020-09-10 08:52:02.329457-04:00: portfolio_value=1037875.11
+2020-09-10 08:52:02.329611-04:00: positions_value=0.0
+2020-09-10 08:52:02.329806-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 08:52:02.329912-04:00: Symbol Amount Cost_basis
+2020-09-10 08:52:02.330051-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 08:52:02.330174-04:00: ##    NO any order    ##
+2020-09-10 08:52:02.330280-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:09:31.077186-04:00: IBridgePy version 10.1.4
+2020-09-10 09:09:31.078444-04:00: fileName = mac3.py
+2020-09-10 09:09:31.246410-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:09:31.246713-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:09:31.247124-04:00: CASH=1037875.11
+2020-09-10 09:09:31.247298-04:00: portfolio_value=1037875.11
+2020-09-10 09:09:31.247439-04:00: positions_value=0.0
+2020-09-10 09:09:31.247660-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:09:31.247748-04:00: Symbol Amount Cost_basis
+2020-09-10 09:09:31.247873-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:09:31.247968-04:00: ##    NO any order    ##
+2020-09-10 09:09:31.248086-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:14:14.039399-04:00: IBridgePy version 10.1.4
+2020-09-10 09:14:14.040399-04:00: fileName = mac3.py
+2020-09-10 09:14:14.247964-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:14:14.248252-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:14:14.248431-04:00: CASH=1037875.11
+2020-09-10 09:14:14.248609-04:00: portfolio_value=1037875.11
+2020-09-10 09:14:14.248754-04:00: positions_value=0.0
+2020-09-10 09:14:14.249101-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:14:14.249328-04:00: Symbol Amount Cost_basis
+2020-09-10 09:14:14.249515-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:14:14.249737-04:00: ##    NO any order    ##
+2020-09-10 09:14:14.249924-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:16:53.410536-04:00: IBridgePy version 10.1.4
+2020-09-10 09:16:53.412210-04:00: fileName = mac3.py
+2020-09-10 09:16:53.590161-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:16:53.590597-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:16:53.590985-04:00: CASH=1037875.11
+2020-09-10 09:16:53.591225-04:00: portfolio_value=1037875.11
+2020-09-10 09:16:53.591438-04:00: positions_value=0.0
+2020-09-10 09:16:53.591733-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:16:53.591940-04:00: Symbol Amount Cost_basis
+2020-09-10 09:16:53.592157-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:16:53.592414-04:00: ##    NO any order    ##
+2020-09-10 09:16:53.592645-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:22:20.671053-04:00: IBridgePy version 10.1.4
+2020-09-10 09:22:20.672692-04:00: fileName = mac3.py
+2020-09-10 09:22:22.796732-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:22:22.796919-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:22:22.797280-04:00: CASH=1037875.11
+2020-09-10 09:22:22.797374-04:00: portfolio_value=1037875.11
+2020-09-10 09:22:22.797442-04:00: positions_value=0.0
+2020-09-10 09:22:22.797613-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:22:22.797707-04:00: Symbol Amount Cost_basis
+2020-09-10 09:22:22.797875-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:22:22.797981-04:00: ##    NO any order    ##
+2020-09-10 09:22:22.798093-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:23:31.285720-04:00: IBridgePy version 10.1.4
+2020-09-10 09:23:31.286587-04:00: fileName = mac3.py
+2020-09-10 09:23:31.467027-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:23:31.467288-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:23:31.467664-04:00: CASH=1037875.11
+2020-09-10 09:23:31.467915-04:00: portfolio_value=1037875.11
+2020-09-10 09:23:31.468042-04:00: positions_value=0.0
+2020-09-10 09:23:31.468216-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:23:31.468321-04:00: Symbol Amount Cost_basis
+2020-09-10 09:23:31.468470-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:23:31.468562-04:00: ##    NO any order    ##
+2020-09-10 09:23:31.468770-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:26:40.108449-04:00: IBridgePy version 10.1.4
+2020-09-10 09:26:40.109256-04:00: fileName = mac3.py
+2020-09-10 09:26:40.406744-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:26:40.406949-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:26:40.407351-04:00: CASH=1037875.11
+2020-09-10 09:26:40.407492-04:00: portfolio_value=1037875.11
+2020-09-10 09:26:40.407617-04:00: positions_value=0.0
+2020-09-10 09:26:40.407757-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:26:40.407832-04:00: Symbol Amount Cost_basis
+2020-09-10 09:26:40.407907-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:26:40.408074-04:00: ##    NO any order    ##
+2020-09-10 09:26:40.408159-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:27:18.713048-04:00: IBridgePy version 10.1.4
+2020-09-10 09:27:18.713549-04:00: fileName = mac3.py
+2020-09-10 09:27:18.892649-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:27:18.892843-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:27:18.893265-04:00: CASH=1037875.11
+2020-09-10 09:27:18.893372-04:00: portfolio_value=1037875.11
+2020-09-10 09:27:18.893445-04:00: positions_value=0.0
+2020-09-10 09:27:18.893637-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:27:18.893716-04:00: Symbol Amount Cost_basis
+2020-09-10 09:27:18.893849-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:27:18.893949-04:00: ##    NO any order    ##
+2020-09-10 09:27:18.894066-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:28:27.806436-04:00: IBridgePy version 10.1.4
+2020-09-10 09:28:27.806661-04:00: fileName = mac3.py
+2020-09-10 09:28:27.989068-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:28:27.989298-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:28:27.989646-04:00: CASH=1037875.11
+2020-09-10 09:28:27.989747-04:00: portfolio_value=1037875.11
+2020-09-10 09:28:27.989894-04:00: positions_value=0.0
+2020-09-10 09:28:27.990049-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:28:27.990151-04:00: Symbol Amount Cost_basis
+2020-09-10 09:28:27.990282-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:28:27.990402-04:00: ##    NO any order    ##
+2020-09-10 09:28:27.990517-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:30:05.596452-04:00: IBridgePy version 10.1.4
+2020-09-10 09:30:05.597185-04:00: fileName = mac3.py
+2020-09-10 09:30:05.775675-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:30:05.775877-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:30:05.776032-04:00: CASH=1037875.11
+2020-09-10 09:30:05.776159-04:00: portfolio_value=1037875.11
+2020-09-10 09:30:05.776280-04:00: positions_value=0.0
+2020-09-10 09:30:05.776415-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:30:05.776522-04:00: Symbol Amount Cost_basis
+2020-09-10 09:30:05.776650-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:30:05.776781-04:00: ##    NO any order    ##
+2020-09-10 09:30:05.776883-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:31:32.479318-04:00: IBridgePy version 10.1.4
+2020-09-10 09:31:32.479805-04:00: fileName = mac3.py
+2020-09-10 09:31:32.648748-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:31:32.648953-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:31:32.649311-04:00: CASH=1037875.11
+2020-09-10 09:31:32.649453-04:00: portfolio_value=1037875.11
+2020-09-10 09:31:32.649576-04:00: positions_value=0.0
+2020-09-10 09:31:32.649713-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:31:32.649799-04:00: Symbol Amount Cost_basis
+2020-09-10 09:31:32.649933-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:31:32.650030-04:00: ##    NO any order    ##
+2020-09-10 09:31:32.650198-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:33:18.098395-04:00: IBridgePy version 10.1.4
+2020-09-10 09:33:18.099188-04:00: fileName = mac3.py
+2020-09-10 09:33:18.265150-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:33:18.265402-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:33:18.265796-04:00: CASH=1037875.11
+2020-09-10 09:33:18.265898-04:00: portfolio_value=1037875.11
+2020-09-10 09:33:18.266046-04:00: positions_value=0.0
+2020-09-10 09:33:18.266191-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:33:18.266267-04:00: Symbol Amount Cost_basis
+2020-09-10 09:33:18.266335-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:33:18.266411-04:00: ##    NO any order    ##
+2020-09-10 09:33:18.266517-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:33:51.640244-04:00: IBridgePy version 10.1.4
+2020-09-10 09:33:51.640660-04:00: fileName = mac3.py
+2020-09-10 09:33:52.269212-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:33:52.269564-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:33:52.269943-04:00: CASH=1037875.11
+2020-09-10 09:33:52.270049-04:00: portfolio_value=1037875.11
+2020-09-10 09:33:52.270171-04:00: positions_value=0.0
+2020-09-10 09:33:52.270345-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:33:52.270423-04:00: Symbol Amount Cost_basis
+2020-09-10 09:33:52.270544-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:33:52.270661-04:00: ##    NO any order    ##
+2020-09-10 09:33:52.270773-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-10 09:34:28.159583-04:00: IBridgePy version 10.1.4
+2020-09-10 09:34:28.160213-04:00: fileName = mac3.py
+2020-09-10 09:34:28.356590-04:00: ####    Starting to initialize trader    ####
+2020-09-10 09:34:28.356802-04:00: ##    ACCOUNT Balance  DU229349  ##
+2020-09-10 09:34:28.357186-04:00: CASH=1037875.11
+2020-09-10 09:34:28.357282-04:00: portfolio_value=1037875.11
+2020-09-10 09:34:28.357391-04:00: positions_value=0.0
+2020-09-10 09:34:28.357598-04:00: ##    POSITIONS DU229349   ##
+2020-09-10 09:34:28.357689-04:00: Symbol Amount Cost_basis
+2020-09-10 09:34:28.357824-04:00: CASH,,,GBP,JPY -18000 146.27312
+2020-09-10 09:34:28.357945-04:00: ##    NO any order    ##
+2020-09-10 09:34:28.358057-04:00: ####    Initialize trader COMPLETED    ####

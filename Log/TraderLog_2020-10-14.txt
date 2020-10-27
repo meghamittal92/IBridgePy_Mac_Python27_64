@@ -1,0 +1,40 @@
+2020-10-14 09:04:14.213791-04:00: IBridgePy version 10.1.4
+2020-10-14 09:04:14.214643-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-14 09:04:14.258900-04:00: ####    Starting to initialize trader    ####
+2020-10-14 09:04:14.259148-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-14 09:04:14.259413-04:00: CASH=383202.7
+2020-10-14 09:04:14.259545-04:00: portfolio_value=383202.7
+2020-10-14 09:04:14.259677-04:00: positions_value=0.0
+2020-10-14 09:04:14.259825-04:00: ##    NO ANY POSITION    ##
+2020-10-14 09:04:14.260139-04:00: ##    NO any order    ##
+2020-10-14 09:04:14.260341-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-14 09:04:41.369919-04:00: IBridgePy version 10.1.4
+2020-10-14 09:04:41.371007-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-14 09:04:41.390156-04:00: ####    Starting to initialize trader    ####
+2020-10-14 09:04:41.390403-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-14 09:04:41.390584-04:00: CASH=383202.7
+2020-10-14 09:04:41.390695-04:00: portfolio_value=383202.7
+2020-10-14 09:04:41.390804-04:00: positions_value=0.0
+2020-10-14 09:04:41.390925-04:00: ##    NO ANY POSITION    ##
+2020-10-14 09:04:41.391043-04:00: ##    NO any order    ##
+2020-10-14 09:04:41.391127-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-14 09:13:09.678907-04:00: IBridgePy version 10.1.4
+2020-10-14 09:13:09.679448-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-14 09:13:09.684344-04:00: ####    Starting to initialize trader    ####
+2020-10-14 09:13:09.684534-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-14 09:13:09.684666-04:00: CASH=383198.33
+2020-10-14 09:13:09.684771-04:00: portfolio_value=383198.33
+2020-10-14 09:13:09.684896-04:00: positions_value=0.0
+2020-10-14 09:13:09.685066-04:00: ##    NO ANY POSITION    ##
+2020-10-14 09:13:09.685265-04:00: ##    NO any order    ##
+2020-10-14 09:13:09.685420-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-14 09:16:21.424352-04:00: IBridgePy version 10.1.4
+2020-10-14 09:16:21.424821-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-14 09:16:21.429361-04:00: ####    Starting to initialize trader    ####
+2020-10-14 09:16:21.429540-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-14 09:16:21.429663-04:00: CASH=383229.12
+2020-10-14 09:16:21.429748-04:00: portfolio_value=383229.12
+2020-10-14 09:16:21.429892-04:00: positions_value=0.0
+2020-10-14 09:16:21.430012-04:00: ##    NO ANY POSITION    ##
+2020-10-14 09:16:21.430131-04:00: ##    NO any order    ##
+2020-10-14 09:16:21.430219-04:00: ####    Initialize trader COMPLETED    ####

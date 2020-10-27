@@ -1,0 +1,45 @@
+#######
+AT BEGINNING
+Portfolio Value: 1037875.11
+Positions Value: 0.0
+Portfolio Cash:1037875.11
+ORDERS
+
+POSITIONS
+CASH,,,AUD,USD -36886 0.6794242
+
+######
+
+stime is 2020-09-30 06:39:00-04:00
+No security to trade
+stime is 2020-09-30 06:40:00-04:00
+stime is 2020-09-30 06:41:00-04:00
+ In minuteNum: 1. Trading security: CASH,EUR,USD 
+ #### Inside Handle data
+
+stime is 2020-09-30 06:41:00-04:00
+TIME: 2020-09-30 06:40:00-04:00
+Portfolio Value: 1037875.11
+Positions Value: 0.0
+Portfolio Cash:1037875.11
+ORDERS
+
+POSITIONS
+CASH,,,AUD,USD -36886 0.6794242
+
+#############DATA##########################CASH,EUR,USDStock last close price=1.17167
+CASH,EUR,USD Current (posDI,negDI) = (23.389942, 21.054035)
+CASH,EUR,USD Last (posDI,negDI) = (22.462110, 22.446171)
+CASH,EUR,USD Current ADX 20.897478 
+CASH,EUR,USD Last ADX 23.303883 
+CASH,EUR,USD Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-09-30 06:42:00-04:00
+No security to trade
+stime is 2020-09-30 06:43:00-04:00
+No security to trade
+stime is 2020-09-30 06:44:00-04:00
+No security to trade

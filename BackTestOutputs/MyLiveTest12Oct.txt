@@ -1,0 +1,1804 @@
+#######
+AT BEGINNING
+Portfolio Value: 383749.26
+Positions Value: 0.0
+Portfolio Cash:383749.26
+ORDERS
+
+POSITIONS
+
+######
+
+stime is 2020-10-12 09:04:00-04:00
+No security to trade
+stime is 2020-10-12 09:05:00-04:00
+No security to trade
+stime is 2020-10-12 09:06:00-04:00
+No security to trade
+stime is 2020-10-12 09:07:00-04:00
+No security to trade
+stime is 2020-10-12 09:08:00-04:00
+No security to trade
+stime is 2020-10-12 09:09:00-04:00
+No security to trade
+stime is 2020-10-12 09:10:00-04:00
+No security to trade
+stime is 2020-10-12 09:11:00-04:00
+No security to trade
+stime is 2020-10-12 09:12:00-04:00
+No security to trade
+stime is 2020-10-12 09:13:00-04:00
+No security to trade
+stime is 2020-10-12 09:14:00-04:00
+No security to trade
+stime is 2020-10-12 09:15:00-04:00
+stime is 2020-10-12 09:16:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:16:00-04:00
+TIME: 2020-10-12 09:15:00-04:00
+Portfolio Value: 383759.54
+Positions Value: 0.0
+Portfolio Cash:383759.54
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=120.51
+AAPL Current (posDI,negDI) = (18.358856, 36.975078)
+AAPL Last (posDI,negDI) = (18.576389, 37.413194)
+AAPL Current ADX 50.862467 
+AAPL Last ADX 49.957062 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 09:17:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:17:00-04:00
+TIME: 2020-10-12 09:15:00-04:00
+Portfolio Value: 383759.54
+Positions Value: 0.0
+Portfolio Cash:383759.54
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=191.0
+SQ Current (posDI,negDI) = (22.782258, 22.983871)
+SQ Last (posDI,negDI) = (22.782258, 22.983871)
+SQ Current ADX 18.682955 
+SQ Last ADX 20.781902 
+SQ Current postions: 0.000000 
+
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-10-12 09:18:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:18:00-04:00
+TIME: 2020-10-12 09:15:00-04:00
+Portfolio Value: 383759.54
+Positions Value: 0.0
+Portfolio Cash:383759.54
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=349.64
+SPY Current (posDI,negDI) = (31.410883, 25.154774)
+SPY Last (posDI,negDI) = (31.627297, 25.328084)
+SPY Current ADX 21.282448 
+SPY Last ADX 23.505817 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 09:19:00-04:00
+No security to trade
+stime is 2020-10-12 09:20:00-04:00
+No security to trade
+stime is 2020-10-12 09:21:00-04:00
+No security to trade
+stime is 2020-10-12 09:22:00-04:00
+No security to trade
+stime is 2020-10-12 09:23:00-04:00
+No security to trade
+stime is 2020-10-12 09:24:00-04:00
+No security to trade
+stime is 2020-10-12 09:25:00-04:00
+No security to trade
+stime is 2020-10-12 09:26:00-04:00
+No security to trade
+stime is 2020-10-12 09:27:00-04:00
+No security to trade
+stime is 2020-10-12 09:28:00-04:00
+No security to trade
+stime is 2020-10-12 09:29:00-04:00
+No security to trade
+stime is 2020-10-12 09:30:00-04:00
+stime is 2020-10-12 09:31:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:31:00-04:00
+TIME: 2020-10-12 09:30:00-04:00
+Portfolio Value: 383718.46
+Positions Value: 0.0
+Portfolio Cash:383718.46
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=119.58
+AAPL Current (posDI,negDI) = (16.687331, 41.100350)
+AAPL Last (posDI,negDI) = (17.658951, 38.944589)
+AAPL Current ADX 53.062477 
+AAPL Last ADX 51.336351 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 09:32:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:32:00-04:00
+TIME: 2020-10-12 09:30:00-04:00
+Portfolio Value: 383718.46
+Positions Value: 0.0
+Portfolio Cash:383718.46
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=190.56
+SQ Current (posDI,negDI) = (19.825518, 24.606450)
+SQ Last (posDI,negDI) = (21.003717, 26.068773)
+SQ Current ADX 21.146334 
+SQ Last ADX 20.975507 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 09:33:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:33:00-04:00
+TIME: 2020-10-12 09:30:00-04:00
+Portfolio Value: 383718.46
+Positions Value: 0.0
+Portfolio Cash:383718.46
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=349.4
+SPY Current (posDI,negDI) = (29.688402, 26.149871)
+SPY Last (posDI,negDI) = (30.932472, 24.452046)
+SPY Current ADX 20.095166 
+SPY Last ADX 21.105608 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 09:34:00-04:00
+No security to trade
+stime is 2020-10-12 09:35:00-04:00
+No security to trade
+stime is 2020-10-12 09:36:00-04:00
+No security to trade
+stime is 2020-10-12 09:37:00-04:00
+No security to trade
+stime is 2020-10-12 09:38:00-04:00
+No security to trade
+stime is 2020-10-12 09:39:00-04:00
+No security to trade
+stime is 2020-10-12 09:40:00-04:00
+No security to trade
+stime is 2020-10-12 09:41:00-04:00
+No security to trade
+stime is 2020-10-12 09:42:00-04:00
+No security to trade
+stime is 2020-10-12 09:43:00-04:00
+No security to trade
+stime is 2020-10-12 09:44:00-04:00
+No security to trade
+stime is 2020-10-12 09:45:00-04:00
+stime is 2020-10-12 09:46:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:46:00-04:00
+TIME: 2020-10-12 09:45:00-04:00
+Portfolio Value: 383719.93
+Positions Value: 0.0
+Portfolio Cash:383719.93
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=120.48
+AAPL Current (posDI,negDI) = (20.962262, 31.473987)
+AAPL Last (posDI,negDI) = (21.595806, 32.425228)
+AAPL Current ADX 46.674454 
+AAPL Last ADX 48.863314 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 09:47:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:47:00-04:00
+TIME: 2020-10-12 09:45:00-04:00
+Portfolio Value: 383719.93
+Positions Value: 0.0
+Portfolio Cash:383719.93
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=188.19
+SQ Current (posDI,negDI) = (13.729858, 34.924111)
+SQ Last (posDI,negDI) = (14.779670, 37.594478)
+SQ Current ADX 29.818073 
+SQ Last ADX 25.666299 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 09:48:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 09:48:00-04:00
+TIME: 2020-10-12 09:45:00-04:00
+Portfolio Value: 383719.93
+Positions Value: 0.0
+Portfolio Cash:383719.93
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=349.26
+SPY Current (posDI,negDI) = (27.525941, 27.476898)
+SPY Last (posDI,negDI) = (27.963898, 27.914075)
+SPY Current ADX 21.325571 
+SPY Last ADX 21.222294 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 09:49:00-04:00
+No security to trade
+stime is 2020-10-12 09:50:00-04:00
+No security to trade
+stime is 2020-10-12 09:51:00-04:00
+No security to trade
+stime is 2020-10-12 09:52:00-04:00
+No security to trade
+stime is 2020-10-12 09:53:00-04:00
+No security to trade
+stime is 2020-10-12 09:54:00-04:00
+No security to trade
+stime is 2020-10-12 09:55:00-04:00
+No security to trade
+stime is 2020-10-12 09:56:00-04:00
+No security to trade
+stime is 2020-10-12 09:57:00-04:00
+No security to trade
+stime is 2020-10-12 09:58:00-04:00
+No security to trade
+stime is 2020-10-12 09:59:00-04:00
+No security to trade
+stime is 2020-10-12 10:00:00-04:00
+stime is 2020-10-12 10:01:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:01:00-04:00
+TIME: 2020-10-12 10:00:00-04:00
+Portfolio Value: 383755.13
+Positions Value: 0.0
+Portfolio Cash:383755.13
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=120.28
+AAPL Current (posDI,negDI) = (19.635842, 29.482421)
+AAPL Last (posDI,negDI) = (20.093565, 30.169673)
+AAPL Current ADX 44.731799 
+AAPL Last ADX 46.674454 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:02:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:02:00-04:00
+TIME: 2020-10-12 10:00:00-04:00
+Portfolio Value: 383755.13
+Positions Value: 0.0
+Portfolio Cash:383755.13
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=188.6
+SQ Current (posDI,negDI) = (11.658717, 32.940358)
+SQ Last (posDI,negDI) = (12.372463, 34.956964)
+SQ Current ADX 34.241483 
+SQ Last ADX 30.209398 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:03:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:03:00-04:00
+TIME: 2020-10-12 10:00:00-04:00
+Portfolio Value: 383755.13
+Positions Value: 0.0
+Portfolio Cash:383755.13
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=349.35
+SPY Current (posDI,negDI) = (26.333356, 26.286438)
+SPY Last (posDI,negDI) = (26.825720, 26.777925)
+SPY Current ADX 21.417232 
+SPY Last ADX 21.325571 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:04:00-04:00
+No security to trade
+stime is 2020-10-12 10:05:00-04:00
+No security to trade
+stime is 2020-10-12 10:06:00-04:00
+No security to trade
+stime is 2020-10-12 10:07:00-04:00
+No security to trade
+stime is 2020-10-12 10:08:00-04:00
+No security to trade
+stime is 2020-10-12 10:09:00-04:00
+No security to trade
+stime is 2020-10-12 10:10:00-04:00
+No security to trade
+stime is 2020-10-12 10:11:00-04:00
+No security to trade
+stime is 2020-10-12 10:12:00-04:00
+No security to trade
+stime is 2020-10-12 10:13:00-04:00
+No security to trade
+stime is 2020-10-12 10:14:00-04:00
+No security to trade
+stime is 2020-10-12 10:15:00-04:00
+stime is 2020-10-12 10:16:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:16:00-04:00
+TIME: 2020-10-12 10:15:00-04:00
+Portfolio Value: 383725.8
+Positions Value: 0.0
+Portfolio Cash:383725.8
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=120.55
+AAPL Current (posDI,negDI) = (19.019884, 28.557584)
+AAPL Last (posDI,negDI) = (19.212772, 28.847198)
+AAPL Current ADX 43.003460 
+AAPL Last ADX 44.731799 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:17:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:17:00-04:00
+TIME: 2020-10-12 10:15:00-04:00
+Portfolio Value: 383725.8
+Positions Value: 0.0
+Portfolio Cash:383725.8
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=187.96
+SQ Current (posDI,negDI) = (10.775916, 30.446104)
+SQ Last (posDI,negDI) = (10.996752, 31.070051)
+SQ Current ADX 37.828745 
+SQ Last ADX 34.241483 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:18:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:18:00-04:00
+TIME: 2020-10-12 10:15:00-04:00
+Portfolio Value: 383725.8
+Positions Value: 0.0
+Portfolio Cash:383725.8
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=349.92
+SPY Current (posDI,negDI) = (29.994256, 23.973248)
+SPY Last (posDI,negDI) = (30.453035, 24.339932)
+SPY Current ADX 18.187615 
+SPY Last ADX 19.664995 
+SPY Current postions: 0.000000 
+
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-10-12 10:19:00-04:00
+No security to trade
+stime is 2020-10-12 10:20:00-04:00
+No security to trade
+stime is 2020-10-12 10:21:00-04:00
+No security to trade
+stime is 2020-10-12 10:22:00-04:00
+No security to trade
+stime is 2020-10-12 10:23:00-04:00
+No security to trade
+stime is 2020-10-12 10:24:00-04:00
+No security to trade
+stime is 2020-10-12 10:25:00-04:00
+No security to trade
+stime is 2020-10-12 10:26:00-04:00
+No security to trade
+stime is 2020-10-12 10:27:00-04:00
+No security to trade
+stime is 2020-10-12 10:28:00-04:00
+No security to trade
+stime is 2020-10-12 10:29:00-04:00
+No security to trade
+stime is 2020-10-12 10:30:00-04:00
+stime is 2020-10-12 10:31:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:31:00-04:00
+TIME: 2020-10-12 10:30:00-04:00
+Portfolio Value: 383787.4
+Positions Value: 0.0
+Portfolio Cash:383787.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=120.92
+AAPL Current (posDI,negDI) = (20.746926, 27.082046)
+AAPL Last (posDI,negDI) = (20.923919, 27.313085)
+AAPL Current ADX 38.910590 
+AAPL Last ADX 41.654408 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:32:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:32:00-04:00
+TIME: 2020-10-12 10:30:00-04:00
+Portfolio Value: 383787.4
+Positions Value: 0.0
+Portfolio Cash:383787.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=188.49
+SQ Current (posDI,negDI) = (9.850929, 27.832662)
+SQ Last (posDI,negDI) = (10.122929, 28.601165)
+SQ Current ADX 41.027167 
+SQ Last ADX 37.828745 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:33:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:33:00-04:00
+TIME: 2020-10-12 10:30:00-04:00
+Portfolio Value: 383787.4
+Positions Value: 0.0
+Portfolio Cash:383787.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=350.15
+SPY Current (posDI,negDI) = (31.245955, 22.867951)
+SPY Last (posDI,negDI) = (31.643851, 23.159159)
+SPY Current ADX 18.618724 
+SPY Last ADX 19.111882 
+SPY Current postions: 0.000000 
+
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-10-12 10:34:00-04:00
+No security to trade
+stime is 2020-10-12 10:35:00-04:00
+No security to trade
+stime is 2020-10-12 10:36:00-04:00
+No security to trade
+stime is 2020-10-12 10:37:00-04:00
+No security to trade
+stime is 2020-10-12 10:38:00-04:00
+No security to trade
+stime is 2020-10-12 10:39:00-04:00
+No security to trade
+stime is 2020-10-12 10:40:00-04:00
+No security to trade
+stime is 2020-10-12 10:41:00-04:00
+No security to trade
+stime is 2020-10-12 10:42:00-04:00
+No security to trade
+stime is 2020-10-12 10:43:00-04:00
+No security to trade
+stime is 2020-10-12 10:44:00-04:00
+No security to trade
+stime is 2020-10-12 10:45:00-04:00
+stime is 2020-10-12 10:46:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:46:00-04:00
+TIME: 2020-10-12 10:45:00-04:00
+Portfolio Value: 383749.26
+Positions Value: 0.0
+Portfolio Cash:383749.26
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=121.27
+AAPL Current (posDI,negDI) = (21.560258, 25.661251)
+AAPL Last (posDI,negDI) = (21.739897, 26.060010)
+AAPL Current ADX 34.891115 
+AAPL Last ADX 38.117421 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:47:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:47:00-04:00
+TIME: 2020-10-12 10:45:00-04:00
+Portfolio Value: 383749.26
+Positions Value: 0.0
+Portfolio Cash:383749.26
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=188.46
+SQ Current (posDI,negDI) = (9.700014, 26.314042)
+SQ Last (posDI,negDI) = (9.906820, 26.875062)
+SQ Current ADX 43.282959 
+SQ Last ADX 40.709503 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 10:48:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 10:48:00-04:00
+TIME: 2020-10-12 10:45:00-04:00
+Portfolio Value: 383749.26
+Positions Value: 0.0
+Portfolio Cash:383749.26
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=350.31
+SPY Current (posDI,negDI) = (32.450766, 21.737712)
+SPY Last (posDI,negDI) = (32.738382, 21.930376)
+SPY Current ADX 19.797866 
+SPY Last ADX 19.474199 
+SPY Current postions: 0.000000 
+
+ ADX below exit threshhold. Closing all positionsn
+
+Positions already 0. No need to close
+######
+
+stime is 2020-10-12 10:49:00-04:00
+No security to trade
+stime is 2020-10-12 10:50:00-04:00
+No security to trade
+stime is 2020-10-12 10:51:00-04:00
+No security to trade
+stime is 2020-10-12 10:52:00-04:00
+No security to trade
+stime is 2020-10-12 10:53:00-04:00
+No security to trade
+stime is 2020-10-12 10:54:00-04:00
+No security to trade
+stime is 2020-10-12 10:55:00-04:00
+No security to trade
+stime is 2020-10-12 10:56:00-04:00
+No security to trade
+stime is 2020-10-12 10:57:00-04:00
+No security to trade
+stime is 2020-10-12 10:58:00-04:00
+No security to trade
+stime is 2020-10-12 10:59:00-04:00
+No security to trade
+stime is 2020-10-12 11:00:00-04:00
+stime is 2020-10-12 11:01:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:01:00-04:00
+TIME: 2020-10-12 11:00:00-04:00
+Portfolio Value: 383870.99
+Positions Value: 0.0
+Portfolio Cash:383870.99
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=121.85
+AAPL Current (posDI,negDI) = (24.030031, 24.490191)
+AAPL Last (posDI,negDI) = (23.752128, 24.679401)
+AAPL Current ADX 32.454388 
+AAPL Last ADX 35.040969 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:02:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:02:00-04:00
+TIME: 2020-10-12 11:00:00-04:00
+Portfolio Value: 383870.99
+Positions Value: 0.0
+Portfolio Cash:383870.99
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=188.95
+SQ Current (posDI,negDI) = (9.964430, 25.285491)
+SQ Last (posDI,negDI) = (9.448000, 25.630383)
+SQ Current ADX 45.022643 
+SQ Last ADX 43.282959 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:03:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:03:00-04:00
+TIME: 2020-10-12 11:00:00-04:00
+Portfolio Value: 383870.99
+Positions Value: 0.0
+Portfolio Cash:383870.99
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=350.82
+SPY Current (posDI,negDI) = (35.160438, 19.736312)
+SPY Last (posDI,negDI) = (35.846663, 20.121505)
+SPY Current ADX 22.876248 
+SPY Last ADX 21.269602 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:04:00-04:00
+No security to trade
+stime is 2020-10-12 11:05:00-04:00
+No security to trade
+stime is 2020-10-12 11:06:00-04:00
+No security to trade
+stime is 2020-10-12 11:07:00-04:00
+No security to trade
+stime is 2020-10-12 11:08:00-04:00
+No security to trade
+stime is 2020-10-12 11:09:00-04:00
+No security to trade
+stime is 2020-10-12 11:10:00-04:00
+No security to trade
+stime is 2020-10-12 11:11:00-04:00
+No security to trade
+stime is 2020-10-12 11:12:00-04:00
+No security to trade
+stime is 2020-10-12 11:13:00-04:00
+No security to trade
+stime is 2020-10-12 11:14:00-04:00
+No security to trade
+stime is 2020-10-12 11:15:00-04:00
+stime is 2020-10-12 11:16:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:16:00-04:00
+TIME: 2020-10-12 11:15:00-04:00
+Portfolio Value: 383865.15
+Positions Value: 0.0
+Portfolio Cash:383865.15
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=122.22
+AAPL Current (posDI,negDI) = (26.492895, 23.349851)
+AAPL Last (posDI,negDI) = (26.780662, 23.603478)
+AAPL Current ADX 32.337545 
+AAPL Last ADX 33.615298 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:17:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:17:00-04:00
+TIME: 2020-10-12 11:15:00-04:00
+Portfolio Value: 383865.15
+Positions Value: 0.0
+Portfolio Cash:383865.15
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=188.39
+SQ Current (posDI,negDI) = (9.535421, 24.196849)
+SQ Last (posDI,negDI) = (9.637400, 24.455628)
+SQ Current ADX 46.581828 
+SQ Last ADX 45.022643 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:18:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:18:00-04:00
+TIME: 2020-10-12 11:15:00-04:00
+Portfolio Value: 383865.15
+Positions Value: 0.0
+Portfolio Cash:383865.15
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=351.68
+SPY Current (posDI,negDI) = (40.049681, 17.777355)
+SPY Last (posDI,negDI) = (39.331452, 18.231220)
+SPY Current ADX 26.978204 
+SPY Last ADX 24.147292 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:19:00-04:00
+No security to trade
+stime is 2020-10-12 11:20:00-04:00
+No security to trade
+stime is 2020-10-12 11:21:00-04:00
+No security to trade
+stime is 2020-10-12 11:22:00-04:00
+No security to trade
+stime is 2020-10-12 11:23:00-04:00
+No security to trade
+stime is 2020-10-12 11:24:00-04:00
+No security to trade
+stime is 2020-10-12 11:25:00-04:00
+No security to trade
+stime is 2020-10-12 11:26:00-04:00
+No security to trade
+stime is 2020-10-12 11:27:00-04:00
+No security to trade
+stime is 2020-10-12 11:28:00-04:00
+No security to trade
+stime is 2020-10-12 11:29:00-04:00
+No security to trade
+stime is 2020-10-12 11:30:00-04:00
+stime is 2020-10-12 11:31:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:31:00-04:00
+TIME: 2020-10-12 11:30:00-04:00
+Portfolio Value: 383785.94
+Positions Value: 0.0
+Portfolio Cash:383785.94
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=122.57
+AAPL Current (posDI,negDI) = (27.437503, 22.428039)
+AAPL Last (posDI,negDI) = (27.673138, 22.620652)
+AAPL Current ADX 32.260343 
+AAPL Last ADX 32.901218 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:32:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:32:00-04:00
+TIME: 2020-10-12 11:30:00-04:00
+Portfolio Value: 383785.94
+Positions Value: 0.0
+Portfolio Cash:383785.94
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=187.55
+SQ Current (posDI,negDI) = (8.640892, 28.212956)
+SQ Last (posDI,negDI) = (8.848774, 28.891701)
+SQ Current ADX 50.055917 
+SQ Last ADX 47.675245 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:33:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:33:00-04:00
+TIME: 2020-10-12 11:30:00-04:00
+Portfolio Value: 383785.94
+Positions Value: 0.0
+Portfolio Cash:383785.94
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=351.72
+SPY Current (posDI,negDI) = (41.128719, 17.051838)
+SPY Last (posDI,negDI) = (41.698999, 17.288274)
+SPY Current ADX 30.212379 
+SPY Last ADX 27.343674 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:34:00-04:00
+No security to trade
+stime is 2020-10-12 11:35:00-04:00
+No security to trade
+stime is 2020-10-12 11:36:00-04:00
+No security to trade
+stime is 2020-10-12 11:37:00-04:00
+No security to trade
+stime is 2020-10-12 11:38:00-04:00
+No security to trade
+stime is 2020-10-12 11:39:00-04:00
+No security to trade
+stime is 2020-10-12 11:40:00-04:00
+No security to trade
+stime is 2020-10-12 11:41:00-04:00
+No security to trade
+stime is 2020-10-12 11:42:00-04:00
+No security to trade
+stime is 2020-10-12 11:43:00-04:00
+No security to trade
+stime is 2020-10-12 11:44:00-04:00
+No security to trade
+stime is 2020-10-12 11:45:00-04:00
+stime is 2020-10-12 11:46:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:46:00-04:00
+TIME: 2020-10-12 11:45:00-04:00
+Portfolio Value: 383756.6
+Positions Value: 0.0
+Portfolio Cash:383756.6
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=123.18
+AAPL Current (posDI,negDI) = (31.928703, 20.401112)
+AAPL Last (posDI,negDI) = (32.579046, 20.816654)
+AAPL Current ADX 34.756504 
+AAPL Last ADX 33.878405 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:47:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:47:00-04:00
+TIME: 2020-10-12 11:45:00-04:00
+Portfolio Value: 383756.6
+Positions Value: 0.0
+Portfolio Cash:383756.6
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=185.31
+SQ Current (posDI,negDI) = (7.444722, 35.246969)
+SQ Last (posDI,negDI) = (7.618193, 36.068268)
+SQ Current ADX 54.118142 
+SQ Last ADX 51.068747 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:48:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 11:48:00-04:00
+TIME: 2020-10-12 11:45:00-04:00
+Portfolio Value: 383756.6
+Positions Value: 0.0
+Portfolio Cash:383756.6
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=351.98
+SPY Current (posDI,negDI) = (40.995084, 16.318168)
+SPY Last (posDI,negDI) = (41.422003, 16.488104)
+SPY Current ADX 33.187475 
+SPY Last ADX 30.421630 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 11:49:00-04:00
+No security to trade
+stime is 2020-10-12 11:50:00-04:00
+No security to trade
+stime is 2020-10-12 11:51:00-04:00
+No security to trade
+stime is 2020-10-12 11:52:00-04:00
+No security to trade
+stime is 2020-10-12 11:53:00-04:00
+No security to trade
+stime is 2020-10-12 11:54:00-04:00
+No security to trade
+stime is 2020-10-12 11:55:00-04:00
+No security to trade
+stime is 2020-10-12 11:56:00-04:00
+No security to trade
+stime is 2020-10-12 11:57:00-04:00
+No security to trade
+stime is 2020-10-12 11:58:00-04:00
+No security to trade
+stime is 2020-10-12 11:59:00-04:00
+No security to trade
+stime is 2020-10-12 12:00:00-04:00
+stime is 2020-10-12 12:01:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:01:00-04:00
+TIME: 2020-10-12 12:00:00-04:00
+Portfolio Value: 383617.33
+Positions Value: 0.0
+Portfolio Cash:383617.33
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=122.84
+AAPL Current (posDI,negDI) = (29.793177, 20.623332)
+AAPL Last (posDI,negDI) = (30.208948, 20.911136)
+AAPL Current ADX 34.114534 
+AAPL Last ADX 34.002710 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:02:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:02:00-04:00
+TIME: 2020-10-12 12:00:00-04:00
+Portfolio Value: 383617.33
+Positions Value: 0.0
+Portfolio Cash:383617.33
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=185.09
+SQ Current (posDI,negDI) = (7.066581, 36.050357)
+SQ Last (posDI,negDI) = (7.120447, 36.325154)
+SQ Current ADX 57.143722 
+SQ Last ADX 54.266777 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:03:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:03:00-04:00
+TIME: 2020-10-12 12:00:00-04:00
+Portfolio Value: 383617.33
+Positions Value: 0.0
+Portfolio Cash:383617.33
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=351.68
+SPY Current (posDI,negDI) = (38.369673, 17.202421)
+SPY Last (posDI,negDI) = (39.028529, 17.497808)
+SPY Current ADX 33.860080 
+SPY Last ADX 32.231722 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:04:00-04:00
+No security to trade
+stime is 2020-10-12 12:05:00-04:00
+No security to trade
+stime is 2020-10-12 12:06:00-04:00
+No security to trade
+stime is 2020-10-12 12:07:00-04:00
+No security to trade
+stime is 2020-10-12 12:08:00-04:00
+No security to trade
+stime is 2020-10-12 12:09:00-04:00
+No security to trade
+stime is 2020-10-12 12:10:00-04:00
+No security to trade
+stime is 2020-10-12 12:11:00-04:00
+No security to trade
+stime is 2020-10-12 12:12:00-04:00
+No security to trade
+stime is 2020-10-12 12:13:00-04:00
+No security to trade
+stime is 2020-10-12 12:14:00-04:00
+No security to trade
+stime is 2020-10-12 12:15:00-04:00
+stime is 2020-10-12 12:16:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:16:00-04:00
+TIME: 2020-10-12 12:15:00-04:00
+Portfolio Value: 383695.01
+Positions Value: 0.0
+Portfolio Cash:383695.01
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=123.03
+AAPL Current (posDI,negDI) = (28.556187, 19.767067)
+AAPL Last (posDI,negDI) = (28.893205, 20.000356)
+AAPL Current ADX 34.215231 
+AAPL Last ADX 34.114534 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:17:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:17:00-04:00
+TIME: 2020-10-12 12:15:00-04:00
+Portfolio Value: 383695.01
+Positions Value: 0.0
+Portfolio Cash:383695.01
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=186.74
+SQ Current (posDI,negDI) = (12.131189, 33.247629)
+SQ Last (posDI,negDI) = (11.577509, 33.625330)
+SQ Current ADX 53.930033 
+SQ Last ADX 54.268408 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:18:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:18:00-04:00
+TIME: 2020-10-12 12:15:00-04:00
+Portfolio Value: 383695.01
+Positions Value: 0.0
+Portfolio Cash:383695.01
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=352.16
+SPY Current (posDI,negDI) = (37.682592, 16.273849)
+SPY Last (posDI,negDI) = (38.281729, 16.532597)
+SPY Current ADX 35.761912 
+SPY Last ADX 34.089227 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:19:00-04:00
+No security to trade
+stime is 2020-10-12 12:20:00-04:00
+No security to trade
+stime is 2020-10-12 12:21:00-04:00
+No security to trade
+stime is 2020-10-12 12:22:00-04:00
+No security to trade
+stime is 2020-10-12 12:23:00-04:00
+No security to trade
+stime is 2020-10-12 12:24:00-04:00
+No security to trade
+stime is 2020-10-12 12:25:00-04:00
+No security to trade
+stime is 2020-10-12 12:26:00-04:00
+No security to trade
+stime is 2020-10-12 12:27:00-04:00
+No security to trade
+stime is 2020-10-12 12:28:00-04:00
+No security to trade
+stime is 2020-10-12 12:29:00-04:00
+No security to trade
+stime is 2020-10-12 12:30:00-04:00
+stime is 2020-10-12 12:31:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:31:00-04:00
+TIME: 2020-10-12 12:30:00-04:00
+Portfolio Value: 383774.19
+Positions Value: 0.0
+Portfolio Cash:383774.19
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=123.27
+AAPL Current (posDI,negDI) = (28.679585, 19.120296)
+AAPL Last (posDI,negDI) = (28.850478, 19.234228)
+AAPL Current ADX 34.792626 
+AAPL Last ADX 34.471178 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:32:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:32:00-04:00
+TIME: 2020-10-12 12:30:00-04:00
+Portfolio Value: 383774.19
+Positions Value: 0.0
+Portfolio Cash:383774.19
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=187.16
+SQ Current (posDI,negDI) = (14.268058, 31.598714)
+SQ Last (posDI,negDI) = (14.387259, 31.862702)
+SQ Current ADX 51.201909 
+SQ Last ADX 52.655576 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:33:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:33:00-04:00
+TIME: 2020-10-12 12:30:00-04:00
+Portfolio Value: 383774.19
+Positions Value: 0.0
+Portfolio Cash:383774.19
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=352.93
+SPY Current (posDI,negDI) = (42.201457, 14.520702)
+SPY Last (posDI,negDI) = (43.104368, 14.831376)
+SPY Current ADX 39.505616 
+SPY Last ADX 36.937988 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:34:00-04:00
+No security to trade
+stime is 2020-10-12 12:35:00-04:00
+No security to trade
+stime is 2020-10-12 12:36:00-04:00
+No security to trade
+stime is 2020-10-12 12:37:00-04:00
+No security to trade
+stime is 2020-10-12 12:38:00-04:00
+No security to trade
+stime is 2020-10-12 12:39:00-04:00
+No security to trade
+stime is 2020-10-12 12:40:00-04:00
+No security to trade
+stime is 2020-10-12 12:41:00-04:00
+No security to trade
+stime is 2020-10-12 12:42:00-04:00
+No security to trade
+stime is 2020-10-12 12:43:00-04:00
+No security to trade
+stime is 2020-10-12 12:44:00-04:00
+No security to trade
+stime is 2020-10-12 12:45:00-04:00
+stime is 2020-10-12 12:46:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:46:00-04:00
+TIME: 2020-10-12 12:45:00-04:00
+Portfolio Value: 383868.05
+Positions Value: 0.0
+Portfolio Cash:383868.05
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=123.55
+AAPL Current (posDI,negDI) = (29.380378, 18.353191)
+AAPL Last (posDI,negDI) = (29.503909, 18.477289)
+AAPL Current ADX 35.891100 
+AAPL Last ADX 35.208816 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:47:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:47:00-04:00
+TIME: 2020-10-12 12:45:00-04:00
+Portfolio Value: 383868.05
+Positions Value: 0.0
+Portfolio Cash:383868.05
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=186.92
+SQ Current (posDI,negDI) = (13.663098, 30.258942)
+SQ Last (posDI,negDI) = (13.777876, 30.513133)
+SQ Current ADX 49.890632 
+SQ Last ADX 51.201909 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:48:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 12:48:00-04:00
+TIME: 2020-10-12 12:45:00-04:00
+Portfolio Value: 383868.05
+Positions Value: 0.0
+Portfolio Cash:383868.05
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=353.05
+SPY Current (posDI,negDI) = (41.926413, 14.042702)
+SPY Last (posDI,negDI) = (42.377103, 14.193654)
+SPY Current ADX 42.046740 
+SPY Last ADX 39.623911 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 12:49:00-04:00
+No security to trade
+stime is 2020-10-12 12:50:00-04:00
+No security to trade
+stime is 2020-10-12 12:51:00-04:00
+No security to trade
+stime is 2020-10-12 12:52:00-04:00
+No security to trade
+stime is 2020-10-12 12:53:00-04:00
+No security to trade
+stime is 2020-10-12 12:54:00-04:00
+No security to trade
+stime is 2020-10-12 12:55:00-04:00
+No security to trade
+stime is 2020-10-12 12:56:00-04:00
+No security to trade
+stime is 2020-10-12 12:57:00-04:00
+No security to trade
+stime is 2020-10-12 12:58:00-04:00
+No security to trade
+stime is 2020-10-12 12:59:00-04:00
+No security to trade
+stime is 2020-10-12 13:00:00-04:00
+stime is 2020-10-12 13:01:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:01:00-04:00
+TIME: 2020-10-12 13:00:00-04:00
+Portfolio Value: 383862.22
+Positions Value: 0.0
+Portfolio Cash:383862.22
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=123.59
+AAPL Current (posDI,negDI) = (29.623238, 17.825747)
+AAPL Last (posDI,negDI) = (29.919247, 18.003870)
+AAPL Current ADX 36.966452 
+AAPL Last ADX 36.132570 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:02:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:02:00-04:00
+TIME: 2020-10-12 13:00:00-04:00
+Portfolio Value: 383862.22
+Positions Value: 0.0
+Portfolio Cash:383862.22
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=187.38
+SQ Current (posDI,negDI) = (14.775225, 28.980120)
+SQ Last (posDI,negDI) = (14.929727, 29.283160)
+SQ Current ADX 47.188408 
+SQ Last ADX 49.092547 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:03:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:03:00-04:00
+TIME: 2020-10-12 13:00:00-04:00
+Portfolio Value: 383862.22
+Positions Value: 0.0
+Portfolio Cash:383862.22
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=352.8
+SPY Current (posDI,negDI) = (41.292689, 13.258692)
+SPY Last (posDI,negDI) = (41.821828, 13.428594)
+SPY Current ADX 44.581251 
+SPY Last ADX 42.229323 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:04:00-04:00
+No security to trade
+stime is 2020-10-12 13:05:00-04:00
+No security to trade
+stime is 2020-10-12 13:06:00-04:00
+No security to trade
+stime is 2020-10-12 13:07:00-04:00
+No security to trade
+stime is 2020-10-12 13:08:00-04:00
+No security to trade
+stime is 2020-10-12 13:09:00-04:00
+No security to trade
+stime is 2020-10-12 13:10:00-04:00
+No security to trade
+stime is 2020-10-12 13:11:00-04:00
+No security to trade
+stime is 2020-10-12 13:12:00-04:00
+No security to trade
+stime is 2020-10-12 13:13:00-04:00
+No security to trade
+stime is 2020-10-12 13:14:00-04:00
+No security to trade
+stime is 2020-10-12 13:15:00-04:00
+stime is 2020-10-12 13:16:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:16:00-04:00
+TIME: 2020-10-12 13:15:00-04:00
+Portfolio Value: 383828.46
+Positions Value: 0.0
+Portfolio Cash:383828.46
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=123.71
+AAPL Current (posDI,negDI) = (28.937272, 17.019448)
+AAPL Last (posDI,negDI) = (29.499950, 17.350387)
+AAPL Current ADX 38.000320 
+AAPL Last ADX 37.113889 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:17:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:17:00-04:00
+TIME: 2020-10-12 13:15:00-04:00
+Portfolio Value: 383828.46
+Positions Value: 0.0
+Portfolio Cash:383828.46
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=187.31
+SQ Current (posDI,negDI) = (14.180544, 27.813713)
+SQ Last (posDI,negDI) = (14.482613, 28.406191)
+SQ Current ADX 45.468386 
+SQ Last ADX 47.188408 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:18:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:18:00-04:00
+TIME: 2020-10-12 13:15:00-04:00
+Portfolio Value: 383828.46
+Positions Value: 0.0
+Portfolio Cash:383828.46
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=352.94
+SPY Current (posDI,negDI) = (39.717104, 14.824869)
+SPY Last (posDI,negDI) = (40.315046, 15.209435)
+SPY Current ADX 44.563826 
+SPY Last ADX 43.423681 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:19:00-04:00
+No security to trade
+stime is 2020-10-12 13:20:00-04:00
+No security to trade
+stime is 2020-10-12 13:21:00-04:00
+No security to trade
+stime is 2020-10-12 13:22:00-04:00
+No security to trade
+stime is 2020-10-12 13:23:00-04:00
+No security to trade
+stime is 2020-10-12 13:24:00-04:00
+No security to trade
+stime is 2020-10-12 13:25:00-04:00
+No security to trade
+stime is 2020-10-12 13:26:00-04:00
+No security to trade
+stime is 2020-10-12 13:27:00-04:00
+No security to trade
+stime is 2020-10-12 13:28:00-04:00
+No security to trade
+stime is 2020-10-12 13:29:00-04:00
+No security to trade
+stime is 2020-10-12 13:30:00-04:00
+stime is 2020-10-12 13:31:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:31:00-04:00
+TIME: 2020-10-12 13:30:00-04:00
+Portfolio Value: 383831.4
+Positions Value: 0.0
+Portfolio Cash:383831.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=124.06
+AAPL Current (posDI,negDI) = (30.004501, 16.494667)
+AAPL Last (posDI,negDI) = (29.549290, 16.675928)
+AAPL Current ADX 39.470781 
+AAPL Last ADX 38.264804 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:32:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:32:00-04:00
+TIME: 2020-10-12 13:30:00-04:00
+Portfolio Value: 383831.4
+Positions Value: 0.0
+Portfolio Cash:383831.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=187.0
+SQ Current (posDI,negDI) = (13.317481, 29.059090)
+SQ Last (posDI,negDI) = (13.651743, 29.788457)
+SQ Current ADX 45.379695 
+SQ Last ADX 46.238377 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:33:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:33:00-04:00
+TIME: 2020-10-12 13:30:00-04:00
+Portfolio Value: 383831.4
+Positions Value: 0.0
+Portfolio Cash:383831.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=353.58
+SPY Current (posDI,negDI) = (43.368977, 13.675840)
+SPY Last (posDI,negDI) = (43.524980, 13.888430)
+SPY Current ADX 47.140649 
+SPY Last ADX 45.347844 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:34:00-04:00
+No security to trade
+stime is 2020-10-12 13:35:00-04:00
+No security to trade
+stime is 2020-10-12 13:36:00-04:00
+No security to trade
+stime is 2020-10-12 13:37:00-04:00
+No security to trade
+stime is 2020-10-12 13:38:00-04:00
+No security to trade
+stime is 2020-10-12 13:39:00-04:00
+No security to trade
+stime is 2020-10-12 13:40:00-04:00
+No security to trade
+stime is 2020-10-12 13:41:00-04:00
+No security to trade
+stime is 2020-10-12 13:42:00-04:00
+No security to trade
+stime is 2020-10-12 13:43:00-04:00
+No security to trade
+stime is 2020-10-12 13:44:00-04:00
+No security to trade
+stime is 2020-10-12 13:45:00-04:00
+stime is 2020-10-12 13:46:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:46:00-04:00
+TIME: 2020-10-12 13:45:00-04:00
+Portfolio Value: 383831.4
+Positions Value: 0.0
+Portfolio Cash:383831.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=124.37
+AAPL Current (posDI,negDI) = (31.614005, 15.806800)
+AAPL Last (posDI,negDI) = (31.426477, 16.070446)
+AAPL Current ADX 41.489151 
+AAPL Last ADX 39.891728 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:47:00-04:00
+ In minuteNum: 2. Trading security: SQ 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:47:00-04:00
+TIME: 2020-10-12 13:45:00-04:00
+Portfolio Value: 383831.4
+Positions Value: 0.0
+Portfolio Cash:383831.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=186.36
+SQ Current (posDI,negDI) = (13.056614, 28.590693)
+SQ Last (posDI,negDI) = (13.162782, 28.721533)
+SQ Current ADX 44.629068 
+SQ Last ADX 45.379695 
+SQ Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:48:00-04:00
+ In minuteNum: 3. Trading security: SPY 
+ #### Inside Handle data
+
+stime is 2020-10-12 13:48:00-04:00
+TIME: 2020-10-12 13:45:00-04:00
+Portfolio Value: 383831.4
+Positions Value: 0.0
+Portfolio Cash:383831.4
+ORDERS
+
+POSITIONS
+
+#############DATA##########################SPYStock last close price=353.39
+SPY Current (posDI,negDI) = (42.201632, 12.854051)
+SPY Last (posDI,negDI) = (42.761480, 13.024574)
+SPY Current ADX 49.049828 
+SPY Last ADX 47.291821 
+SPY Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-12 13:49:00-04:00
+No security to trade
+stime is 2020-10-12 13:50:00-04:00
+No security to trade
+stime is 2020-10-12 13:51:00-04:00
+No security to trade
+stime is 2020-10-12 13:52:00-04:00
+No security to trade
+stime is 2020-10-12 13:53:00-04:00
+No security to trade
+stime is 2020-10-12 13:54:00-04:00
+No security to trade
+stime is 2020-10-12 13:55:00-04:00
+No security to trade
+stime is 2020-10-12 13:56:00-04:00
+No security to trade
+stime is 2020-10-12 13:57:00-04:00
+No security to trade
+stime is 2020-10-12 13:58:00-04:00
+No security to trade
+stime is 2020-10-12 13:59:00-04:00
+No security to trade
+stime is 2020-10-12 14:00:00-04:00
+stime is 2020-10-12 14:39:00-04:00
+No security to trade
+stime is 2020-10-12 14:40:00-04:00
+No security to trade
+stime is 2020-10-12 14:41:00-04:00
+No security to trade
+stime is 2020-10-12 14:42:00-04:00
+No security to trade
+stime is 2020-10-12 14:43:00-04:00
+No security to trade
+stime is 2020-10-12 14:44:00-04:00
+No security to trade
+stime is 2020-10-12 14:45:00-04:00
+stime is 2020-10-12 14:46:00-04:00

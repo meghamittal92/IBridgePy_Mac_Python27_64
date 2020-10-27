@@ -1,0 +1,52 @@
+2020-10-09 08:34:24.445536-04:00: IBridgePy version 10.1.4
+2020-10-09 08:34:24.446984-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-09 08:34:24.486971-04:00: ####    Starting to initialize trader    ####
+2020-10-09 08:34:24.487174-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-09 08:34:24.487302-04:00: CASH=384313.16
+2020-10-09 08:34:24.487477-04:00: portfolio_value=384313.16
+2020-10-09 08:34:24.487876-04:00: positions_value=0.0
+2020-10-09 08:34:24.488173-04:00: ##    NO ANY POSITION    ##
+2020-10-09 08:34:24.488314-04:00: ##    NO any order    ##
+2020-10-09 08:34:24.488431-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-09 09:56:59.780623-04:00: IBridgePy version 10.1.4
+2020-10-09 09:56:59.781446-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-09 09:56:59.811850-04:00: ####    Starting to initialize trader    ####
+2020-10-09 09:56:59.812071-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-09 09:56:59.812424-04:00: CASH=384401.43
+2020-10-09 09:56:59.813172-04:00: portfolio_value=384401.43
+2020-10-09 09:56:59.813374-04:00: positions_value=0.0
+2020-10-09 09:56:59.813520-04:00: ##    NO ANY POSITION    ##
+2020-10-09 09:56:59.813630-04:00: ##    NO any order    ##
+2020-10-09 09:56:59.813750-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-09 10:07:08.622106-04:00: IBridgePy version 10.1.4
+2020-10-09 10:07:08.622698-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-09 10:07:08.629444-04:00: ####    Starting to initialize trader    ####
+2020-10-09 10:07:08.629693-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-09 10:07:08.629833-04:00: CASH=384607.5
+2020-10-09 10:07:08.629977-04:00: portfolio_value=384607.5
+2020-10-09 10:07:08.630085-04:00: positions_value=0.0
+2020-10-09 10:07:08.630190-04:00: ##    NO ANY POSITION    ##
+2020-10-09 10:07:08.630311-04:00: ##    NO any order    ##
+2020-10-09 10:07:08.630417-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-09 10:18:00.006695-04:00: IBridgePy version 10.1.4
+2020-10-09 10:18:00.007256-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-09 10:18:00.011937-04:00: ####    Starting to initialize trader    ####
+2020-10-09 10:18:00.012090-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-09 10:18:00.012232-04:00: CASH=384517.67
+2020-10-09 10:18:00.012340-04:00: portfolio_value=384517.67
+2020-10-09 10:18:00.012418-04:00: positions_value=0.0
+2020-10-09 10:18:00.012563-04:00: ##    NO ANY POSITION    ##
+2020-10-09 10:18:00.012666-04:00: ##    NO any order    ##
+2020-10-09 10:18:00.012779-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-09 10:31:37.399146-04:00: IBridgePy version 10.1.4
+2020-10-09 10:31:37.399767-04:00: fileName = DICrossOverMultiThreadedV2.py
+2020-10-09 10:31:37.412257-04:00: ####    Starting to initialize trader    ####
+2020-10-09 10:31:37.412452-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-09 10:31:37.412587-04:00: CASH=384631.05
+2020-10-09 10:31:37.412688-04:00: portfolio_value=384631.05
+2020-10-09 10:31:37.412917-04:00: positions_value=0.0
+2020-10-09 10:31:37.413151-04:00: ##    NO ANY POSITION    ##
+2020-10-09 10:31:37.413274-04:00: ##    NO any order    ##
+2020-10-09 10:31:37.413374-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-10 01:01:00.137110-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=509 errorMessage=Exception caught while reading socket - Connection reset by peer
+2020-10-10 01:01:00.143705-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4

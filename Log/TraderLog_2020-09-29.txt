@@ -1,0 +1,66 @@
+2020-09-29 06:35:37.571360-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=977 errorMessage=Please download the latest version of IBridgePy at www.IBridgePy.com For any questions, you may send email to IBridgePy@gmail.com, Thanks
+2020-09-29 06:35:37.571917-04:00: Hint: Please refer to YouTube tutorial https://youtu.be/pson8T5ZaRw
+2020-09-29 06:35:37.572107-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-29 06:36:41.698658-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=502 errorMessage=Couldn't connect to TWS.  Confirm that "Enable ActiveX and Socket Clients" is enabled on the TWS "Configure->API" menu.
+2020-09-29 06:36:41.699155-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-29 12:54:48.150370-04:00: IBridgePy version 10.1.4
+2020-09-29 12:54:48.152418-04:00: fileName = DICrossOverMultiThreaded.py
+2020-09-29 12:54:48.194579-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=10141 errorMessage=Paper trading disclaimer must first be accepted for API connection.
+2020-09-29 12:54:48.194860-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-29 12:55:02.083462-04:00: IBridgePy version 10.1.4
+2020-09-29 12:55:02.083942-04:00: fileName = DICrossOverMultiThreaded.py
+2020-09-29 12:55:02.119159-04:00: ####    Starting to initialize trader    ####
+2020-09-29 12:55:02.119376-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-29 12:55:02.119520-04:00: CASH=190486.59
+2020-09-29 12:55:02.119611-04:00: portfolio_value=380292.64
+2020-09-29 12:55:02.119737-04:00: positions_value=189856.25
+2020-09-29 12:55:02.119871-04:00: ##    POSITIONS DU1073267   ##
+2020-09-29 12:55:02.119969-04:00: Symbol Amount Cost_basis
+2020-09-29 12:55:02.120107-04:00: STK,,,SQ,USD 1148 165.5660485
+2020-09-29 12:55:02.120239-04:00: ##    NO any order    ##
+2020-09-29 12:55:02.120345-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-29 13:10:41.382956-04:00: IBridgePy version 10.1.4
+2020-09-29 13:10:41.383750-04:00: fileName = example_get_historical_data.py
+2020-09-29 13:10:41.384433-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=326 errorMessage=Unable to connect as the client id is already in use. Retry with a unique client id.
+2020-09-29 13:10:41.384626-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-29 14:00:30.441397-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-29 14:00:30.446174-04:00: {reqId=2467;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:15 mins,goBack:1 D,timezoneOfReturn:US/Eastern,endTime:,whatToShow:TRADES,formatDate:1,security:STK,ISLAND,SMART,AAPL,USD,useRTH:0,}}
+2020-09-29 14:00:30.446991-04:00: Hint 1: The most common reason is that IB historical data service is not available at this moment, especially when US market is closed. Try the request later.
+2020-09-29 14:00:30.447150-04:00: Hint 2: The less common reason is that IB server does not response if the request violates IB rules about bar size. Refer to http://interactivebrokers.github.io/tws-api/historical_limitations.html#non-available_hd
+2020-09-29 14:00:47.565819-04:00: IBridgePy version 10.1.4
+2020-09-29 14:00:47.566636-04:00: fileName = example_get_historical_data.py
+2020-09-29 14:00:47.577368-04:00: ####    Starting to initialize trader    ####
+2020-09-29 14:00:47.577675-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-29 14:00:47.577821-04:00: CASH=379779.09
+2020-09-29 14:00:47.577946-04:00: portfolio_value=379728.9
+2020-09-29 14:00:47.578096-04:00: positions_value=0.0
+2020-09-29 14:00:47.578405-04:00: ##    NO ANY POSITION    ##
+2020-09-29 14:00:47.578639-04:00: ##    NO any order    ##
+2020-09-29 14:00:47.578834-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-29 14:01:15.185420-04:00: IBridgePy version 10.1.4
+2020-09-29 14:01:15.185996-04:00: fileName = DICrossOverMultiThreaded.py
+2020-09-29 14:01:15.193927-04:00: ####    Starting to initialize trader    ####
+2020-09-29 14:01:15.194110-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-29 14:01:15.194432-04:00: CASH=379779.09
+2020-09-29 14:01:15.194562-04:00: portfolio_value=379728.9
+2020-09-29 14:01:15.194687-04:00: positions_value=0.0
+2020-09-29 14:01:15.194822-04:00: ##    NO ANY POSITION    ##
+2020-09-29 14:01:15.195071-04:00: ##    NO any order    ##
+2020-09-29 14:01:15.195208-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-29 14:45:30.310723-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-29 14:45:30.313034-04:00: {reqId=2477;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:15 mins,goBack:1 D,timezoneOfReturn:US/Eastern,endTime:,whatToShow:TRADES,formatDate:1,security:STK,ISLAND,SMART,AAPL,USD,useRTH:0,}}
+2020-09-29 14:45:30.313302-04:00: Hint 1: The most common reason is that IB historical data service is not available at this moment, especially when US market is closed. Try the request later.
+2020-09-29 14:45:30.313452-04:00: Hint 2: The less common reason is that IB server does not response if the request violates IB rules about bar size. Refer to http://interactivebrokers.github.io/tws-api/historical_limitations.html#non-available_hd
+2020-09-29 14:46:30.459009-04:00: IBridgePy version 10.1.4
+2020-09-29 14:46:30.459560-04:00: fileName = DICrossOverMultiThreaded.py
+2020-09-29 14:46:30.464334-04:00: ####    Starting to initialize trader    ####
+2020-09-29 14:46:30.464483-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-29 14:46:30.464642-04:00: CASH=379738.75
+2020-09-29 14:46:30.464742-04:00: portfolio_value=379688.56
+2020-09-29 14:46:30.464867-04:00: positions_value=0.0
+2020-09-29 14:46:30.464948-04:00: ##    NO ANY POSITION    ##
+2020-09-29 14:46:30.465091-04:00: ##    NO any order    ##
+2020-09-29 14:46:30.465182-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-29 16:17:00.738251-04:00: broker_client_factory.CallBacks:errorId=2496 errorCode=399 errorMessage=Order Message:
+BUY 1,154 SQ NYSE
+Warning: your order will not be placed at the exchange until 2020-09-30 09:30:00 US/Eastern

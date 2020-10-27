@@ -1,0 +1,103 @@
+#######
+AT BEGINNING
+Portfolio Value: 383168.02
+Positions Value: 0.0
+Portfolio Cash:383168.02
+ORDERS
+
+POSITIONS
+
+######
+
+stime is 2020-10-08 10:50:00-04:00
+stime is 2020-10-08 10:51:00-04:00
+ In minuteNum: 1. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-08 10:51:00-04:00
+TIME: 2020-10-08 10:50:00-04:00
+Portfolio Value: 383182.63
+Positions Value: 0.0
+Portfolio Cash:383182.63
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=115.31
+AAPL Current (posDI,negDI) = (14.132100, 22.847416)
+AAPL Last (posDI,negDI) = (14.458095, 23.374452)
+AAPL Current ADX 25.302798 
+AAPL Last ADX 25.270297 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-08 10:52:00-04:00
+ In minuteNum: 2. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-08 10:52:00-04:00
+TIME: 2020-10-08 10:50:00-04:00
+Portfolio Value: 383182.63
+Positions Value: 0.0
+Portfolio Cash:383182.63
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=115.31
+AAPL Current (posDI,negDI) = (14.132100, 22.847416)
+AAPL Last (posDI,negDI) = (14.458095, 23.374452)
+AAPL Current ADX 25.302798 
+AAPL Last ADX 25.270297 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-08 10:53:00-04:00
+ In minuteNum: 3. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-08 10:53:00-04:00
+TIME: 2020-10-08 10:50:00-04:00
+Portfolio Value: 383182.63
+Positions Value: 0.0
+Portfolio Cash:383182.63
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=115.31
+AAPL Current (posDI,negDI) = (14.132100, 22.847416)
+AAPL Last (posDI,negDI) = (14.458095, 23.374452)
+AAPL Current ADX 25.302798 
+AAPL Last ADX 25.270297 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######
+
+stime is 2020-10-08 10:54:00-04:00
+ In minuteNum: 4. Trading security: AAPL 
+ #### Inside Handle data
+
+stime is 2020-10-08 10:54:00-04:00
+TIME: 2020-10-08 10:50:00-04:00
+Portfolio Value: 383150.45
+Positions Value: 0.0
+Portfolio Cash:383150.45
+ORDERS
+
+POSITIONS
+
+#############DATA##########################AAPLStock last close price=115.31
+AAPL Current (posDI,negDI) = (14.100307, 22.796016)
+AAPL Last (posDI,negDI) = (14.458095, 23.374452)
+AAPL Current ADX 25.302798 
+AAPL Last ADX 25.270297 
+AAPL Current postions: 0.000000 
+
+ Nothing to do.
+######

@@ -1,0 +1,32 @@
+#######
+AT BEGINNING
+Portfolio Value: 100000.0
+Positions Value: 0.0
+Portfolio Cash:100000.0
+ORDERS
+
+POSITIONS
+
+######
+
+ #### Inside Handle data
+
+TIME: 2020-09-10 09:40:00-04:00
+Portfolio Value: 100000.0
+Positions Value: 0.0
+Portfolio Cash:100000.0
+POSITIONS
+
+#############DATA##########################Stock last close price=118.8
+Current (posDI,negDI) = (41.831353, 19.035831)
+Current ADX 30.947968 
+ADX[-2]: 29.947451 , ADX[-3] : 27.392657
+Current postions: 0.000000 
+5minPdi : 42.970814, 5minNDi :  17.985437 
+#############DATA##########################
+ ADX is flat/upslope. Entering trade function
+
+Positive over negative or jut crossing over. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1. Current percent is: 0.000000

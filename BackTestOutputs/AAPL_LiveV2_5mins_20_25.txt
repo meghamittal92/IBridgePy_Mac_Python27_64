@@ -1,0 +1,18 @@
+#######
+AT BEGINNING
+Portfolio Value: 383143.17
+Positions Value: 0.0
+Portfolio Cash:383143.17
+ORDERS
+
+POSITIONS
+
+######
+
+stime is 2020-10-08 09:53:00-04:00
+No security to trade
+stime is 2020-10-08 09:54:00-04:00
+No security to trade
+stime is 2020-10-08 09:55:00-04:00
+stime is 2020-10-08 09:56:00-04:00
+ In minuteNum: 1. Trading security: AAPL 

@@ -1,0 +1,239 @@
+2020-09-16 12:55:02.923947-04:00: ####     Data ingestion starts    ####
+2020-09-16 12:55:04.073580-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 12:55:04.073773-04:00: IBridgePy version 10.1.4
+2020-09-16 12:55:04.074160-04:00: fileName = mac6.py
+2020-09-16 12:55:04.081118-04:00: ####    Starting to initialize trader    ####
+2020-09-16 12:55:04.081254-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 12:55:04.081634-04:00: CASH=100000.0
+2020-09-16 12:55:04.081737-04:00: portfolio_value=100000.0
+2020-09-16 12:55:04.081841-04:00: positions_value=0.0
+2020-09-16 12:55:04.081918-04:00: ##    NO ANY POSITION    ##
+2020-09-16 12:55:04.082077-04:00: ##    NO any order    ##
+2020-09-16 12:55:04.082169-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 12:55:04.086923-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-09-14 16:11:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-16 12:55:04.087147-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-09-11 16:11:00+00:00 endTime=2020-09-14 16:11:00+00:00 Are they too close to each other?
+2020-09-16 12:55:04.087400-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-09-16 13:30:00+00:00
+2020-09-16 12:55:04.087529-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-16 16:54:00+00:00
+2020-09-16 12:55:04.087625-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-16 12:57:59.269248-04:00: ####     Data ingestion starts    ####
+2020-09-16 12:58:00.415910-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 12:58:00.416139-04:00: IBridgePy version 10.1.4
+2020-09-16 12:58:00.416267-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 12:58:00.418156-04:00: ####    Starting to initialize trader    ####
+2020-09-16 12:58:00.418334-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 12:58:00.418474-04:00: CASH=100000.0
+2020-09-16 12:58:00.418568-04:00: portfolio_value=100000.0
+2020-09-16 12:58:00.418664-04:00: positions_value=0.0
+2020-09-16 12:58:00.418771-04:00: ##    NO ANY POSITION    ##
+2020-09-16 12:58:00.418899-04:00: ##    NO any order    ##
+2020-09-16 12:58:00.419033-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 12:58:00.423140-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-09-10 13:31:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-16 12:58:00.423319-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-09-07 13:31:00+00:00 endTime=2020-09-10 13:31:00+00:00 Are they too close to each other?
+2020-09-16 12:58:00.423468-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-09-16 13:30:00+00:00
+2020-09-16 12:58:00.423573-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-16 16:57:00+00:00
+2020-09-16 12:58:00.423668-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-16 12:58:28.855756-04:00: ####     Data ingestion starts    ####
+2020-09-16 12:58:30.291748-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 12:58:30.292043-04:00: IBridgePy version 10.1.4
+2020-09-16 12:58:30.292428-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 12:58:30.294941-04:00: ####    Starting to initialize trader    ####
+2020-09-16 12:58:30.295085-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 12:58:30.295266-04:00: CASH=100000.0
+2020-09-16 12:58:30.295362-04:00: portfolio_value=100000.0
+2020-09-16 12:58:30.295433-04:00: positions_value=0.0
+2020-09-16 12:58:30.295653-04:00: ##    NO ANY POSITION    ##
+2020-09-16 12:58:30.295748-04:00: ##    NO any order    ##
+2020-09-16 12:58:30.295817-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 12:58:30.299916-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-09-10 13:31:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-16 12:58:30.300111-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-09-07 13:31:00+00:00 endTime=2020-09-10 13:31:00+00:00 Are they too close to each other?
+2020-09-16 12:58:30.300335-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-09-16 13:30:00+00:00
+2020-09-16 12:58:30.300468-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-16 16:58:00+00:00
+2020-09-16 12:58:30.300568-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-16 12:59:07.833867-04:00: ####     Data ingestion starts    ####
+2020-09-16 12:59:08.950346-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 12:59:08.950685-04:00: IBridgePy version 10.1.4
+2020-09-16 12:59:08.951060-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 12:59:08.952787-04:00: ####    Starting to initialize trader    ####
+2020-09-16 12:59:08.952921-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 12:59:08.953051-04:00: CASH=100000.0
+2020-09-16 12:59:08.953134-04:00: portfolio_value=100000.0
+2020-09-16 12:59:08.953198-04:00: positions_value=0.0
+2020-09-16 12:59:08.953300-04:00: ##    NO ANY POSITION    ##
+2020-09-16 12:59:08.953378-04:00: ##    NO any order    ##
+2020-09-16 12:59:08.953502-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 12:59:08.958176-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-09-10 13:32:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-16 12:59:08.958356-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-09-07 13:32:00+00:00 endTime=2020-09-10 13:32:00+00:00 Are they too close to each other?
+2020-09-16 12:59:08.958564-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-09-16 13:30:00+00:00
+2020-09-16 12:59:08.958670-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-16 16:59:00+00:00
+2020-09-16 12:59:08.958820-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-16 12:59:40.545976-04:00: IBridgePy version 10.1.4
+2020-09-16 12:59:40.546424-04:00: fileName = example_get_historical_data.py
+2020-09-16 12:59:40.552504-04:00: ####    Starting to initialize trader    ####
+2020-09-16 12:59:40.552685-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 12:59:40.552907-04:00: CASH=1212.22
+2020-09-16 12:59:40.553017-04:00: portfolio_value=393121.59
+2020-09-16 12:59:40.553205-04:00: positions_value=391909.37
+2020-09-16 12:59:40.553376-04:00: ##    POSITIONS DU1073267   ##
+2020-09-16 12:59:40.553483-04:00: Symbol Amount Cost_basis
+2020-09-16 12:59:40.553609-04:00: STK,,,AAPL,USD 3451 114.82368925
+2020-09-16 12:59:40.553775-04:00: ##    NO any order    ##
+2020-09-16 12:59:40.553876-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:00:06.571588-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-16 13:00:23.599837-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:00:24.711440-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 13:00:24.711718-04:00: IBridgePy version 10.1.4
+2020-09-16 13:00:24.712052-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 13:00:24.714716-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:00:24.714927-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:00:24.715092-04:00: CASH=100000.0
+2020-09-16 13:00:24.715184-04:00: portfolio_value=100000.0
+2020-09-16 13:00:24.715297-04:00: positions_value=0.0
+2020-09-16 13:00:24.715374-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:00:24.715534-04:00: ##    NO any order    ##
+2020-09-16 13:00:24.715679-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:00:24.720029-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Incorrect endTime=2020-09-10 13:32:00+00:00 or goBack=1 D when barSize=1 min
+2020-09-16 13:00:24.720410-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: startTime=2020-09-07 13:32:00+00:00 endTime=2020-09-10 13:32:00+00:00 Are they too close to each other?
+2020-09-16 13:00:24.720557-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: first line in hist=2020-09-16 13:30:00+00:00
+2020-09-16 13:00:24.720676-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: last line in hist=2020-09-16 17:00:00+00:00
+2020-09-16 13:00:24.720765-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: Hint: Based on the 1st line and last line of the hist, Are hist data too short?
+2020-09-16 13:00:42.416888-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:00:47.235804-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 13:00:47.236125-04:00: IBridgePy version 10.1.4
+2020-09-16 13:00:47.236513-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 13:00:47.238369-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:00:47.238497-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:00:47.238657-04:00: CASH=100000.0
+2020-09-16 13:00:47.238774-04:00: portfolio_value=100000.0
+2020-09-16 13:00:47.238864-04:00: positions_value=0.0
+2020-09-16 13:00:47.238999-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:00:47.239075-04:00: ##    NO any order    ##
+2020-09-16 13:00:47.239227-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:00:47.923739-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: EXIT, hist of STK,,,AAPL,USD exists but barSize=5 mins is not ingested.
+2020-09-16 13:02:16.936414-04:00: IBridgePy version 10.1.4
+2020-09-16 13:02:16.938956-04:00: fileName = example_get_historical_data.py
+2020-09-16 13:02:16.943355-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:02:16.943523-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:02:16.943704-04:00: CASH=1276.72
+2020-09-16 13:02:16.943789-04:00: portfolio_value=392392.35
+2020-09-16 13:02:16.943939-04:00: positions_value=391115.63
+2020-09-16 13:02:16.944113-04:00: ##    POSITIONS DU1073267   ##
+2020-09-16 13:02:16.944220-04:00: Symbol Amount Cost_basis
+2020-09-16 13:02:16.944349-04:00: STK,,,AAPL,USD 3451 114.82368925
+2020-09-16 13:02:16.944567-04:00: ##    NO any order    ##
+2020-09-16 13:02:16.944716-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:03:02.303503-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-16 13:03:31.370727-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:03:40.096436-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 13:03:40.097835-04:00: IBridgePy version 10.1.4
+2020-09-16 13:03:40.097985-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 13:03:40.099186-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:03:40.099311-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:03:40.099470-04:00: CASH=100000.0
+2020-09-16 13:03:40.099558-04:00: portfolio_value=100000.0
+2020-09-16 13:03:40.099681-04:00: positions_value=0.0
+2020-09-16 13:03:40.099757-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:03:40.099843-04:00: ##    NO any order    ##
+2020-09-16 13:03:40.099910-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:03:40.799466-04:00: data_provider_factory.data_provider_nonRandom::provide_historical_data: EXIT, hist of STK,,,AAPL,USD exists but barSize=5 mins is not ingested.
+2020-09-16 13:03:56.518832-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:04:02.147917-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 13:04:02.148143-04:00: IBridgePy version 10.1.4
+2020-09-16 13:04:02.148493-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 13:04:02.149994-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:04:02.150149-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:04:02.150240-04:00: CASH=100000.0
+2020-09-16 13:04:02.150323-04:00: portfolio_value=100000.0
+2020-09-16 13:04:02.150423-04:00: positions_value=0.0
+2020-09-16 13:04:02.150588-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:04:02.150690-04:00: ##    NO any order    ##
+2020-09-16 13:04:02.150823-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:32:22.411196-04:00: IBridgePy version 10.1.4
+2020-09-16 13:32:22.411823-04:00: fileName = example_get_historical_data.py
+2020-09-16 13:32:22.447438-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=326 errorMessage=Unable to connect as the client id is already in use. Retry with a unique client id.
+2020-09-16 13:32:22.447657-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-16 13:48:31.748203-04:00: IBridgePy version 10.1.4
+2020-09-16 13:48:31.749046-04:00: fileName = example_get_historical_data.py
+2020-09-16 13:48:31.752545-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:48:31.752725-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:48:31.752840-04:00: CASH=390965.24
+2020-09-16 13:48:31.752916-04:00: portfolio_value=390965.24
+2020-09-16 13:48:31.753047-04:00: positions_value=0.0
+2020-09-16 13:48:31.753155-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:48:31.753274-04:00: ##    NO any order    ##
+2020-09-16 13:48:31.753396-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:49:02.712576-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-16 13:49:35.630475-04:00: IBridgePy version 10.1.4
+2020-09-16 13:49:35.630963-04:00: fileName = example_get_historical_data.py
+2020-09-16 13:49:35.633887-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:49:35.634053-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:49:35.634158-04:00: CASH=390965.24
+2020-09-16 13:49:35.634233-04:00: portfolio_value=390965.24
+2020-09-16 13:49:35.634341-04:00: positions_value=0.0
+2020-09-16 13:49:35.634480-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:49:35.634623-04:00: ##    NO any order    ##
+2020-09-16 13:49:35.634732-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:50:01.938531-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-16 13:50:16.627175-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:50:17.790417-04:00: broker_client_factory.CallBacks:errorId=1316 errorCode=321 errorMessage=Error validating request.-'bT' : cause - Historical data bar size setting is invalid. Legal ones are: 1 secs, 5 secs, 10 secs, 15 secs, 30 secs, 1 min, 2 mins, 3 mins, 5 mins, 10 mins, 15 mins, 20 mins, 30 mins, 1 hour, 2 hours, 3 hours, 4 hours, 8 hours, 1 day, 1W, 1M
+2020-09-16 13:50:17.790649-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-16 13:50:25.618720-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:50:28.227985-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 13:50:28.228258-04:00: IBridgePy version 10.1.4
+2020-09-16 13:50:28.228729-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 13:50:28.235889-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:50:28.236048-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:50:28.236167-04:00: CASH=100000.0
+2020-09-16 13:50:28.236239-04:00: portfolio_value=100000.0
+2020-09-16 13:50:28.236370-04:00: positions_value=0.0
+2020-09-16 13:50:28.236481-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:50:28.236616-04:00: ##    NO any order    ##
+2020-09-16 13:50:28.236707-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:50:28.562433-04:00: data_provider_factory.data_provider_nonRandom::get_one_real_time_price: EXIT, hist of STK,,,AAPL,USD does not have freq=1 min
+2020-09-16 13:51:05.633968-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:51:08.257436-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 13:51:08.257763-04:00: IBridgePy version 10.1.4
+2020-09-16 13:51:08.258151-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 13:51:08.260116-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:51:08.260307-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:51:08.260423-04:00: CASH=100000.0
+2020-09-16 13:51:08.260494-04:00: portfolio_value=100000.0
+2020-09-16 13:51:08.260611-04:00: positions_value=0.0
+2020-09-16 13:51:08.260683-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:51:08.260767-04:00: ##    NO any order    ##
+2020-09-16 13:51:08.260832-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:51:08.583587-04:00: data_provider_factory.data_provider_nonRandom::get_one_real_time_price: EXIT, hist of STK,,,AAPL,USD does not have freq=1 min
+2020-09-16 13:52:08.562136-04:00: IBridgePy version 10.1.4
+2020-09-16 13:52:08.562705-04:00: fileName = example_get_historical_data.py
+2020-09-16 13:52:08.566673-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:52:08.566901-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:52:08.567067-04:00: CASH=391034.03
+2020-09-16 13:52:08.567187-04:00: portfolio_value=391034.03
+2020-09-16 13:52:08.567297-04:00: positions_value=0.0
+2020-09-16 13:52:08.567425-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:52:08.567656-04:00: ##    NO any order    ##
+2020-09-16 13:52:08.567911-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:53:07.172371-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-16 13:53:12.225083-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:53:34.154583-04:00: IBridgePy version 10.1.4
+2020-09-16 13:53:34.155100-04:00: fileName = example_get_historical_data.py
+2020-09-16 13:53:34.159298-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:53:34.159476-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:53:34.159615-04:00: CASH=391047.23
+2020-09-16 13:53:34.159725-04:00: portfolio_value=391047.23
+2020-09-16 13:53:34.159821-04:00: positions_value=0.0
+2020-09-16 13:53:34.159925-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:53:34.160064-04:00: ##    NO any order    ##
+2020-09-16 13:53:34.160190-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:53:39.106168-04:00: ####     Data ingestion starts    ####
+2020-09-16 13:53:49.518701-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-16 13:53:49.520123-04:00: IBridgePy version 10.1.4
+2020-09-16 13:53:49.520236-04:00: fileName = ADXSlopeStrategy.py
+2020-09-16 13:53:49.522969-04:00: ####    Starting to initialize trader    ####
+2020-09-16 13:53:49.523101-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-16 13:53:49.523239-04:00: CASH=100000.0
+2020-09-16 13:53:49.523347-04:00: portfolio_value=100000.0
+2020-09-16 13:53:49.523448-04:00: positions_value=0.0
+2020-09-16 13:53:49.523528-04:00: ##    NO ANY POSITION    ##
+2020-09-16 13:53:49.523603-04:00: ##    NO any order    ##
+2020-09-16 13:53:49.523695-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-16 13:56:46.296200-04:00: IBridgePy.MarketManagerBase::run: END

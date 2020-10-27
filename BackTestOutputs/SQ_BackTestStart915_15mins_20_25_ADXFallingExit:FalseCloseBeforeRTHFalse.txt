@@ -1,0 +1,2649 @@
+#######
+AT BEGINNING
+Portfolio Value: 100000.0
+Positions Value: 0.0
+Portfolio Cash:100000.0
+ORDERS
+
+POSITIONS
+
+######
+
+stime is 2020-09-16 09:31:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-16 09:31:00-04:00
+TIME: 2020-09-16 09:30:00-04:00
+Portfolio Value: 100000.0
+Positions Value: 99875.94
+Portfolio Cash:124.06
+ORDERS
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD 642 155.57
+
+#############DATA##########################SQStock last close price=154.41
+SQ Current (posDI,negDI) = (47.049047, 31.162495)
+SQ Last (posDI,negDI) = (14.027332, 46.996484)
+SQ Current ADX 30.503113 
+SQ Last ADX 32.070951 
+SQ Current postions: 642.000000 
+######
+
+stime is 2020-09-16 09:46:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (642.000000, 1.008602, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 99024.16
+Positions Value: 0.0
+Portfolio Cash:99024.16
+ORDERS
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Placing order to make the  pos -1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-16 09:46:00-04:00
+TIME: 2020-09-16 09:45:00-04:00
+Portfolio Value: 99024.16
+Positions Value: -98900.1
+Portfolio Cash:197924.26
+ORDERS
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD -642 154.05
+
+#############DATA##########################SQStock last close price=153.69
+SQ Current (posDI,negDI) = (38.593092, 41.744059)
+SQ Last (posDI,negDI) = (47.049047, 31.162495)
+SQ Current ADX 26.958956 
+SQ Last ADX 30.503113 
+SQ Current postions: -642.000000 
+######
+
+stime is 2020-09-16 10:01:00-04:00######
+
+stime is 2020-09-16 10:16:00-04:00######
+
+stime is 2020-09-16 10:31:00-04:00######
+
+stime is 2020-09-16 10:46:00-04:00######
+
+stime is 2020-09-16 11:01:00-04:00######
+
+stime is 2020-09-16 11:16:00-04:00######
+
+stime is 2020-09-16 11:31:00-04:00######
+
+stime is 2020-09-16 11:46:00-04:00######
+
+stime is 2020-09-16 12:01:00-04:00######
+
+stime is 2020-09-16 12:16:00-04:00######
+
+stime is 2020-09-16 12:31:00-04:00######
+
+stime is 2020-09-16 12:46:00-04:00######
+
+stime is 2020-09-16 13:01:00-04:00######
+
+stime is 2020-09-16 13:16:00-04:00######
+
+stime is 2020-09-16 13:31:00-04:00######
+
+stime is 2020-09-16 13:46:00-04:00######
+
+stime is 2020-09-16 14:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-642.000000, -0.984388, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 100468.66
+Positions Value: 0.0
+Portfolio Cash:100468.66
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Placing order to make the  pos 1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-16 14:01:00-04:00
+TIME: 2020-09-16 14:00:00-04:00
+Portfolio Value: 100468.66
+Positions Value: 100339.8
+Portfolio Cash:128.86
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD 661 151.8
+
+#############DATA##########################SQStock last close price=153.95
+SQ Current (posDI,negDI) = (33.296554, 14.330681)
+SQ Last (posDI,negDI) = (11.635999, 17.875505)
+SQ Current ADX 29.163223 
+SQ Last ADX 27.523488 
+SQ Current postions: 661.000000 
+######
+
+stime is 2020-09-16 14:16:00-04:00######
+
+stime is 2020-09-16 14:31:00-04:00######
+
+stime is 2020-09-16 14:46:00-04:00######
+
+stime is 2020-09-16 15:01:00-04:00######
+
+stime is 2020-09-16 15:16:00-04:00######
+
+stime is 2020-09-16 15:31:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (661.000000, 0.999309, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 100409.17
+Positions Value: 0.0
+Portfolio Cash:100409.17
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Placing order to make the  pos -1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-16 15:31:00-04:00
+TIME: 2020-09-16 15:30:00-04:00
+Portfolio Value: 100409.17000000003
+Positions Value: -100280.31000000001
+Portfolio Cash:200689.48
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD -661 151.71
+
+#############DATA##########################SQStock last close price=151.14
+SQ Current (posDI,negDI) = (19.054714, 34.128049)
+SQ Last (posDI,negDI) = (22.463746, 22.230308)
+SQ Current ADX 26.531009 
+SQ Last ADX 26.252315 
+SQ Current postions: -661.000000 
+######
+
+stime is 2020-09-16 15:46:00-04:00######
+
+stime is 2020-09-16 16:01:00-04:00######
+
+stime is 2020-09-16 16:16:00-04:00######
+
+stime is 2020-09-16 16:31:00-04:00######
+
+stime is 2020-09-16 16:46:00-04:00######
+
+stime is 2020-09-16 17:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-661.000000, -0.999177, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 100362.9
+Positions Value: 0.0
+Portfolio Cash:100362.9
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-16 17:01:00-04:00
+TIME: 2020-09-16 17:00:00-04:00
+Portfolio Value: 100362.9
+Positions Value: 0.0
+Portfolio Cash:100362.9
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=152.1
+SQ Current (posDI,negDI) = (19.990496, 18.949171)
+SQ Last (posDI,negDI) = (17.439110, 21.211001)
+SQ Current ADX 20.753357 
+SQ Last ADX 23.534766 
+SQ Current postions: 0.000000 
+######
+
+stime is 2020-09-16 17:16:00-04:00
+stime is 2020-09-16 17:31:00-04:00
+stime is 2020-09-16 17:46:00-04:00
+stime is 2020-09-16 18:01:00-04:00
+stime is 2020-09-16 18:16:00-04:00
+stime is 2020-09-16 18:31:00-04:00
+stime is 2020-09-16 18:46:00-04:00
+stime is 2020-09-16 19:01:00-04:00
+stime is 2020-09-16 19:16:00-04:00
+stime is 2020-09-16 19:31:00-04:00
+stime is 2020-09-16 19:46:00-04:00
+stime is 2020-09-17 09:16:00-04:00######
+
+stime is 2020-09-17 09:31:00-04:00######
+
+stime is 2020-09-17 09:46:00-04:00######
+
+stime is 2020-09-17 10:01:00-04:00######
+
+stime is 2020-09-17 10:16:00-04:00######
+
+stime is 2020-09-17 10:31:00-04:00######
+
+stime is 2020-09-17 10:46:00-04:00######
+
+stime is 2020-09-17 11:01:00-04:00######
+
+stime is 2020-09-17 11:16:00-04:00######
+
+stime is 2020-09-17 11:31:00-04:00######
+
+stime is 2020-09-17 11:46:00-04:00######
+
+stime is 2020-09-17 12:01:00-04:00######
+
+stime is 2020-09-17 12:16:00-04:00######
+
+stime is 2020-09-17 12:31:00-04:00######
+
+stime is 2020-09-17 12:46:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-17 13:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-17 13:16:00-04:00######
+
+stime is 2020-09-17 13:31:00-04:00######
+
+stime is 2020-09-17 13:46:00-04:00######
+
+stime is 2020-09-17 14:01:00-04:00######
+
+stime is 2020-09-17 14:16:00-04:00######
+
+stime is 2020-09-17 14:31:00-04:00######
+
+stime is 2020-09-17 14:46:00-04:00######
+
+stime is 2020-09-17 15:01:00-04:00######
+
+stime is 2020-09-17 15:16:00-04:00######
+
+stime is 2020-09-17 15:31:00-04:00######
+
+stime is 2020-09-17 15:46:00-04:00######
+
+stime is 2020-09-17 16:01:00-04:00######
+
+stime is 2020-09-17 16:16:00-04:00######
+
+stime is 2020-09-17 16:31:00-04:00######
+
+stime is 2020-09-17 16:46:00-04:00######
+
+stime is 2020-09-17 17:01:00-04:00
+stime is 2020-09-17 17:16:00-04:00
+stime is 2020-09-17 17:31:00-04:00
+stime is 2020-09-17 17:46:00-04:00
+stime is 2020-09-17 18:01:00-04:00
+stime is 2020-09-17 18:16:00-04:00
+stime is 2020-09-17 18:31:00-04:00
+stime is 2020-09-17 18:46:00-04:00
+stime is 2020-09-17 19:01:00-04:00
+stime is 2020-09-17 19:16:00-04:00
+stime is 2020-09-17 19:31:00-04:00
+stime is 2020-09-17 19:46:00-04:00
+stime is 2020-09-18 09:16:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-18 09:31:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-18 09:31:00-04:00
+TIME: 2020-09-18 09:30:00-04:00
+Portfolio Value: 100362.90000000004
+Positions Value: 100263.62999999999
+Portfolio Cash:99.27
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD 681 147.23
+
+#############DATA##########################SQStock last close price=148.26
+SQ Current (posDI,negDI) = (50.065291, 17.960552)
+SQ Last (posDI,negDI) = (25.160377, 26.741184)
+SQ Current ADX 42.764900 
+SQ Last ADX 42.083359 
+SQ Current postions: 681.000000 
+######
+
+stime is 2020-09-18 09:46:00-04:00######
+
+stime is 2020-09-18 10:01:00-04:00######
+
+stime is 2020-09-18 10:16:00-04:00######
+
+stime is 2020-09-18 10:31:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (681.000000, 1.001389, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 100124.55
+Positions Value: 0.0
+Portfolio Cash:100124.55
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Placing order to make the  pos -1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-18 10:31:00-04:00
+TIME: 2020-09-18 10:30:00-04:00
+Portfolio Value: 100124.55000000005
+Positions Value: -100025.28
+Portfolio Cash:200149.83
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD -681 146.88
+
+#############DATA##########################SQStock last close price=146.7
+SQ Current (posDI,negDI) = (25.450695, 25.930006)
+SQ Last (posDI,negDI) = (29.887682, 19.711390)
+SQ Current ADX 27.767264 
+SQ Last ADX 31.895634 
+SQ Current postions: -681.000000 
+######
+
+stime is 2020-09-18 10:46:00-04:00######
+
+stime is 2020-09-18 11:01:00-04:00######
+
+stime is 2020-09-18 11:16:00-04:00######
+
+stime is 2020-09-18 11:31:00-04:00######
+
+stime is 2020-09-18 11:46:00-04:00######
+
+stime is 2020-09-18 12:01:00-04:00######
+
+stime is 2020-09-18 12:16:00-04:00######
+
+stime is 2020-09-18 12:31:00-04:00######
+
+stime is 2020-09-18 12:46:00-04:00######
+
+stime is 2020-09-18 13:01:00-04:00######
+
+stime is 2020-09-18 13:16:00-04:00######
+
+stime is 2020-09-18 13:31:00-04:00######
+
+stime is 2020-09-18 13:46:00-04:00######
+
+stime is 2020-09-18 14:01:00-04:00######
+
+stime is 2020-09-18 14:16:00-04:00######
+
+stime is 2020-09-18 14:31:00-04:00######
+
+stime is 2020-09-18 14:46:00-04:00######
+
+stime is 2020-09-18 15:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-681.000000, -0.974938, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 102596.58
+Positions Value: 0.0
+Portfolio Cash:102596.58
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-18 15:01:00-04:00
+TIME: 2020-09-18 15:00:00-04:00
+Portfolio Value: 102596.58
+Positions Value: 0.0
+Portfolio Cash:102596.58
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=143.75
+SQ Current (posDI,negDI) = (22.040992, 21.387988)
+SQ Last (posDI,negDI) = (12.270194, 24.559049)
+SQ Current ADX 39.611920 
+SQ Last ADX 45.474737 
+SQ Current postions: 0.000000 
+######
+
+stime is 2020-09-18 15:16:00-04:00######
+
+stime is 2020-09-18 15:31:00-04:00######
+
+stime is 2020-09-18 15:46:00-04:00######
+
+stime is 2020-09-18 16:01:00-04:00######
+
+stime is 2020-09-18 16:16:00-04:00######
+
+stime is 2020-09-18 16:31:00-04:00######
+
+stime is 2020-09-18 16:46:00-04:00######
+
+stime is 2020-09-18 17:01:00-04:00
+stime is 2020-09-18 17:16:00-04:00
+stime is 2020-09-18 17:31:00-04:00
+stime is 2020-09-18 17:46:00-04:00
+stime is 2020-09-18 18:01:00-04:00
+stime is 2020-09-18 18:16:00-04:00
+stime is 2020-09-18 18:31:00-04:00
+stime is 2020-09-18 18:46:00-04:00
+stime is 2020-09-18 19:01:00-04:00
+stime is 2020-09-18 19:16:00-04:00
+stime is 2020-09-18 19:31:00-04:00
+stime is 2020-09-18 19:46:00-04:00
+stime is 2020-09-21 09:16:00-04:00######
+
+stime is 2020-09-21 09:31:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-21 09:46:00-04:00######
+
+stime is 2020-09-21 10:01:00-04:00######
+
+stime is 2020-09-21 10:16:00-04:00######
+
+stime is 2020-09-21 10:31:00-04:00######
+
+stime is 2020-09-21 10:46:00-04:00######
+
+stime is 2020-09-21 11:01:00-04:00######
+
+stime is 2020-09-21 11:16:00-04:00######
+
+stime is 2020-09-21 11:31:00-04:00######
+
+stime is 2020-09-21 11:46:00-04:00######
+
+stime is 2020-09-21 12:01:00-04:00######
+
+stime is 2020-09-21 12:16:00-04:00######
+
+stime is 2020-09-21 12:31:00-04:00######
+
+stime is 2020-09-21 12:46:00-04:00######
+
+stime is 2020-09-21 13:01:00-04:00######
+
+stime is 2020-09-21 13:16:00-04:00######
+
+stime is 2020-09-21 13:31:00-04:00######
+
+stime is 2020-09-21 13:46:00-04:00######
+
+stime is 2020-09-21 14:01:00-04:00######
+
+stime is 2020-09-21 14:16:00-04:00######
+
+stime is 2020-09-21 14:31:00-04:00######
+
+stime is 2020-09-21 14:46:00-04:00######
+
+stime is 2020-09-21 15:01:00-04:00######
+
+stime is 2020-09-21 15:16:00-04:00######
+
+stime is 2020-09-21 15:31:00-04:00######
+
+stime is 2020-09-21 15:46:00-04:00######
+
+stime is 2020-09-21 16:01:00-04:00######
+
+stime is 2020-09-21 16:16:00-04:00######
+
+stime is 2020-09-21 16:31:00-04:00######
+
+stime is 2020-09-21 16:46:00-04:00######
+
+stime is 2020-09-21 17:01:00-04:00
+stime is 2020-09-21 17:16:00-04:00
+stime is 2020-09-21 17:31:00-04:00
+stime is 2020-09-21 17:46:00-04:00
+stime is 2020-09-21 18:01:00-04:00
+stime is 2020-09-21 18:16:00-04:00
+stime is 2020-09-21 18:31:00-04:00
+stime is 2020-09-21 18:46:00-04:00
+stime is 2020-09-21 19:01:00-04:00
+stime is 2020-09-21 19:16:00-04:00
+stime is 2020-09-21 19:31:00-04:00
+stime is 2020-09-21 19:46:00-04:00
+stime is 2020-09-22 09:16:00-04:00######
+
+stime is 2020-09-22 09:31:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Placing short order to make it -1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-22 09:31:00-04:00
+TIME: 2020-09-22 09:30:00-04:00
+Portfolio Value: 102596.58000000006
+Positions Value: -102548.93000000001
+Portfolio Cash:205145.51
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD -671 152.83
+
+#############DATA##########################SQStock last close price=150.03
+SQ Current (posDI,negDI) = (22.938665, 74.122013)
+SQ Last (posDI,negDI) = (40.339888, 10.984356)
+SQ Current ADX 44.816143 
+SQ Last ADX 43.598103 
+SQ Current postions: -671.000000 
+######
+
+stime is 2020-09-22 09:46:00-04:00######
+
+stime is 2020-09-22 10:01:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-671.000000, -0.987012, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 103898.32
+Positions Value: 0.0
+Portfolio Cash:103898.32
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Placing order to make the  pos 1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-22 10:01:00-04:00
+TIME: 2020-09-22 10:00:00-04:00
+Portfolio Value: 103898.32000000008
+Positions Value: 103812.31999999999
+Portfolio Cash:86.0000000001
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD 688 150.89
+
+#############DATA##########################SQStock last close price=153.52
+SQ Current (posDI,negDI) = (45.041585, 41.113039)
+SQ Last (posDI,negDI) = (17.340715, 56.033283)
+SQ Current ADX 40.363499 
+SQ Last ADX 45.871777 
+SQ Current postions: 688.000000 
+######
+
+stime is 2020-09-22 10:16:00-04:00######
+
+stime is 2020-09-22 10:31:00-04:00######
+
+stime is 2020-09-22 10:46:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (688.000000, 0.996204, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 104207.92
+Positions Value: 0.0
+Portfolio Cash:104207.92
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Placing order to make the  pos -1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-22 10:46:00-04:00
+TIME: 2020-09-22 10:45:00-04:00
+Portfolio Value: 104207.92000000009
+Positions Value: -104121.92
+Portfolio Cash:208329.84
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD -688 151.34
+
+#############DATA##########################SQStock last close price=150.97
+SQ Current (posDI,negDI) = (26.831204, 37.890667)
+SQ Last (posDI,negDI) = (31.333347, 29.391098)
+SQ Current ADX 29.379730 
+SQ Last ADX 31.270822 
+SQ Current postions: -688.000000 
+######
+
+stime is 2020-09-22 11:01:00-04:00######
+
+stime is 2020-09-22 11:16:00-04:00######
+
+stime is 2020-09-22 11:31:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-688.000000, -1.002883, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 103822.64
+Positions Value: 0.0
+Portfolio Cash:103822.64
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-22 11:31:00-04:00
+TIME: 2020-09-22 11:30:00-04:00
+Portfolio Value: 103822.64
+Positions Value: 0.0
+Portfolio Cash:103822.64
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=152.39
+SQ Current (posDI,negDI) = (29.880767, 28.870543)
+SQ Last (posDI,negDI) = (29.480278, 33.309850)
+SQ Current ADX 22.548976 
+SQ Last ADX 25.753519 
+SQ Current postions: 0.000000 
+######
+
+stime is 2020-09-22 11:46:00-04:00######
+
+stime is 2020-09-22 12:01:00-04:00######
+
+stime is 2020-09-22 12:16:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 12:31:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 12:46:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 13:01:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 13:16:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 13:31:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 13:46:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 14:01:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 14:16:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 14:31:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-22 14:46:00-04:00######
+
+stime is 2020-09-22 15:01:00-04:00######
+
+stime is 2020-09-22 15:16:00-04:00######
+
+stime is 2020-09-22 15:31:00-04:00######
+
+stime is 2020-09-22 15:46:00-04:00######
+
+stime is 2020-09-22 16:01:00-04:00######
+
+stime is 2020-09-22 16:16:00-04:00######
+
+stime is 2020-09-22 16:31:00-04:00######
+
+stime is 2020-09-22 16:46:00-04:00######
+
+stime is 2020-09-22 17:01:00-04:00
+stime is 2020-09-22 17:16:00-04:00
+stime is 2020-09-22 17:31:00-04:00
+stime is 2020-09-22 17:46:00-04:00
+stime is 2020-09-22 18:01:00-04:00
+stime is 2020-09-22 18:16:00-04:00
+stime is 2020-09-22 18:31:00-04:00
+stime is 2020-09-22 18:46:00-04:00
+stime is 2020-09-22 19:01:00-04:00
+stime is 2020-09-22 19:16:00-04:00
+stime is 2020-09-22 19:31:00-04:00
+stime is 2020-09-22 19:46:00-04:00
+stime is 2020-09-23 09:16:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-23 09:31:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Placing short order to make it -1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-23 09:31:00-04:00
+TIME: 2020-09-23 09:30:00-04:00
+Portfolio Value: 103822.64000000009
+Positions Value: -103756.14
+Portfolio Cash:207578.78
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD -666 155.79
+
+#############DATA##########################SQStock last close price=155.73
+SQ Current (posDI,negDI) = (29.770185, 50.273248)
+SQ Last (posDI,negDI) = (43.222258, 33.482254)
+SQ Current ADX 32.838806 
+SQ Last ADX 33.950173 
+SQ Current postions: -666.000000 
+######
+
+stime is 2020-09-23 09:46:00-04:00######
+
+stime is 2020-09-23 10:01:00-04:00######
+
+stime is 2020-09-23 10:16:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-666.000000, -0.995782, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 104195.6
+Positions Value: 0.0
+Portfolio Cash:104195.6
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+
+
+Placing order to make the  pos 1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-23 10:16:00-04:00
+TIME: 2020-09-23 10:15:00-04:00
+Portfolio Value: 104195.6000000001
+Positions Value: 104159.32999999999
+Portfolio Cash:36.2700000001
+ORDERS
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+
+POSITIONS
+STK,,,SQ,USD 671 155.23
+
+#############DATA##########################SQStock last close price=157.1
+SQ Current (posDI,negDI) = (37.441351, 25.635876)
+SQ Last (posDI,negDI) = (19.126596, 32.299299)
+SQ Current ADX 29.397534 
+SQ Last ADX 31.040861 
+SQ Current postions: 671.000000 
+######
+
+stime is 2020-09-23 10:31:00-04:00######
+
+stime is 2020-09-23 10:46:00-04:00######
+
+stime is 2020-09-23 11:01:00-04:00######
+
+stime is 2020-09-23 11:16:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (671.000000, 0.994082, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 104779.37
+Positions Value: 0.0
+Portfolio Cash:104779.37
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-23 11:16:00-04:00
+TIME: 2020-09-23 11:15:00-04:00
+Portfolio Value: 104779.37
+Positions Value: 0.0
+Portfolio Cash:104779.37
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=154.76
+SQ Current (posDI,negDI) = (24.824760, 32.987342)
+SQ Last (posDI,negDI) = (30.183037, 26.840445)
+SQ Current ADX 22.684028 
+SQ Last ADX 24.001701 
+SQ Current postions: 0.000000 
+######
+
+stime is 2020-09-23 11:31:00-04:00######
+
+stime is 2020-09-23 11:46:00-04:00######
+
+stime is 2020-09-23 12:01:00-04:00######
+
+stime is 2020-09-23 12:16:00-04:00######
+
+stime is 2020-09-23 12:31:00-04:00######
+
+stime is 2020-09-23 12:46:00-04:00######
+
+stime is 2020-09-23 13:01:00-04:00######
+
+stime is 2020-09-23 13:16:00-04:00######
+
+stime is 2020-09-23 13:31:00-04:00######
+
+stime is 2020-09-23 13:46:00-04:00######
+
+stime is 2020-09-23 14:01:00-04:00######
+
+stime is 2020-09-23 14:16:00-04:00######
+
+stime is 2020-09-23 14:31:00-04:00######
+
+stime is 2020-09-23 14:46:00-04:00######
+
+stime is 2020-09-23 15:01:00-04:00######
+
+stime is 2020-09-23 15:16:00-04:00######
+
+stime is 2020-09-23 15:31:00-04:00######
+
+stime is 2020-09-23 15:46:00-04:00######
+
+stime is 2020-09-23 16:01:00-04:00######
+
+stime is 2020-09-23 16:16:00-04:00######
+
+stime is 2020-09-23 16:31:00-04:00######
+
+stime is 2020-09-23 16:46:00-04:00######
+
+stime is 2020-09-23 17:01:00-04:00
+stime is 2020-09-23 17:16:00-04:00
+stime is 2020-09-23 17:31:00-04:00
+stime is 2020-09-23 17:46:00-04:00
+stime is 2020-09-23 18:01:00-04:00
+stime is 2020-09-23 18:16:00-04:00
+stime is 2020-09-23 18:31:00-04:00
+stime is 2020-09-23 18:46:00-04:00
+stime is 2020-09-23 19:01:00-04:00
+stime is 2020-09-23 19:16:00-04:00
+stime is 2020-09-23 19:31:00-04:00
+stime is 2020-09-23 19:46:00-04:00
+stime is 2020-09-24 09:16:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-24 09:16:00-04:00
+TIME: 2020-09-24 09:15:00-04:00
+Portfolio Value: 104779.3700000001
+Positions Value: 104642.40000000001
+Portfolio Cash:136.97
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+
+POSITIONS
+STK,,,SQ,USD 708 147.8
+
+#############DATA##########################SQStock last close price=152.0
+SQ Current (posDI,negDI) = (45.520849, 27.643527)
+SQ Last (posDI,negDI) = (21.522854, 39.367356)
+SQ Current ADX 36.677548 
+SQ Last ADX 38.561100 
+SQ Current postions: 708.000000 
+######
+
+stime is 2020-09-24 09:31:00-04:00######
+
+stime is 2020-09-24 09:46:00-04:00######
+
+stime is 2020-09-24 10:01:00-04:00######
+
+stime is 2020-09-24 10:16:00-04:00######
+
+stime is 2020-09-24 10:31:00-04:00######
+
+stime is 2020-09-24 10:46:00-04:00######
+
+stime is 2020-09-24 11:01:00-04:00######
+
+stime is 2020-09-24 11:16:00-04:00######
+
+stime is 2020-09-24 11:31:00-04:00######
+
+stime is 2020-09-24 11:46:00-04:00######
+
+stime is 2020-09-24 12:01:00-04:00######
+
+stime is 2020-09-24 12:16:00-04:00######
+
+stime is 2020-09-24 12:31:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (708.000000, 0.964038, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 108545.93
+Positions Value: 0.0
+Portfolio Cash:108545.93
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-24 12:31:00-04:00
+TIME: 2020-09-24 12:30:00-04:00
+Portfolio Value: 108545.93
+Positions Value: 0.0
+Portfolio Cash:108545.93
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=153.28
+SQ Current (posDI,negDI) = (23.556182, 23.827798)
+SQ Last (posDI,negDI) = (26.938392, 18.130666)
+SQ Current ADX 27.412284 
+SQ Last ADX 31.541370 
+SQ Current postions: 0.000000 
+######
+
+stime is 2020-09-24 12:46:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-24 13:01:00-04:00######
+
+stime is 2020-09-24 13:16:00-04:00######
+
+stime is 2020-09-24 13:31:00-04:00######
+
+stime is 2020-09-24 13:46:00-04:00######
+
+stime is 2020-09-24 14:01:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-24 14:16:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-24 14:31:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-24 14:46:00-04:00
+ ADX below exit threshhold. Closing all positionsn
+######
+
+stime is 2020-09-24 15:01:00-04:00######
+
+stime is 2020-09-24 15:16:00-04:00######
+
+stime is 2020-09-24 15:31:00-04:00######
+
+stime is 2020-09-24 15:46:00-04:00######
+
+stime is 2020-09-24 16:01:00-04:00######
+
+stime is 2020-09-24 16:16:00-04:00######
+
+stime is 2020-09-24 16:31:00-04:00######
+
+stime is 2020-09-24 16:46:00-04:00######
+
+stime is 2020-09-24 17:01:00-04:00
+stime is 2020-09-24 17:16:00-04:00
+stime is 2020-09-24 17:31:00-04:00
+stime is 2020-09-24 17:46:00-04:00
+stime is 2020-09-24 18:01:00-04:00
+stime is 2020-09-24 18:16:00-04:00
+stime is 2020-09-24 18:31:00-04:00
+stime is 2020-09-24 18:46:00-04:00
+stime is 2020-09-24 19:01:00-04:00
+stime is 2020-09-24 19:16:00-04:00
+stime is 2020-09-24 19:31:00-04:00
+stime is 2020-09-24 19:46:00-04:00
+stime is 2020-09-25 09:16:00-04:00######
+
+stime is 2020-09-25 09:31:00-04:00######
+
+stime is 2020-09-25 09:46:00-04:00######
+
+stime is 2020-09-25 10:01:00-04:00######
+
+stime is 2020-09-25 10:16:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-25 10:16:00-04:00
+TIME: 2020-09-25 10:15:00-04:00
+Portfolio Value: 108545.9300000001
+Positions Value: 108404.31000000001
+Portfolio Cash:141.62
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib663 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.33,Amount:707
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+STK,,,SQ,USD 707 153.33
+
+#############DATA##########################SQStock last close price=155.08
+SQ Current (posDI,negDI) = (26.753630, 20.102802)
+SQ Last (posDI,negDI) = (13.341366, 25.624206)
+SQ Current ADX 26.997668 
+SQ Last ADX 28.967455 
+SQ Current postions: 707.000000 
+######
+
+stime is 2020-09-25 10:31:00-04:00######
+
+stime is 2020-09-25 10:46:00-04:00######
+
+stime is 2020-09-25 11:01:00-04:00######
+
+stime is 2020-09-25 11:16:00-04:00######
+
+stime is 2020-09-25 11:31:00-04:00######
+
+stime is 2020-09-25 11:46:00-04:00######
+
+stime is 2020-09-25 12:01:00-04:00######
+
+stime is 2020-09-25 12:16:00-04:00######
+
+stime is 2020-09-25 12:31:00-04:00######
+
+stime is 2020-09-25 12:46:00-04:00######
+
+stime is 2020-09-25 13:01:00-04:00######
+
+stime is 2020-09-25 13:16:00-04:00######
+
+stime is 2020-09-25 13:31:00-04:00######
+
+stime is 2020-09-25 13:46:00-04:00######
+
+stime is 2020-09-25 14:01:00-04:00######
+
+stime is 2020-09-25 14:16:00-04:00######
+
+stime is 2020-09-25 14:31:00-04:00######
+
+stime is 2020-09-25 14:46:00-04:00######
+
+stime is 2020-09-25 15:01:00-04:00######
+
+stime is 2020-09-25 15:16:00-04:00######
+
+stime is 2020-09-25 15:31:00-04:00######
+
+stime is 2020-09-25 15:46:00-04:00######
+
+stime is 2020-09-25 16:01:00-04:00######
+
+stime is 2020-09-25 16:16:00-04:00######
+
+stime is 2020-09-25 16:31:00-04:00######
+
+stime is 2020-09-25 16:46:00-04:00######
+
+stime is 2020-09-25 17:01:00-04:00######
+
+stime is 2020-09-25 17:16:00-04:00######
+
+stime is 2020-09-25 17:31:00-04:00######
+
+stime is 2020-09-25 17:46:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (707.000000, 0.971794, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 111550.68
+Positions Value: 0.0
+Portfolio Cash:111550.68
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib725 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:157.58,Amount:707
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib663 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.33,Amount:707
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-25 17:46:00-04:00
+TIME: 2020-09-25 17:45:00-04:00
+Portfolio Value: 111550.68
+Positions Value: 0.0
+Portfolio Cash:111550.68
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib725 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:157.58,Amount:707
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib663 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.33,Amount:707
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=157.21
+SQ Current (posDI,negDI) = (13.342163, 15.119497)
+SQ Last (posDI,negDI) = (14.895495, 11.431797)
+SQ Current ADX 30.807974 
+SQ Last ADX 34.586946 
+SQ Current postions: 0.000000 
+######
+
+stime is 2020-09-25 18:01:00-04:00
+stime is 2020-09-25 18:16:00-04:00
+stime is 2020-09-25 18:31:00-04:00
+stime is 2020-09-25 18:46:00-04:00
+stime is 2020-09-25 19:01:00-04:00
+stime is 2020-09-25 19:16:00-04:00
+stime is 2020-09-25 19:31:00-04:00
+stime is 2020-09-25 19:46:00-04:00
+stime is 2020-09-28 09:16:00-04:00######
+
+stime is 2020-09-28 09:31:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, 3000.000000)
+Placing long order to make it 1.000000. Current percent is: 0.000000
+ #### Inside Handle data
+
+stime is 2020-09-28 09:31:00-04:00
+TIME: 2020-09-28 09:30:00-04:00
+Portfolio Value: 111550.6800000001
+Positions Value: 111393.93999999999
+Portfolio Cash:156.74
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib725 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:157.58,Amount:707
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib747 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:160.51,Amount:694
+{ibpyOrderId=ib663 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.33,Amount:707
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+STK,,,SQ,USD 694 160.51
+
+#############DATA##########################SQStock last close price=162.63
+SQ Current (posDI,negDI) = (46.230118, 27.041334)
+SQ Last (posDI,negDI) = (15.773923, 48.795821)
+SQ Current ADX 32.890246 
+SQ Last ADX 33.921390 
+SQ Current postions: 694.000000 
+######
+
+stime is 2020-09-28 09:46:00-04:00######
+
+stime is 2020-09-28 10:01:00-04:00######
+
+stime is 2020-09-28 10:16:00-04:00######
+
+stime is 2020-09-28 10:31:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (694.000000, 0.989240, -3000.000000)
+
+Placing order to make the positive pos 0
+##After closing pos##
+Portfolio Value: 112605.56
+Positions Value: 0.0
+Portfolio Cash:112605.56
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib725 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:157.58,Amount:707
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib747 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:160.51,Amount:694
+{ibpyOrderId=ib663 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.33,Amount:707
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib757 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:162.03,Amount:694
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+
+
+Placing order to make the  pos -1.000000
+
+ #### Inside Handle data
+
+stime is 2020-09-28 10:31:00-04:00
+TIME: 2020-09-28 10:30:00-04:00
+Portfolio Value: 112605.56000000011
+Positions Value: -112448.82
+Portfolio Cash:225054.38
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib725 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:157.58,Amount:707
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib747 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:160.51,Amount:694
+{ibpyOrderId=ib663 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.33,Amount:707
+{ibpyOrderId=ib759 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:162.03,Amount:694
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib757 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:162.03,Amount:694
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+STK,,,SQ,USD -694 162.03
+
+#############DATA##########################SQStock last close price=161.5
+SQ Current (posDI,negDI) = (25.991789, 26.698568)
+SQ Last (posDI,negDI) = (31.637947, 13.804189)
+SQ Current ADX 28.795027 
+SQ Last ADX 33.019178 
+SQ Current postions: -694.000000 
+######
+
+stime is 2020-09-28 10:46:00-04:00######
+
+stime is 2020-09-28 11:01:00-04:00######
+
+stime is 2020-09-28 11:16:00-04:00
+ Crossover happened. Entering trade function
+
+Positive crossover. Go long
+
+(Current pos, Curr percent, acceptablePos) = (-694.000000, -0.997932, 3000.000000)
+
+Placing order to make the negative pos 0
+##After closing pos##
+Portfolio Value: 112681.9
+Positions Value: 0.0
+Portfolio Cash:112681.9
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib725 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:157.58,Amount:707
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib747 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:160.51,Amount:694
+{ibpyOrderId=ib767 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:161.92,Amount:694
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib663 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.33,Amount:707
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib757 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:162.03,Amount:694
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib759 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:162.03,Amount:694
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+
+
+Extended data contradicts/ADX below entry. Not taking new positions
+
+ #### Inside Handle data
+
+stime is 2020-09-28 11:16:00-04:00
+TIME: 2020-09-28 11:15:00-04:00
+Portfolio Value: 112681.9
+Positions Value: 0.0
+Portfolio Cash:112681.9
+ORDERS
+{ibpyOrderId=ib381 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:671
+{ibpyOrderId=ib383 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:150.89,Amount:688
+{ibpyOrderId=ib51 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:661
+{ibpyOrderId=ib401 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.9,Amount:688
+{ibpyOrderId=ib565 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.8,Amount:708
+{ibpyOrderId=ib13 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib11 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:154.05,Amount:642
+{ibpyOrderId=ib725 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:157.58,Amount:707
+{ibpyOrderId=ib375 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:152.83,Amount:671
+{ibpyOrderId=ib747 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:160.51,Amount:694
+{ibpyOrderId=ib767 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:161.92,Amount:694
+{ibpyOrderId=ib195 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:147.23,Amount:681
+{ibpyOrderId=ib483 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:671
+{ibpyOrderId=ib481 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.23,Amount:666
+{ibpyOrderId=ib7 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.57,Amount:642
+{ibpyOrderId=ib49 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=642 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.8,Amount:642
+{ibpyOrderId=ib663 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=707 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.33,Amount:707
+{ibpyOrderId=ib67 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib393 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib65 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.71,Amount:661
+{ibpyOrderId=ib391 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=688 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.34,Amount:688
+{ibpyOrderId=ib205 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib207 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:146.88,Amount:681
+{ibpyOrderId=ib473 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=666 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:155.79,Amount:666
+{ibpyOrderId=ib81 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=661 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:151.78,Amount:661
+{ibpyOrderId=ib245 status=Filled order={account=DU1073267 action=BUY orderType=MKT amount=681 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:143.25,Amount:681
+{ibpyOrderId=ib757 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:162.03,Amount:694
+{ibpyOrderId=ib493 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=671 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:156.1,Amount:671
+{ibpyOrderId=ib759 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=694 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:162.03,Amount:694
+{ibpyOrderId=ib593 status=Filled order={account=DU1073267 action=SELL orderType=MKT amount=708 tif=DAY orderRef=} contract={STK,,,SQ,USD}}
+$$Filled Time : ,Avg filled price:153.12,Amount:708
+
+POSITIONS
+
+#############DATA##########################SQStock last close price=161.51
+SQ Current (posDI,negDI) = (22.350552, 19.532790)
+SQ Last (posDI,negDI) = (21.230733, 22.491555)
+SQ Current ADX 21.005464 
+SQ Last ADX 23.202319 
+SQ Current postions: 0.000000 
+######
+
+stime is 2020-09-28 11:31:00-04:00
+ Crossover happened. Entering trade function
+
+Negative crossover. Go short
+
+(Current pos, Curr percent, acceptablePos) = (0.000000, 0.000000, -3000.000000)
+Extended data contradicts/ADX below entry. Not taking new positions
+######
+
+stime is 2020-09-28 11:46:00-04:00######
+
+stime is 2020-09-28 12:01:00-04:00######
+
+stime is 2020-09-28 12:16:00-04:00######
+
+stime is 2020-09-28 12:31:00-04:00######
+
+stime is 2020-09-28 12:46:00-04:00######
+
+stime is 2020-09-28 13:01:00-04:00######
+
+stime is 2020-09-28 13:16:00-04:00######

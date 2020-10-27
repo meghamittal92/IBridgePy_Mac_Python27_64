@@ -1,0 +1,951 @@
+######
+AT BEGINNING
+AAPL ask_price=137.5
+Portfolio Value: 100000.0
+Positions Value: 0.0
+Portfolio Cash:100000.0
+POSITIONS
+
+######
+
+ ######
+
+TIME: 2020-09-11 15:01:00-04:00
+AAPL ask_price=137.34
+AAPL last close price=137.09
+Current (posDI,negDI) = (11.525651, 40.362972)
+ADX is 42.756442
+Cur pos 0. Market strictly trending, ADX is 42.756442. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100000.0
+Positions Value: 0.0
+Portfolio Cash:100000.0
+POSITIONS
+
+posDI below negDI. Negative current positions. Making them -1
+
+ ######
+
+TIME: 2020-09-11 15:02:00-04:00
+AAPL ask_price=137.18
+AAPL last close price=137.1
+Current (posDI,negDI) = (10.054141, 36.952754)
+ADX is 44.685276
+Cur pos non zero. Market trending, ADX is 44.685276. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100116.48000000001
+Positions Value: -99867.04000000001
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:03:00-04:00
+AAPL ask_price=137.11
+AAPL last close price=137.12
+Current (posDI,negDI) = (9.109065, 33.479244)
+ADX is 46.356932
+Cur pos non zero. Market trending, ADX is 46.356932. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100167.44
+Positions Value: -99816.08000000002
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:04:00-04:00
+AAPL ask_price=137.13
+AAPL last close price=136.92
+Current (posDI,negDI) = (7.919061, 40.072317)
+ADX is 49.109073
+Cur pos non zero. Market trending, ADX is 49.109073. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100152.88000000002
+Positions Value: -99830.64
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:05:00-04:00
+AAPL ask_price=136.9
+AAPL last close price=136.8
+Current (posDI,negDI) = (6.783135, 36.582362)
+ADX is 51.723389
+Cur pos non zero. Market trending, ADX is 51.723389. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100320.32000000002
+Positions Value: -99663.2
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:06:00-04:00
+AAPL ask_price=136.95
+AAPL last close price=136.86
+Current (posDI,negDI) = (5.900463, 31.821997)
+ADX is 53.989130
+Cur pos non zero. Market trending, ADX is 53.989130. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100283.92000000003
+Positions Value: -99699.59999999999
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:07:00-04:00
+AAPL ask_price=136.91
+AAPL last close price=136.77
+Current (posDI,negDI) = (4.997412, 35.811301)
+ADX is 56.858328
+Cur pos non zero. Market trending, ADX is 56.858328. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100313.04000000002
+Positions Value: -99670.48
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:08:00-04:00
+AAPL ask_price=136.81
+AAPL last close price=136.79
+Current (posDI,negDI) = (4.405307, 31.568298)
+ADX is 59.344966
+Cur pos non zero. Market trending, ADX is 59.344966. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100385.84000000001
+Positions Value: -99597.68000000001
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:09:00-04:00
+AAPL ask_price=136.75
+AAPL last close price=136.61
+Current (posDI,negDI) = (3.823398, 37.325083)
+ADX is 62.287848
+Cur pos non zero. Market trending, ADX is 62.287848. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100429.52000000002
+Positions Value: -99554.0
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:10:00-04:00
+AAPL ask_price=136.57
+AAPL last close price=136.65
+Current (posDI,negDI) = (5.631623, 32.708129)
+ADX is 63.399140
+Cur pos non zero. Market trending, ADX is 63.399140. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100560.56000000003
+Positions Value: -99422.95999999999
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:11:00-04:00
+AAPL ask_price=136.64
+AAPL last close price=136.84
+Current (posDI,negDI) = (4.824434, 30.725841)
+ADX is 64.660392
+Cur pos non zero. Market trending, ADX is 64.660392. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100509.60000000003
+Positions Value: -99473.91999999998
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:12:00-04:00
+AAPL ask_price=136.74
+AAPL last close price=137.03
+Current (posDI,negDI) = (13.186736, 26.601167)
+ADX is 60.534319
+Cur pos non zero. Market trending, ADX is 60.534319. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100436.80000000002
+Positions Value: -99546.72
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:13:00-04:00
+AAPL ask_price=137.02
+AAPL last close price=136.94
+Current (posDI,negDI) = (11.786838, 23.777199)
+ADX is 56.958389
+Cur pos non zero. Market trending, ADX is 56.958389. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100232.96
+Positions Value: -99750.56000000001
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+
+ ######
+
+TIME: 2020-09-11 15:14:00-04:00
+AAPL ask_price=137.0
+AAPL last close price=137.28
+Current (posDI,negDI) = (24.337883, 19.994624)
+ADX is 50.670205
+Cur pos non zero. Market trending, ADX is 50.670205. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100247.52000000002
+Positions Value: -99736.0
+Portfolio Cash:199983.52
+POSITIONS
+STK,,,SQ,USD -728 137.34
+
+posDI above negDI, current positions: -728.000000. Making them 0 and then 1
+
+ ######
+
+TIME: 2020-09-11 15:15:00-04:00
+AAPL ask_price=137.28
+AAPL last close price=137.67
+Current (posDI,negDI) = (35.086487, 16.903136)
+ADX is 48.577506
+Cur pos non zero. Market trending, ADX is 48.577506. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100452.20000000003
+Positions Value: 100351.68000000001
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:16:00-04:00
+AAPL ask_price=137.62
+AAPL last close price=137.53
+Current (posDI,negDI) = (30.648030, 14.764882)
+ADX is 46.763834
+Cur pos non zero. Market trending, ADX is 46.763834. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100700.74000000002
+Positions Value: 100600.22
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:17:00-04:00
+AAPL ask_price=137.49
+AAPL last close price=137.3
+Current (posDI,negDI) = (26.566883, 19.448279)
+ADX is 42.591339
+Cur pos non zero. Market trending, ADX is 42.591339. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100605.71000000002
+Positions Value: 100505.19
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:18:00-04:00
+AAPL ask_price=137.38
+AAPL last close price=137.54
+Current (posDI,negDI) = (25.245776, 16.858273)
+ADX is 39.568614
+Cur pos non zero. Market trending, ADX is 39.568614. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100525.30000000002
+Positions Value: 100424.78
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:19:00-04:00
+AAPL ask_price=137.58
+AAPL last close price=137.81
+Current (posDI,negDI) = (31.419960, 14.717891)
+ADX is 39.119513
+Cur pos non zero. Market trending, ADX is 39.119513. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100671.50000000003
+Positions Value: 100570.98000000001
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:20:00-04:00
+AAPL ask_price=137.72
+AAPL last close price=137.84
+Current (posDI,negDI) = (26.963051, 15.283680)
+ADX is 37.589661
+Cur pos non zero. Market trending, ADX is 37.589661. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100773.84000000001
+Positions Value: 100673.31999999999
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:21:00-04:00
+AAPL ask_price=137.8
+AAPL last close price=137.61
+Current (posDI,negDI) = (23.770574, 13.474062)
+ADX is 36.263789
+Cur pos non zero. Market trending, ADX is 36.263789. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100832.32000000002
+Positions Value: 100731.8
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:22:00-04:00
+AAPL ask_price=137.63
+AAPL last close price=137.7
+Current (posDI,negDI) = (20.834044, 14.084313)
+ADX is 34.005956
+Cur pos non zero. Market trending, ADX is 34.005956. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100708.05000000002
+Positions Value: 100607.53
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:23:00-04:00
+AAPL ask_price=137.75
+AAPL last close price=137.94
+Current (posDI,negDI) = (25.478737, 12.275420)
+ADX is 34.134738
+Cur pos non zero. Market trending, ADX is 34.134738. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100795.77000000002
+Positions Value: 100695.25
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:24:00-04:00
+AAPL ask_price=137.98
+AAPL last close price=137.8
+Current (posDI,negDI) = (29.436914, 10.488106)
+ADX is 35.911571
+Cur pos non zero. Market trending, ADX is 35.911571. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100963.90000000001
+Positions Value: 100863.37999999999
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:25:00-04:00
+AAPL ask_price=137.79
+AAPL last close price=137.6
+Current (posDI,negDI) = (25.301704, 19.750819)
+ADX is 32.766151
+Cur pos non zero. Market trending, ADX is 32.766151. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100825.01000000001
+Positions Value: 100724.48999999999
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:26:00-04:00
+AAPL ask_price=137.63
+AAPL last close price=137.8
+Current (posDI,negDI) = (22.129994, 17.274944)
+ADX is 30.040120
+Cur pos non zero. Market trending, ADX is 30.040120. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100708.05000000002
+Positions Value: 100607.53
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:27:00-04:00
+AAPL ask_price=137.74
+AAPL last close price=137.78
+Current (posDI,negDI) = (20.710041, 15.439657)
+ADX is 27.978681
+Cur pos non zero. Market trending, ADX is 27.978681. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100788.46000000002
+Positions Value: 100687.94
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:28:00-04:00
+AAPL ask_price=137.83
+AAPL last close price=138.0
+Current (posDI,negDI) = (25.969487, 13.435958)
+ADX is 28.489069
+Cur pos non zero. Market trending, ADX is 28.489069. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100854.25000000003
+Positions Value: 100753.73000000001
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:29:00-04:00
+AAPL ask_price=138.0
+AAPL last close price=137.87
+Current (posDI,negDI) = (22.707166, 12.691390)
+ADX is 28.463101
+Cur pos non zero. Market trending, ADX is 28.463101. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100978.52000000002
+Positions Value: 100878.0
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:30:00-04:00
+AAPL ask_price=137.83
+AAPL last close price=138.01
+Current (posDI,negDI) = (23.468670, 11.006722)
+ADX is 29.487670
+Cur pos non zero. Market trending, ADX is 29.487670. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100854.25000000003
+Positions Value: 100753.73000000001
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:31:00-04:00
+AAPL ask_price=138.01
+AAPL last close price=138.09
+Current (posDI,negDI) = (24.756843, 9.792975)
+ADX is 31.330779
+Cur pos non zero. Market trending, ADX is 31.330779. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100985.83000000002
+Positions Value: 100885.31
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:32:00-04:00
+AAPL ask_price=138.11
+AAPL last close price=138.05
+Current (posDI,negDI) = (21.941084, 12.642940)
+ADX is 30.738097
+Cur pos non zero. Market trending, ADX is 30.738097. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101058.93000000002
+Positions Value: 100958.41
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:33:00-04:00
+AAPL ask_price=138.07
+AAPL last close price=137.88
+Current (posDI,negDI) = (19.370910, 13.180873)
+ADX is 29.175147
+Cur pos non zero. Market trending, ADX is 29.175147. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101029.69000000002
+Positions Value: 100929.17
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+
+ ######
+
+TIME: 2020-09-11 15:34:00-04:00
+AAPL ask_price=137.92
+AAPL last close price=137.82
+Current (posDI,negDI) = (16.898548, 17.595171)
+ADX is 25.554403
+Cur pos non zero. Market trending, ADX is 25.554403. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 100920.04000000001
+Positions Value: 100819.51999999999
+Portfolio Cash:100.52
+POSITIONS
+STK,,,SQ,USD 731 137.0
+
+posDI below negDI. Positive current positions. Making them 0 and then -1
+
+ ######
+
+TIME: 2020-09-11 15:35:00-04:00
+AAPL ask_price=137.78
+AAPL last close price=137.51
+Current (posDI,negDI) = (14.154012, 30.940636)
+ADX is 27.110524
+Cur pos non zero. Market trending, ADX is 27.110524. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101022.37999999999
+Positions Value: -100717.18000000001
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:36:00-04:00
+AAPL ask_price=137.52
+AAPL last close price=137.59
+Current (posDI,negDI) = (12.468686, 27.256517)
+ADX is 28.459163
+Cur pos non zero. Market trending, ADX is 28.459163. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101212.43999999999
+Positions Value: -100527.12000000001
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:37:00-04:00
+AAPL ask_price=137.61
+AAPL last close price=137.32
+Current (posDI,negDI) = (10.599752, 33.941136)
+ADX is 31.651861
+Cur pos non zero. Market trending, ADX is 31.651861. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101146.65
+Positions Value: -100592.91
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:38:00-04:00
+AAPL ask_price=137.44
+AAPL last close price=137.33
+Current (posDI,negDI) = (9.389254, 32.566825)
+ADX is 34.797274
+Cur pos non zero. Market trending, ADX is 34.797274. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101270.92
+Positions Value: -100468.64
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:39:00-04:00
+AAPL ask_price=137.29
+AAPL last close price=137.13
+Current (posDI,negDI) = (8.129674, 37.695769)
+ADX is 38.760164
+Cur pos non zero. Market trending, ADX is 38.760164. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101380.57
+Positions Value: -100358.98999999999
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:40:00-04:00
+AAPL ask_price=137.17
+AAPL last close price=137.26
+Current (posDI,negDI) = (9.588096, 32.816673)
+ADX is 40.895905
+Cur pos non zero. Market trending, ADX is 40.895905. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101468.29000000001
+Positions Value: -100271.26999999999
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:41:00-04:00
+AAPL ask_price=137.3
+AAPL last close price=137.41
+Current (posDI,negDI) = (12.479617, 28.793795)
+ADX is 40.713396
+Cur pos non zero. Market trending, ADX is 40.713396. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101373.26
+Positions Value: -100366.3
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:42:00-04:00
+AAPL ask_price=137.4
+AAPL last close price=137.25
+Current (posDI,negDI) = (10.619812, 29.494289)
+ADX is 41.558540
+Cur pos non zero. Market trending, ADX is 41.558540. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101300.15999999999
+Positions Value: -100439.40000000001
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:43:00-04:00
+AAPL ask_price=137.26
+AAPL last close price=137.2
+Current (posDI,negDI) = (9.372043, 26.028873)
+ADX is 42.290998
+Cur pos non zero. Market trending, ADX is 42.290998. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101402.5
+Positions Value: -100337.06
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:44:00-04:00
+AAPL ask_price=137.24
+AAPL last close price=137.22
+Current (posDI,negDI) = (8.262656, 28.635363)
+ADX is 44.014005
+Cur pos non zero. Market trending, ADX is 44.014005. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101417.12
+Positions Value: -100322.44
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:45:00-04:00
+AAPL ask_price=137.26
+AAPL last close price=137.45
+Current (posDI,negDI) = (15.510594, 24.940781)
+ADX is 41.253792
+Cur pos non zero. Market trending, ADX is 41.253792. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101402.5
+Positions Value: -100337.06
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:46:00-04:00
+AAPL ask_price=137.39
+AAPL last close price=137.16
+Current (posDI,negDI) = (12.926494, 28.780438)
+ADX is 40.821650
+Cur pos non zero. Market trending, ADX is 40.821650. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101307.47
+Positions Value: -100432.09
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:47:00-04:00
+AAPL ask_price=137.2
+AAPL last close price=137.11
+Current (posDI,negDI) = (11.564656, 25.748349)
+ADX is 40.447128
+Cur pos non zero. Market trending, ADX is 40.447128. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101446.36
+Positions Value: -100293.2
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+
+ ######
+
+TIME: 2020-09-11 15:48:00-04:00
+AAPL ask_price=137.12
+AAPL last close price=137.43
+Current (posDI,negDI) = (22.292671, 21.706390)
+ADX is 35.231843
+Cur pos non zero. Market trending, ADX is 35.231843. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101504.84
+Positions Value: -100234.72
+Portfolio Cash:201739.56
+POSITIONS
+STK,,,SQ,USD -731 137.92
+
+posDI above negDI, current positions: -731.000000. Making them 0 and then 1
+
+ ######
+
+TIME: 2020-09-11 15:49:00-04:00
+AAPL ask_price=137.37
+AAPL last close price=137.22
+Current (posDI,negDI) = (19.507734, 18.994694)
+ADX is 30.711928
+Cur pos non zero. Market trending, ADX is 30.711928. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101689.84
+Positions Value: 101653.8
+Portfolio Cash:36.04
+POSITIONS
+STK,,,SQ,USD 740 137.12
+
+
+ ######
+
+TIME: 2020-09-11 15:50:00-04:00
+AAPL ask_price=137.2
+AAPL last close price=137.15
+Current (posDI,negDI) = (16.561466, 26.051098)
+ADX is 29.586280
+Cur pos non zero. Market trending, ADX is 29.586280. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101564.03999999998
+Positions Value: 101527.99999999999
+Portfolio Cash:36.04
+POSITIONS
+STK,,,SQ,USD 740 137.12
+
+posDI below negDI. Positive current positions. Making them 0 and then -1
+
+ ######
+
+TIME: 2020-09-11 15:51:00-04:00
+AAPL ask_price=137.21
+AAPL last close price=137.16
+Current (posDI,negDI) = (14.902698, 23.441865)
+ADX is 28.610718
+Cur pos non zero. Market trending, ADX is 28.610718. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101556.63999999997
+Positions Value: -101535.40000000001
+Portfolio Cash:203092.04
+POSITIONS
+STK,,,SQ,USD -740 137.2
+
+
+ ######
+
+TIME: 2020-09-11 15:52:00-04:00
+AAPL ask_price=137.2
+AAPL last close price=137.12
+Current (posDI,negDI) = (13.165593, 25.436441)
+ADX is 29.034367
+Cur pos non zero. Market trending, ADX is 29.034367. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101564.04
+Positions Value: -101527.99999999999
+Portfolio Cash:203092.04
+POSITIONS
+STK,,,SQ,USD -740 137.2
+
+
+ ######
+
+TIME: 2020-09-11 15:53:00-04:00
+AAPL ask_price=137.11
+AAPL last close price=137.09
+Current (posDI,negDI) = (11.422583, 27.852643)
+ADX is 30.740870
+Cur pos non zero. Market trending, ADX is 30.740870. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101630.63999999997
+Positions Value: -101461.40000000001
+Portfolio Cash:203092.04
+POSITIONS
+STK,,,SQ,USD -740 137.2
+
+
+ ######
+
+TIME: 2020-09-11 15:54:00-04:00
+AAPL ask_price=137.02
+AAPL last close price=136.96
+Current (posDI,negDI) = (9.637825, 27.083980)
+ADX is 32.976618
+Cur pos non zero. Market trending, ADX is 32.976618. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101697.23999999998
+Positions Value: -101394.8
+Portfolio Cash:203092.04
+POSITIONS
+STK,,,SQ,USD -740 137.2
+
+
+ ######
+
+TIME: 2020-09-11 15:55:00-04:00
+AAPL ask_price=137.03
+AAPL last close price=137.17
+Current (posDI,negDI) = (8.423164, 23.670570)
+ADX is 34.914266
+Cur pos non zero. Market trending, ADX is 34.914266. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101689.83999999998
+Positions Value: -101402.2
+Portfolio Cash:203092.04
+POSITIONS
+STK,,,SQ,USD -740 137.2
+
+
+ ######
+
+TIME: 2020-09-11 15:56:00-04:00
+AAPL ask_price=137.17
+AAPL last close price=137.49
+Current (posDI,negDI) = (23.476698, 19.379894)
+ADX is 31.533608
+Cur pos non zero. Market trending, ADX is 31.533608. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101586.23999999999
+Positions Value: -101505.79999999999
+Portfolio Cash:203092.04
+POSITIONS
+STK,,,SQ,USD -740 137.2
+
+posDI above negDI, current positions: -740.000000. Making them 0 and then 1
+
+ ######
+
+TIME: 2020-09-11 15:57:00-04:00
+AAPL ask_price=137.5
+AAPL last close price=137.29
+Current (posDI,negDI) = (20.477920, 16.508741)
+ADX is 28.759978
+Cur pos non zero. Market trending, ADX is 28.759978. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101830.44
+Positions Value: 101750.0
+Portfolio Cash:80.44
+POSITIONS
+STK,,,SQ,USD 740 137.17
+
+
+ ######
+
+ 2 minutes before market close, closing all positions
+TIME: 2020-09-11 15:58:00-04:00
+AAPL ask_price=137.31
+AAPL last close price=137.36
+Current (posDI,negDI) = (18.206487, 14.677574)
+ADX is 26.356165
+Cur pos 0. Market strictly trending, ADX is 26.356165. Entering tradeCur pos 0. Market strictly not trending, ADX is 26.356165
+ ######
+
+TIME: 2020-09-11 15:59:00-04:00
+AAPL ask_price=137.37
+AAPL last close price=137.49
+Current (posDI,negDI) = (24.508203, 12.657744)
+ADX is 27.093378
+Cur pos 0. Market strictly trending, ADX is 27.093378. Entering trade
+INSIDE TRADE/CLOSEALL POSITIONS
+Portfolio Value: 101689.84
+Positions Value: 0.0
+Portfolio Cash:101689.84
+POSITIONS
+
+posDI above negDI, current positions: 0.000000. Making them 1

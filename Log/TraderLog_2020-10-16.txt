@@ -1,0 +1,52 @@
+2020-10-16 08:38:34.670698-04:00: IBridgePy version 10.1.4
+2020-10-16 08:38:34.671577-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-16 08:38:34.697711-04:00: ####    Starting to initialize trader    ####
+2020-10-16 08:38:34.697955-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-16 08:38:34.698106-04:00: CASH=382770.23
+2020-10-16 08:38:34.698218-04:00: portfolio_value=382770.23
+2020-10-16 08:38:34.698328-04:00: positions_value=0.0
+2020-10-16 08:38:34.698430-04:00: ##    NO ANY POSITION    ##
+2020-10-16 08:38:34.698582-04:00: ##    NO any order    ##
+2020-10-16 08:38:34.698689-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-16 08:46:00.499320-04:00: broker_client_factory.CallBacks:errorId=2541 errorCode=2109 errorMessage=Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2020-10-16 08:46:00.499920-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-16 08:47:13.373483-04:00: IBridgePy version 10.1.4
+2020-10-16 08:47:13.374042-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-16 08:47:13.393813-04:00: ####    Starting to initialize trader    ####
+2020-10-16 08:47:13.394109-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-16 08:47:13.394315-04:00: CASH=382663.35
+2020-10-16 08:47:13.394461-04:00: portfolio_value=382663.35
+2020-10-16 08:47:13.394683-04:00: positions_value=0.0
+2020-10-16 08:47:13.394846-04:00: ##    NO ANY POSITION    ##
+2020-10-16 08:47:13.395089-04:00: ##    Order Status DU1073267   ##
+2020-10-16 08:47:13.395248-04:00: {ibpyOrderId=ib2541 status=PreSubmitted order={account=DU1073267 action=BUY orderType=MKT amount=628 tif=DAY orderRef=} contract={STK,,SMART,AAPL,USD}}
+2020-10-16 08:47:13.395333-04:00: ##    END    ##
+2020-10-16 08:47:13.395423-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-16 09:47:00.346699-04:00: broker_client_factory.CallBacks:errorId=2587 errorCode=2109 errorMessage=Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2020-10-16 09:47:00.347269-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-16 09:51:12.147946-04:00: IBridgePy version 10.1.4
+2020-10-16 09:51:12.148445-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-16 09:51:12.164231-04:00: ####    Starting to initialize trader    ####
+2020-10-16 09:51:12.164431-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-16 09:51:12.166539-04:00: CASH=458886.96
+2020-10-16 09:51:12.166688-04:00: portfolio_value=382566.03
+2020-10-16 09:51:12.166806-04:00: positions_value=76320.93
+2020-10-16 09:51:12.166939-04:00: ##    POSITIONS DU1073267   ##
+2020-10-16 09:51:12.167017-04:00: Symbol Amount Cost_basis
+2020-10-16 09:51:12.167127-04:00: STK,,,SQ,USD -403 189.44906805
+2020-10-16 09:51:12.167217-04:00: ##    NO any order    ##
+2020-10-16 09:51:12.167299-04:00: ####    Initialize trader COMPLETED    ####
+2020-10-16 11:45:01.643155-04:00: broker_client_factory.CallBacks:errorId=-1 errorCode=509 errorMessage=Exception caught while reading socket - Connection reset by peer
+2020-10-16 11:45:01.643780-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-10-16 11:50:08.712893-04:00: IBridgePy version 10.1.4
+2020-10-16 11:50:08.713417-04:00: fileName = DICrossOverMultiThreadedV3.py
+2020-10-16 11:50:08.741139-04:00: ####    Starting to initialize trader    ####
+2020-10-16 11:50:08.741262-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-10-16 11:50:08.741390-04:00: CASH=458856.25
+2020-10-16 11:50:08.741506-04:00: portfolio_value=383322.96
+2020-10-16 11:50:08.741621-04:00: positions_value=75533.3
+2020-10-16 11:50:08.741851-04:00: ##    POSITIONS DU1073267   ##
+2020-10-16 11:50:08.741953-04:00: Symbol Amount Cost_basis
+2020-10-16 11:50:08.742068-04:00: STK,,,SQ,USD -403 189.44906805
+2020-10-16 11:50:08.742177-04:00: ##    NO any order    ##
+2020-10-16 11:50:08.742293-04:00: ####    Initialize trader COMPLETED    ####

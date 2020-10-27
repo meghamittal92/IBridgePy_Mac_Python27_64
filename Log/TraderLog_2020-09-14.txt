@@ -1,0 +1,174 @@
+2020-09-14 09:34:49.648977-04:00: IBridgePy version 10.1.4
+2020-09-14 09:34:49.649397-04:00: fileName = mac5.py
+2020-09-14 09:34:49.708739-04:00: ####    Starting to initialize trader    ####
+2020-09-14 09:34:49.709158-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 09:34:49.709610-04:00: CASH=550832.66
+2020-09-14 09:34:49.709927-04:00: portfolio_value=550832.66
+2020-09-14 09:34:49.710124-04:00: positions_value=0.0
+2020-09-14 09:34:49.710290-04:00: ##    NO ANY POSITION    ##
+2020-09-14 09:34:49.710470-04:00: ##    NO any order    ##
+2020-09-14 09:34:49.710872-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 09:42:23.664185-04:00: IBridgePy version 10.1.4
+2020-09-14 09:42:23.664995-04:00: fileName = mac5.py
+2020-09-14 09:42:23.677483-04:00: ####    Starting to initialize trader    ####
+2020-09-14 09:42:23.677711-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 09:42:23.677927-04:00: CASH=1297228.85
+2020-09-14 09:42:23.678079-04:00: portfolio_value=545734.44
+2020-09-14 09:42:23.678199-04:00: positions_value=751494.41
+2020-09-14 09:42:23.678432-04:00: ##    POSITIONS DU1073267   ##
+2020-09-14 09:42:23.678530-04:00: Symbol Amount Cost_basis
+2020-09-14 09:42:23.678695-04:00: STK,,,AAPL,USD -4808 113.83922945
+2020-09-14 09:42:23.678799-04:00: ##    NO any order    ##
+2020-09-14 09:42:23.678927-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 09:46:05.659028-04:00: IBridgePy version 10.1.4
+2020-09-14 09:46:05.659694-04:00: fileName = mac5.py
+2020-09-14 09:46:05.682343-04:00: ####    Starting to initialize trader    ####
+2020-09-14 09:46:05.682624-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 09:46:05.682780-04:00: CASH=-197605.32
+2020-09-14 09:46:05.682906-04:00: portfolio_value=542957.61
+2020-09-14 09:46:05.683172-04:00: positions_value=740562.94
+2020-09-14 09:46:05.683365-04:00: ##    POSITIONS DU1073267   ##
+2020-09-14 09:46:05.683462-04:00: Symbol Amount Cost_basis
+2020-09-14 09:46:05.683628-04:00: STK,,,AAPL,USD 4731 114.896842183
+2020-09-14 09:46:05.683786-04:00: ##    NO any order    ##
+2020-09-14 09:46:05.683902-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 09:47:34.097231-04:00: IBridgePy version 10.1.4
+2020-09-14 09:47:34.097778-04:00: fileName = mac5.py
+2020-09-14 09:47:34.110584-04:00: ####    Starting to initialize trader    ####
+2020-09-14 09:47:34.110812-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 09:47:34.110933-04:00: CASH=546608.95
+2020-09-14 09:47:34.111024-04:00: portfolio_value=546608.95
+2020-09-14 09:47:34.111164-04:00: positions_value=0.0
+2020-09-14 09:47:34.111341-04:00: ##    NO ANY POSITION    ##
+2020-09-14 09:47:34.111489-04:00: ##    NO any order    ##
+2020-09-14 09:47:34.111595-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 10:00:00.900612-04:00: IBridgePy version 10.1.4
+2020-09-14 10:00:00.901399-04:00: fileName = mac5.py
+2020-09-14 10:00:00.917314-04:00: ####    Starting to initialize trader    ####
+2020-09-14 10:00:00.917520-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 10:00:00.917655-04:00: CASH=542907.89
+2020-09-14 10:00:00.917736-04:00: portfolio_value=542907.89
+2020-09-14 10:00:00.917867-04:00: positions_value=0.0
+2020-09-14 10:00:00.917953-04:00: ##    NO ANY POSITION    ##
+2020-09-14 10:00:00.918066-04:00: ##    NO any order    ##
+2020-09-14 10:00:00.918144-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 10:06:30.090569-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-14 10:06:30.092988-04:00: {reqId=500;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:1 min,goBack:1 D,timezoneOfReturn:US/Eastern,endTime:,whatToShow:TRADES,formatDate:1,security:STK,ISLAND,SMART,AAPL,USD,useRTH:1,}}
+2020-09-14 10:06:30.093156-04:00: Hint 1: The most common reason is that IB historical data service is not available at this moment, especially when US market is closed. Try the request later.
+2020-09-14 10:06:30.093310-04:00: Hint 2: The less common reason is that IB server does not response if the request violates IB rules about bar size. Refer to http://interactivebrokers.github.io/tws-api/historical_limitations.html#non-available_hd
+2020-09-14 10:14:05.640079-04:00: IBridgePy version 10.1.4
+2020-09-14 10:14:05.640988-04:00: fileName = mac5.py
+2020-09-14 10:14:05.658245-04:00: ####    Starting to initialize trader    ####
+2020-09-14 10:14:05.658466-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 10:14:05.658669-04:00: CASH=542503.93
+2020-09-14 10:14:05.658797-04:00: portfolio_value=542503.93
+2020-09-14 10:14:05.658942-04:00: positions_value=0.0
+2020-09-14 10:14:05.659089-04:00: ##    NO ANY POSITION    ##
+2020-09-14 10:14:05.659215-04:00: ##    NO any order    ##
+2020-09-14 10:14:05.659303-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 10:15:00.018957-04:00: broker_client_factory.CallBacks:errorId=502 errorCode=321 errorMessage=Error validating request.-'bT' : cause - Historical data bar size setting is invalid. Legal ones are: 1 secs, 5 secs, 10 secs, 15 secs, 30 secs, 1 min, 2 mins, 3 mins, 5 mins, 10 mins, 15 mins, 20 mins, 30 mins, 1 hour, 2 hours, 3 hours, 4 hours, 8 hours, 1 day, 1W, 1M
+2020-09-14 10:15:00.019832-04:00: broker_client_factory.CallBacks:EXIT IBridgePy version= 10.1.4
+2020-09-14 10:15:37.257494-04:00: IBridgePy version 10.1.4
+2020-09-14 10:15:37.257983-04:00: fileName = mac5.py
+2020-09-14 10:15:37.269338-04:00: ####    Starting to initialize trader    ####
+2020-09-14 10:15:37.269569-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 10:15:37.269706-04:00: CASH=542503.93
+2020-09-14 10:15:37.269819-04:00: portfolio_value=542503.93
+2020-09-14 10:15:37.269945-04:00: positions_value=0.0
+2020-09-14 10:15:37.270055-04:00: ##    NO ANY POSITION    ##
+2020-09-14 10:15:37.270164-04:00: ##    NO any order    ##
+2020-09-14 10:15:37.270257-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 10:43:54.095420-04:00: IBridgePy version 10.1.4
+2020-09-14 10:43:54.095989-04:00: fileName = mac5.py
+2020-09-14 10:43:54.107795-04:00: ####    Starting to initialize trader    ####
+2020-09-14 10:43:54.107973-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 10:43:54.108252-04:00: CASH=1267906.39
+2020-09-14 10:43:54.108351-04:00: portfolio_value=536784.97
+2020-09-14 10:43:54.108480-04:00: positions_value=731121.42
+2020-09-14 10:43:54.108588-04:00: ##    POSITIONS DU1073267   ##
+2020-09-14 10:43:54.108738-04:00: Symbol Amount Cost_basis
+2020-09-14 10:43:54.108913-04:00: STK,,,AAPL,USD -4685 114.36671968
+2020-09-14 10:43:54.109086-04:00: ##    NO any order    ##
+2020-09-14 10:43:54.109182-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 10:45:00.391925-04:00: IBridgePy version 10.1.4
+2020-09-14 10:45:00.392745-04:00: fileName = mac5.py
+2020-09-14 10:45:00.403365-04:00: ####    Starting to initialize trader    ####
+2020-09-14 10:45:00.403533-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 10:45:00.403673-04:00: CASH=537419.85
+2020-09-14 10:45:00.403774-04:00: portfolio_value=537419.85
+2020-09-14 10:45:00.403901-04:00: positions_value=0.0
+2020-09-14 10:45:00.404048-04:00: ##    NO ANY POSITION    ##
+2020-09-14 10:45:00.404154-04:00: ##    NO any order    ##
+2020-09-14 10:45:00.404285-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 10:54:12.511992-04:00: IBridgePy version 10.1.4
+2020-09-14 10:54:12.512545-04:00: fileName = mac6.py
+2020-09-14 10:54:12.521853-04:00: ####    Starting to initialize trader    ####
+2020-09-14 10:54:12.522088-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 10:54:12.522246-04:00: CASH=1270796.83
+2020-09-14 10:54:12.522371-04:00: portfolio_value=537357.9
+2020-09-14 10:54:12.522499-04:00: positions_value=733438.93
+2020-09-14 10:54:12.522636-04:00: ##    POSITIONS DU1073267   ##
+2020-09-14 10:54:12.522722-04:00: Symbol Amount Cost_basis
+2020-09-14 10:54:12.522820-04:00: STK,,,AAPL,USD -4710 114.205683566
+2020-09-14 10:54:12.522958-04:00: ##    NO any order    ##
+2020-09-14 10:54:12.523105-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 12:09:30.183177-04:00: broker_client_factory.BrokerClient::request_data: EXIT, the following requestRecord failed
+2020-09-14 12:09:30.185349-04:00: {reqId=593;status=Submitted;reqType=reqHistoricalData;followUp=True;param={barSize:5 mins,goBack:1 D,timezoneOfReturn:US/Eastern,endTime:,whatToShow:TRADES,formatDate:1,security:STK,ISLAND,SMART,AAPL,USD,useRTH:1,}}
+2020-09-14 12:09:30.185606-04:00: Hint 1: The most common reason is that IB historical data service is not available at this moment, especially when US market is closed. Try the request later.
+2020-09-14 12:09:30.185775-04:00: Hint 2: The less common reason is that IB server does not response if the request violates IB rules about bar size. Refer to http://interactivebrokers.github.io/tws-api/historical_limitations.html#non-available_hd
+2020-09-14 12:09:43.181228-04:00: IBridgePy version 10.1.4
+2020-09-14 12:09:43.181800-04:00: fileName = mac6.py
+2020-09-14 12:09:43.193133-04:00: ####    Starting to initialize trader    ####
+2020-09-14 12:09:43.193342-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 12:09:43.193479-04:00: CASH=1270842.39
+2020-09-14 12:09:43.193578-04:00: portfolio_value=534309.67
+2020-09-14 12:09:43.193709-04:00: positions_value=736532.72
+2020-09-14 12:09:43.193859-04:00: ##    POSITIONS DU1073267   ##
+2020-09-14 12:09:43.194004-04:00: Symbol Amount Cost_basis
+2020-09-14 12:09:43.194133-04:00: STK,,,AAPL,USD -4710 114.20568355
+2020-09-14 12:09:43.194263-04:00: ##    NO any order    ##
+2020-09-14 12:09:43.194373-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 12:10:46.467506-04:00: IBridgePy version 10.1.4
+2020-09-14 12:10:46.468422-04:00: fileName = mac6.py
+2020-09-14 12:10:46.480293-04:00: ####    Starting to initialize trader    ####
+2020-09-14 12:10:46.480463-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 12:10:46.480607-04:00: CASH=534104.05
+2020-09-14 12:10:46.480711-04:00: portfolio_value=534104.05
+2020-09-14 12:10:46.480828-04:00: positions_value=0.0
+2020-09-14 12:10:46.480932-04:00: ##    NO ANY POSITION    ##
+2020-09-14 12:10:46.481045-04:00: ##    NO any order    ##
+2020-09-14 12:10:46.481129-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 13:30:43.734051-04:00: IBridgePy version 10.1.4
+2020-09-14 13:30:43.734577-04:00: fileName = example_get_historical_data.py
+2020-09-14 13:30:43.739535-04:00: ####    Starting to initialize trader    ####
+2020-09-14 13:30:43.739705-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 13:30:43.739857-04:00: CASH=534580.97
+2020-09-14 13:30:43.739972-04:00: portfolio_value=534580.97
+2020-09-14 13:30:43.740096-04:00: positions_value=0.0
+2020-09-14 13:30:43.740190-04:00: ##    NO ANY POSITION    ##
+2020-09-14 13:30:43.740366-04:00: ##    NO any order    ##
+2020-09-14 13:30:43.740454-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 13:31:02.476526-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-14 13:34:14.794508-04:00: ####     Data ingestion starts    ####
+2020-09-14 13:34:16.492174-04:00: ####     Data ingestion COMPLETED    ####
+2020-09-14 13:34:16.492378-04:00: IBridgePy version 10.1.4
+2020-09-14 13:34:16.492698-04:00: fileName = mac6.py
+2020-09-14 13:34:16.494331-04:00: ####    Starting to initialize trader    ####
+2020-09-14 13:34:16.494482-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 13:34:16.494678-04:00: CASH=100000.0
+2020-09-14 13:34:16.494816-04:00: portfolio_value=100000.0
+2020-09-14 13:34:16.494928-04:00: positions_value=0.0
+2020-09-14 13:34:16.495019-04:00: ##    NO ANY POSITION    ##
+2020-09-14 13:34:16.495122-04:00: ##    NO any order    ##
+2020-09-14 13:34:16.495184-04:00: ####    Initialize trader COMPLETED    ####
+2020-09-14 13:34:55.423732-04:00: IBridgePy.MarketManagerBase::run: END
+2020-09-14 14:02:19.274171-04:00: IBridgePy version 10.1.4
+2020-09-14 14:02:19.274971-04:00: fileName = mac7ADXChange.py
+2020-09-14 14:02:19.302736-04:00: ####    Starting to initialize trader    ####
+2020-09-14 14:02:19.302966-04:00: ##    ACCOUNT Balance  DU1073267  ##
+2020-09-14 14:02:19.303094-04:00: CASH=534579.74
+2020-09-14 14:02:19.303197-04:00: portfolio_value=534579.74
+2020-09-14 14:02:19.303313-04:00: positions_value=0.0
+2020-09-14 14:02:19.303426-04:00: ##    NO ANY POSITION    ##
+2020-09-14 14:02:19.303887-04:00: ##    NO any order    ##
+2020-09-14 14:02:19.304050-04:00: ####    Initialize trader COMPLETED    ####
