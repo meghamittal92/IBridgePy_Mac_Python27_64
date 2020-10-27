@@ -40,7 +40,7 @@ BACKTEST_MODE = "BACKTEST"
 IS_MULTITHRESHHOLD = False if ADX_ENTRY_THRESHHOLD == ADX_EXIT_THRESHHOLD else True
 
 
-fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.1_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
+fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.2_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
 
 
 def initialize(context):
@@ -153,6 +153,7 @@ def tradePerSecurity(context, data, securityNum):
         context.file.write("\n Crossover happened. Entering trade function\n")
         print("\n Crossover happened. Entering trade function\n")  
         changeState(context,securityNum, NONE_STATE)
+        resetPosAndNegDIPeaks(context, securityNum)
         trade(context, data, dataExtendedTimeFrame, securityNum)  
     elif( IS_ADX_FALLING_EARLY_EXIT_USED is True and isADXFallingAfterHighThreshhold(data)):
         context.file.write("\n ADX falling after %s. Closing all positionsn\n" %(ADX_HIGH_THRESHHOLD))
@@ -200,6 +201,14 @@ def tradePerSecurity(context, data, securityNum):
     context.file.write("######" + "\n")
     print("######" + "\n")
 
+def resetPosAndNegDIPeaks(context, securityNum):
+    context.NEG_DI_HIGHS[securityNum -1][2] = 0
+    context.NEG_DI_HIGHS[securityNum -1][1] = 0
+    context.NEG_DI_HIGHS[securityNum -1][0] = 0
+
+    context.POS_DI_HIGHS[securityNum -1][2] = 0
+    context.POS_DI_HIGHS[securityNum -1][1] = 0
+    context.POS_DI_HIGHS[securityNum -1][0] = 0 
 def updatePosAndNegDIHighs(context, data, securityNum):
     if(data['posDI'][-2] > data['posDI'][-1] ):
         context.POS_DI_HIGHS[securityNum -1][0] = context.POS_DI_HIGHS[securityNum -1][1]
