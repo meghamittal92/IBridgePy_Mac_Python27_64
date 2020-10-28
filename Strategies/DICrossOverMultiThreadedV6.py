@@ -40,7 +40,7 @@ BACKTEST_MODE = "BACKTEST"
 IS_MULTITHRESHHOLD = False if ADX_ENTRY_THRESHHOLD == ADX_EXIT_THRESHHOLD else True
 
 
-fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.4_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
+fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.5_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
 
 
 def initialize(context):
@@ -145,9 +145,10 @@ def tradePerSecurity(context, data, securityNum):
     
     context.didPlaceTrade = False
     updatePosAndNegDIHighs(context, data, securityNum)
-    if(isADXBelowExitThreshhold(data) and context.STATES[securityNum - 1] == NONE_STATE):
+    if(isADXBelowExitThreshhold(data)):
         context.file.write("\n ADX below exit threshhold. Closing all positionsn\n")
         print("\n ADX below exit threshhold. Closing all positions\n")
+        changeState(context,securityNum, NONE_STATE)
         closePositions(context, data)
     elif(isPositiveCrossover(data) or isNegativeCrossover(data) ):
         context.file.write("\n Crossover happened. Entering trade function\n")
@@ -227,6 +228,14 @@ def resetPosAndNegDIPeaks(context, securityNum):
     context.POS_DI_HIGHS[securityNum -1][0] = 0 
 def updatePosAndNegDIHighs(context, data, securityNum):
     #if(data['posDI'][-1] > data['negDI'][-1]])
+    if (isPositiveCrossover(data) or isNegativeCrossover(data)):
+        context.POS_DI_HIGHS[securityNum -1][0] = 0
+        context.POS_DI_HIGHS[securityNum -1][1] = 0
+        context.POS_DI_HIGHS[securityNum -1][2] = 0
+
+        context.NEG_DI_HIGHS[securityNum -1][0] = 0
+        context.NEG_DI_HIGHS[securityNum -1][1] = 0
+        context.NEG_DI_HIGHS[securityNum -1][2] = 0
     if(data['posDI'][-2] > data['posDI'][-1] and data['posDI'][-3] <= data['posDI'][-2]):
         context.POS_DI_HIGHS[securityNum -1][0] = context.POS_DI_HIGHS[securityNum -1][1]
         context.POS_DI_HIGHS[securityNum -1][1] = context.POS_DI_HIGHS[securityNum -1][2]
