@@ -19,6 +19,7 @@ from BackTestVars import CLOSE_BEFORE_DAY_CLOSE
 from BackTestVars import MODE
 from BackTestVars import extendedTimeFrameInt
 from BackTestVars import extendedTimeFrameString
+from BackTestVars import EARLY_EXIT_ON_LOWER_HIGHS
 ACCEPTABLE_POSITIVE_POSITIONS = 3000
 ACCEPTABLE_NEGATIVE_POSITIONS = -3000
 ADX_EXIT_THRESHHOLD = 20
@@ -40,7 +41,7 @@ BACKTEST_MODE = "BACKTEST"
 IS_MULTITHRESHHOLD = False if ADX_ENTRY_THRESHHOLD == ADX_EXIT_THRESHHOLD else True
 
 
-fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.5_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
+fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.6_withearlyexit_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
 
 
 def initialize(context):
@@ -155,12 +156,17 @@ def tradePerSecurity(context, data, securityNum):
         print("\n Crossover happened. Entering trade function\n")  
         changeState(context,securityNum, NONE_STATE)
         #resetPosAndNegDIPeaks(context, securityNum)
-        trade(context, data, dataExtendedTimeFrame, securityNum)  
+        trade(context, data, dataExtendedTimeFrame, securityNum)      
+    elif(current_positions != 0 and EARLY_EXIT_ON_LOWER_HIGHS and isTwoLowerHighs(context, data, securityNum)):
+        context.file.write("\n Two lower highs encountered. Closing all positions\n" )
+        print("\n Two lower highs encountered. Closing all positions\n" )
+        changeState(context,securityNum, NONE_STATE)
+        closePositions(context, data)   
     elif( IS_ADX_FALLING_EARLY_EXIT_USED is True and isADXFallingAfterHighThreshhold(data)):
         context.file.write("\n ADX falling after %s. Closing all positionsn\n" %(ADX_HIGH_THRESHHOLD))
         print("\n ADX falling after %s. Closing all positionsn\n" %(ADX_HIGH_THRESHHOLD))
         changeState(context,securityNum, NONE_STATE)
-        closePositions(context, data)    
+        closePositions(context, data)            
     elif(inWrongPosition(context,data)):
         context.file.write("\n In wrong position acc to DIs. Closing all positions\n")
         print("\n In wrong position acc to DIs. Closing all positions\n")
@@ -218,6 +224,15 @@ def tradePerSecurity(context, data, securityNum):
     context.file.write("######" + "\n")
     print("######" + "\n")
 
+def isTwoLowerHighs(context, data, securityNum):
+    if(data['posDI'][-1] > data['negDI'][-1]):
+        if(context.POS_DI_HIGHS[securityNum -1][0] > context.POS_DI_HIGHS[securityNum -1][1] and context.POS_DI_HIGHS[securityNum -1][1] > context.POS_DI_HIGHS[securityNum -1][2]):
+            return True
+    elif(data['negDI'][-1] > data['posDI'][-1]):
+        if(context.NEG_DI_HIGHS[securityNum -1][0] > context.NEG_DI_HIGHS[securityNum -1][1] and context.NEG_DI_HIGHS[securityNum -1][1] > context.NEG_DI_HIGHS[securityNum -1][2]):
+            return True   
+
+    return False              
 def resetPosAndNegDIPeaks(context, securityNum):
     context.NEG_DI_HIGHS[securityNum -1][2] = 0
     context.NEG_DI_HIGHS[securityNum -1][1] = 0
