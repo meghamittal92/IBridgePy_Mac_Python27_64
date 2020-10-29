@@ -42,7 +42,7 @@ BACKTEST_MODE = "BACKTEST"
 IS_MULTITHRESHHOLD = False if ADX_ENTRY_THRESHHOLD == ADX_EXIT_THRESHHOLD else True
 
 
-fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6_withearlyexit_over30days_new data', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
+fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6_withearlyexit', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
 
 
 def initialize(context):
@@ -341,7 +341,7 @@ def placeOrder(context, targetPercent):
         order_status_monitor(orderId, target_status = 'Filled')
     else:
         print("Trying to place limit Order with limit price: " + str(limitPrice))
-        order_target_percent(context.security, targetPercent, style=LimitOrder(limitPrice)) 
+        order_target_percent(context.security, targetPercent, style=LimitOrder(limitPrice), outsideRth = True) 
         #order_status_monitor(orderId, target_status = 'Filled')
 def closePositions(context, data):
     
