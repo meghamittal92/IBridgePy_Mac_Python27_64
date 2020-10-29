@@ -20,6 +20,7 @@ from BackTestVars import MODE
 from BackTestVars import extendedTimeFrameInt
 from BackTestVars import extendedTimeFrameString
 from BackTestVars import EARLY_EXIT_ON_LOWER_HIGHS
+from BackTestVars import tickSizes
 ACCEPTABLE_POSITIVE_POSITIONS = 3000
 ACCEPTABLE_NEGATIVE_POSITIONS = -3000
 ADX_EXIT_THRESHHOLD = 20
@@ -41,7 +42,7 @@ BACKTEST_MODE = "BACKTEST"
 IS_MULTITHRESHHOLD = False if ADX_ENTRY_THRESHHOLD == ADX_EXIT_THRESHHOLD else True
 
 
-fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6.6_withearlyexit_over30days', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
+fileToStoreResults = "BackTestOutputs/" + '_'.join(['_'.join(securities), MODE, 'V6_withearlyexit_over30days_new data', originalCandleTimeFrame.replace(" ", ""),str(ADX_EXIT_THRESHHOLD), str(ADX_ENTRY_THRESHHOLD) + '.txt'])
 
 
 def initialize(context):
@@ -80,6 +81,7 @@ def handle_data(context, data):
         context.file.write("\n In minuteNum: %d. Trading security: %s with state : %s " %(minuteNum, str(securities[minuteNum-1]), context.STATES[minuteNum -1]))
         print("\n In minuteNum: %d. Trading security: %s with state : %s " %(minuteNum, str(securities[minuteNum-1]), context.STATES[minuteNum -1]))
         context.security = symbol(securities[minuteNum -1])
+        context.securityNum = minuteNum
         tradePerSecurity(context, data, minuteNum)
     else:
         context.file.write("\nNo security to trade")
@@ -328,17 +330,18 @@ def isAfterFourPMOrBefore6AM(sTime):
         return True
     else:
         return False    
-def placeOrder(security, targetPercent):
+def placeOrder(context, targetPercent):
     sTime = get_datetime('US/Eastern')
-    askPrice = show_real_time_price(security, 'ask_price')
-    bidPrice = show_real_time_price(security, 'bid_price')
-    limitPrice = round(( askPrice + bidPrice )/2, 4)
+    askPrice = show_real_time_price(context.security, 'ask_price')
+    bidPrice = show_real_time_price(context.security, 'bid_price')
+    tickSize = tickSizes[context.securityNum - 1]
+    limitPrice = round(( askPrice + bidPrice )/2, tickSize)
     if (not outsideRTH(sTime)):
-        orderId = order_target_percent(security, targetPercent, style=MarketOrder())
+        orderId = order_target_percent(context.security, targetPercent, style=MarketOrder())
         order_status_monitor(orderId, target_status = 'Filled')
     else:
         print("Trying to place limit Order with limit price: " + str(limitPrice))
-        order_target_percent(security, targetPercent, style=LimitOrder(limitPrice)) 
+        order_target_percent(context.security, targetPercent, style=LimitOrder(limitPrice)) 
         #order_status_monitor(orderId, target_status = 'Filled')
 def closePositions(context, data):
     
@@ -347,7 +350,7 @@ def closePositions(context, data):
         context.file.write("\nCurrent positions :%f. Closing them \n" %(current_positions))
         print("\nCurrent positions :%f. Closing them \n" %(current_positions))
         context.didPlaceTrade = True
-        placeOrder(context.security, 0)
+        placeOrder(context, 0)
         
     else:
         context.file.write("\nPositions already 0. No need to close\n")
@@ -373,7 +376,7 @@ def goLong(context, data, takeNewPos):
             context.file.write("Placing long order to make it %f. Current percent is: %f" %(PORTFOLIO_PERCENT_PER_SECURITY, percentCurrent))
             print("Placing long order to make it %f. Current percent is: %f" %(PORTFOLIO_PERCENT_PER_SECURITY, percentCurrent))
             context.didPlaceTrade = True
-            order_Id = placeOrder(context.security, PORTFOLIO_PERCENT_PER_SECURITY)
+            order_Id = placeOrder(context, PORTFOLIO_PERCENT_PER_SECURITY)
             #order_status_monitor(order_Id, target_status = 'Filled') 
     elif(current_positions < 0):
         newPositionPercent = 0
@@ -382,13 +385,13 @@ def goLong(context, data, takeNewPos):
             context.file.write("\nPlacing order to make the negative pos 0\n")
             print("\nPlacing order to make the negative pos 0\n")
             context.didPlaceTrade = True
-            order_Id = placeOrder(context.security, 0)
+            order_Id = placeOrder(context, 0)
             printToFile(context, "##After closing pos##\n", True)
 
             if(takeNewPos):
                 context.file.write("\nPlacing order to make the  pos %f\n" %(PORTFOLIO_PERCENT_PER_SECURITY))
                 print("\nPlacing order to make the pos %f\n" %(PORTFOLIO_PERCENT_PER_SECURITY))
-                order_Id2 = placeOrder(context.security, PORTFOLIO_PERCENT_PER_SECURITY)
+                order_Id2 = placeOrder(context, PORTFOLIO_PERCENT_PER_SECURITY)
             else:
                 context.file.write("\nExtended data contradicts/ADX below entry/possibleWeak. Not taking new positions\n")
                 print("\nExtended data contradicts/ADX below entry/possibleWeak. Not taking new positions\n")    
@@ -411,7 +414,7 @@ def goShort(context, data, takeNewPos):
             context.file.write("Placing short order to make it %f. Current percent is: %f" %(newPositionPercent, percentCurrent))
             print("Placing short order to make it %f. Current percent is: %f" %(newPositionPercent, percentCurrent))
             context.didPlaceTrade = True
-            order_Id = placeOrder(context.security, newPositionPercent)
+            order_Id = placeOrder(context, newPositionPercent)
     elif(current_positions >0):
         newPositionPercent = 0
         delta = abs(newPositionPercent - percentCurrent)
@@ -420,14 +423,14 @@ def goShort(context, data, takeNewPos):
             context.file.write("\nPlacing order to make the positive pos 0\n")
             print("\nPlacing order to make the positive pos 0\n")
             context.didPlaceTrade = True
-            order_Id = placeOrder(context.security, 0)
+            order_Id = placeOrder(context, 0)
             #order_status_monitor(order_Id, target_status = 'Filled')
             printToFile(context, "##After closing pos##\n", True)
                 
             if(takeNewPos):    
                 context.file.write("\nPlacing order to make the  pos %f\n" %(-PORTFOLIO_PERCENT_PER_SECURITY))
                 print("\nPlacing order to make the  pos %f\n" %(-PORTFOLIO_PERCENT_PER_SECURITY))
-                order_Id2 = placeOrder(context.security, -PORTFOLIO_PERCENT_PER_SECURITY)
+                order_Id2 = placeOrder(context, -PORTFOLIO_PERCENT_PER_SECURITY)
                 #order_status_monitor(order_Id2, target_status = 'Filled')    
             else:
                 context.file.write("\nExtended data contradicts/ADX below entry/possibleWeak. Not taking new positions\n")
