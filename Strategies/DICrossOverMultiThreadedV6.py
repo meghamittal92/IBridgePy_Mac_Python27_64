@@ -325,8 +325,8 @@ def outsideRTH(sTime):
         return True
     else:
         return False    
-def isAfterFourPMOrBefore6AM(sTime):
-    if sTime.hour >= 16 or sTime.hour < 6:
+def isTimeNotViableForNewPos(sTime):
+    if sTime.hour >= 16 or sTime.hour < 6 or (stime.hour == 9 and sTime.minute <=45 and sTime.minute >= 30) or (sTime.hour == 15 and sTime.minute >= 45) :
         return True
     else:
         return False    
@@ -444,7 +444,7 @@ def trade(context,data, dataExtendedTimeFrame, securityNum, isADXUpslope = False
     current_positions = count_positions(context.security)
     sTime = get_datetime('US/Eastern')
     isPossibleWeak = True if possibleWeakTrend(context, data) and not isADXUpslope else False
-    isAfterFourPMOrBefore6 = True if isAfterFourPMOrBefore6AM(sTime) else False
+    isTimeNotViableForNewPos = True if isTimeNotViableForNewPos(sTime) else False
     isADXBelowEntry = False if isADXAboveEntryThreshhold(data) else True
 
     takeNewPos = True
@@ -452,7 +452,7 @@ def trade(context,data, dataExtendedTimeFrame, securityNum, isADXUpslope = False
     if(isPositiveCrossover(data) or (isADXUpslope and data['posDI'][-1] > data['negDI'][-1])):
         extendedTimeFrameContradicts = True if dataExtendedTimeFrame['posDI'][-1] < dataExtendedTimeFrame['negDI'][-1] else False
         
-        if(not(extendedTimeFrameContradicts or isAfterFourPMOrBefore6 or isADXBelowEntry) and isPossibleWeak):
+        if(not(extendedTimeFrameContradicts or isTimeNotViableForNewPos or isADXBelowEntry) and isPossibleWeak):
             print("\nNot taking new pos due to possible weak trend. Changing state to waiting for ADX uptrend")
             context.file.write("\nNot taking new pos due to possible weak trend. Changing state to waiting for ADX uptrend")
             if(context.STATES[securityNum -1] == NONE_STATE):
@@ -460,11 +460,11 @@ def trade(context,data, dataExtendedTimeFrame, securityNum, isADXUpslope = False
             else:
                 print("\n This should not have happened. State is : " + str(context.STATES[securityNum -1]))    
                 context.file.write("\n This should not have happened. State is : " + str(context.STATES[securityNum -1]))
-        if(isPossibleWeak or isAfterFourPMOrBefore6 or isADXBelowEntry or extendedTimeFrameContradicts):
-            print("\nNot taking new pos due to (isPossibleWeak, isAfterFourPMOrBefore6, isADXBelowEntry, extendedTimeFrameContradicts)")
-            print("\n(isPossibleWeak, isAfterFourPMOrBefore6, isADXBelowEntry, extendedTimeFrameContradicts) : (" + str(isPossibleWeak) + "," + str(isAfterFourPMOrBefore6) + "," + str(isADXBelowEntry) + "," + str(extendedTimeFrameContradicts) + ")\n")
-            context.file.write("\nNot taking new pos due to (isPossibleWeak, isAfterFourPMOrBefore6, isADXBelowEntry, extendedTimeFrameContradicts)")
-            context.file.write("\n(isPossibleWeak, isAfterFourPMOrBefore6, isADXBelowEntry, extendedTimeFrameContradicts) : (" + str(isPossibleWeak) + "," + str(isAfterFourPMOrBefore6) + "," + str(isADXBelowEntry) + "," + str(extendedTimeFrameContradicts) + ")\n")
+        if(isPossibleWeak or isTimeNotViableForNewPos or isADXBelowEntry or extendedTimeFrameContradicts):
+            print("\nNot taking new pos due to (isPossibleWeak, isTimeNotViableForNewPos, isADXBelowEntry, extendedTimeFrameContradicts)")
+            print("\n(isPossibleWeak, isTimeNotViableForNewPos, isADXBelowEntry, extendedTimeFrameContradicts) : (" + str(isPossibleWeak) + "," + str(isTimeNotViableForNewPos) + "," + str(isADXBelowEntry) + "," + str(extendedTimeFrameContradicts) + ")\n")
+            context.file.write("\nNot taking new pos due to (isPossibleWeak, isTimeNotViableForNewPos, isADXBelowEntry, extendedTimeFrameContradicts)")
+            context.file.write("\n(isPossibleWeak, isTimeNotViableForNewPos, isADXBelowEntry, extendedTimeFrameContradicts) : (" + str(isPossibleWeak) + "," + str(isTimeNotViableForNewPos) + "," + str(isADXBelowEntry) + "," + str(extendedTimeFrameContradicts) + ")\n")
             takeNewPos = False
         else :
             print("takeNewPos is true.Positive crossover\n")    
@@ -477,7 +477,7 @@ def trade(context,data, dataExtendedTimeFrame, securityNum, isADXUpslope = False
         extendedTimeFrameContradicts = True if dataExtendedTimeFrame['posDI'][-1] > dataExtendedTimeFrame['negDI'][-1] else False
         
         
-        if(not(extendedTimeFrameContradicts or isAfterFourPMOrBefore6 or isADXBelowEntry) and isPossibleWeak):
+        if(not(extendedTimeFrameContradicts or isTimeNotViableForNewPos or isADXBelowEntry) and isPossibleWeak):
             print("\nNot taking new pos due to possible weak trend. Changing state to waiting for ADX uptrend")
             context.file.write("\nNot taking new pos due to possible weak trend. Changing state to waiting for ADX uptrend")
             if(context.STATES[securityNum -1] == NONE_STATE):
@@ -485,11 +485,11 @@ def trade(context,data, dataExtendedTimeFrame, securityNum, isADXUpslope = False
             else:
                 print("\n This should not have happened. State is : " + str(context.STATES[securityNum -1]))    
                 context.file.write("\n This should not have happened. State is : " + str(context.STATES[securityNum -1]))
-        if(isPossibleWeak or isAfterFourPMOrBefore6 or isADXBelowEntry or extendedTimeFrameContradicts):
-            print("\nNot taking new pos due to (isPossibleWeak, isAfterFourPMOrBefore6, isADXBelowEntry, extendedTimeFrameContradicts)")
-            print("\n(isPossibleWeak, isAfterFourPMOrBefore6, isADXBelowEntry, extendedTimeFrameContradicts) : (" + str(isPossibleWeak) + "," + str(isAfterFourPMOrBefore6) + "," + str(isADXBelowEntry) + "," + str(extendedTimeFrameContradicts) + ")\n")
-            context.file.write("\nNot taking new pos due to (isPossibleWeak, isAfterFourPMOrBefore6, isADXBelowEntry, extendedTimeFrameContradicts)")
-            context.file.write("\n(isPossibleWeak, isAfterFourPMOrBefore6, isADXBelowEntry, extendedTimeFrameContradicts) : (" + str(isPossibleWeak) + "," + str(isAfterFourPMOrBefore6) + "," + str(isADXBelowEntry) + "," + str(extendedTimeFrameContradicts) + ")\n")
+        if(isPossibleWeak or isTimeNotViableForNewPos or isADXBelowEntry or extendedTimeFrameContradicts):
+            print("\nNot taking new pos due to (isPossibleWeak, isTimeNotViableForNewPos, isADXBelowEntry, extendedTimeFrameContradicts)")
+            print("\n(isPossibleWeak, isTimeNotViableForNewPos, isADXBelowEntry, extendedTimeFrameContradicts) : (" + str(isPossibleWeak) + "," + str(isTimeNotViableForNewPos) + "," + str(isADXBelowEntry) + "," + str(extendedTimeFrameContradicts) + ")\n")
+            context.file.write("\nNot taking new pos due to (isPossibleWeak, isTimeNotViableForNewPos, isADXBelowEntry, extendedTimeFrameContradicts)")
+            context.file.write("\n(isPossibleWeak, isTimeNotViableForNewPos, isADXBelowEntry, extendedTimeFrameContradicts) : (" + str(isPossibleWeak) + "," + str(isTimeNotViableForNewPos) + "," + str(isADXBelowEntry) + "," + str(extendedTimeFrameContradicts) + ")\n")
             takeNewPos = False
         else :
             print("takeNewPos is true.Negative crossover\n")    
